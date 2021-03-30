@@ -1,0 +1,254 @@
+{
+    "frameRate": 24,
+    "isGlobal": 0,
+    "armature": [{
+        "ik": [],
+        "defaultActions": [{
+            "gotoAndPlay": "animtion0"
+        }],
+        "bone": [{
+                "name": "root",
+                "transform": {}
+            },
+            {
+                "length": 58,
+                "transform": {
+                    "y": 0.3287,
+                    "skX": 178.7324,
+                    "skY": 178.7324,
+                    "x": 443.6038
+                },
+                "parent": "root",
+                "name": "body"
+            },
+            {
+                "length": 158,
+                "transform": {
+                    "y": -1.2997,
+                    "skX": 95.9892,
+                    "skY": 95.9892,
+                    "x": 58.7931
+                },
+                "parent": "body",
+                "name": "body1"
+            },
+            {
+                "length": 268,
+                "transform": {
+                    "skX": -76.6563,
+                    "skY": -76.6563,
+                    "x": 58.7644
+                },
+                "parent": "body",
+                "name": "body2"
+            },
+            {
+                "length": 70,
+                "transform": {
+                    "y": 1.2712,
+                    "skX": 52.7724,
+                    "skY": 52.7724,
+                    "x": 268.6613
+                },
+                "parent": "body2",
+                "name": "foot"
+            },
+            {
+                "length": 155,
+                "transform": {
+                    "y": -2.6982,
+                    "skX": 2.5292,
+                    "skY": 2.5292,
+                    "x": 159.6196
+                },
+                "parent": "body1",
+                "name": "head"
+            }
+        ],
+        "type": "Armature",
+        "frameRate": 24,
+        "animation": [{
+            "ik": [],
+            "playTimes": 0,
+            "bone": [{
+                    "frame": [{
+                        "transform": {},
+                        "duration": 70
+                    }],
+                    "name": "root"
+                },
+                {
+                    "frame": [{
+                            "tweenEasing": 0,
+                            "transform": {
+                                "x": -6.1311
+                            },
+                            "duration": 51
+                        },
+                        {
+                            "tweenEasing": 0,
+                            "transform": {
+                                "x": -332.3129
+                            },
+                            "duration": 19
+                        },
+                        {
+                            "transform": {
+                                "x": -332.3129
+                            },
+                            "duration": 0
+                        }
+                    ],
+                    "name": "body"
+                },
+                {
+                    "frame": [{
+                        "transform": {},
+                        "duration": 70
+                    }],
+                    "name": "body1"
+                },
+                {
+                    "frame": [{
+                        "transform": {},
+                        "duration": 70
+                    }],
+                    "name": "body2"
+                },
+                {
+                    "frame": [{
+                        "transform": {},
+                        "duration": 70
+                    }],
+                    "name": "foot"
+                },
+                {
+                    "frame": [{
+                            "transform": {},
+                            "duration": 14
+                        },
+                        {
+                            "tweenEasing": 0,
+                            "transform": {
+                                "skX": -2.3326,
+                                "skY": -2.3326
+                            },
+                            "duration": 6
+                        },
+                        {
+                            "tweenEasing": 0,
+                            "transform": {
+                                "skX": -7.9795,
+                                "skY": -7.9795
+                            },
+                            "duration": 17
+                        },
+                        {
+                            "tweenEasing": 0,
+                            "transform": {
+                                "skX": 8.9461,
+                                "skY": 8.9461
+                            },
+                            "duration": 15
+                        },
+                        {
+                            "tweenEasing": 0,
+                            "transform": {
+                                "skX": -0.7055,
+                                "skY": -0.7055
+                            },
+                            "duration": 18
+                        },
+                        {
+                            "transform": {
+                                "skX": -3.213,
+                                "skY": -3.213
+                            },
+                            "duration": 0
+                        }
+                    ],
+                    "name": "head"
+                }
+            ],
+            "slot": [],
+            "ffd": [],
+            "frame": [],
+            "name": "animtion0",
+            "duration": 70
+        }],
+        "skin": [{
+            "slot": [{
+                    "display": [{
+                        "path": "foot",
+                        "type": "image",
+                        "name": "foot",
+                        "transform": {
+                            "y": -5.3163,
+                            "skX": -154.8485,
+                            "skY": -154.8485,
+                            "x": 38.1241
+                        }
+                    }],
+                    "name": "foot"
+                },
+                {
+                    "display": [{
+                        "path": "head",
+                        "type": "image",
+                        "name": "head",
+                        "transform": {
+                            "y": 1.6606,
+                            "skX": 82.7491,
+                            "skY": 82.7491,
+                            "x": 96.6828
+                        }
+                    }],
+                    "name": "head"
+                },
+                {
+                    "display": [{
+                        "path": "body",
+                        "type": "image",
+                        "name": "body",
+                        "transform": {
+                            "y": -49.6401,
+                            "skX": -102.0761,
+                            "skY": -102.0761,
+                            "x": 77.6327
+                        }
+                    }],
+                    "name": "body"
+                }
+            ],
+            "name": ""
+        }],
+        "aabb": {
+            "width": 357.00000000000006,
+            "y": -368.57134905055403,
+            "height": 724.0000000000001,
+            "x": 215.15378803598327
+        },
+        "slot": [{
+                "z": 0,
+                "name": "foot",
+                "parent": "foot",
+                "color": {}
+            },
+            {
+                "z": 1,
+                "name": "body",
+                "parent": "body2",
+                "color": {}
+            },
+            {
+                "z": 2,
+                "name": "head",
+                "parent": "head",
+                "color": {}
+            }
+        ],
+        "name": "Armature"
+    }],
+    "name": "walkingDigobin",
+    "version": "5.0"
+}

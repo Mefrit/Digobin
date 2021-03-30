@@ -1,0 +1,1935 @@
+{
+    "steps": [{
+            "active": "digobin",
+            "actions": {
+                "Начать": "begin"
+            },
+            "text": [
+                ""
+            ],
+            "show": [{
+                    "name": "digobin",
+                    "state": "none"
+                },
+                {
+                    "name": "professor",
+                    "state": "none"
+                }
+            ],
+            "slide": "./menu/urok1.jpg",
+            "interactive": "createImgIntro",
+            "lesson": "lesson1",
+            "next": "begin",
+            "name": "intro",
+            "order": 0
+        },
+        {
+            "active": "digobin",
+            "show": [{
+                "name": "digobin",
+                "state": "speak"
+            }],
+            "slide": "",
+            "text": [
+                "В моём старом доме я чувствовал себя совершенно свободно, всех пугал, строил козни, в общем, радовался жизни."
+            ],
+            "interactive": "showTextBlock",
+            "instantTransitionStep": "begin1",
+            "timeTransition": "7",
+            "next": "begin1",
+            "sound_labels": [
+                "радовался жизни"
+            ],
+            "name": "begin",
+            "order": 1
+        },
+        {
+            "active": "digobin",
+            "show": [{
+                "name": "digobin",
+                "state": "speak"
+            }],
+            "slide": "",
+            "text": [
+                "А в этом умном доме сам всего боюсь. Вчера захотел вечером выключить свет и напугать хозяев в темноте, но не тут-то было."
+            ],
+            "instantTransitionStep": "begin2",
+            "timeTransition": "9.1",
+            "next": "begin2",
+            "sound_labels": [
+                "сам боюсь"
+            ],
+            "name": "begin1",
+            "order": 1
+        },
+        {
+            "active": "digobin",
+            "show": [{
+                "name": "digobin",
+                "state": "speak"
+            }],
+            "slide": "",
+            "text": [
+                "Все выключатели управляются через какую-то коробку, которую хозяева называют компьютером и часто с ним что-то делают."
+            ],
+            "instantTransitionStep": "begin3",
+            "timeTransition": "7",
+            "next": "begin3",
+            "sound_labels": [
+                "компьютер"
+            ],
+            "name": "begin2",
+            "order": 1
+        },
+        {
+            "active": "digobin",
+            "show": [{
+                "name": "digobin",
+                "state": "speak"
+            }],
+            "slide": "",
+            "text": [
+                "Я потихоньку добрался до этой коробки. Не совсем понял, что это, но какую-то кнопку нажал."
+            ],
+            "instantTransitionStep": "begin4",
+            "timeTransition": "6.1",
+            "next": "begin4",
+            "sound_labels": [
+                "добрался"
+            ],
+            "name": "begin3",
+            "order": 1
+        },
+        {
+            "active": "digobin",
+            "show": [{
+                "name": "digobin",
+                "state": "speak"
+            }],
+            "slide": "",
+            "text": [
+                "Компьютер засветился, на нём появился какой-то дядька с бородой и меня попросил сказать пароль. Я сказал «пароль»."
+            ],
+            "instantTransitionStep": "begin5",
+            "timeTransition": "8",
+            "next": "begin5",
+            "sound_labels": [
+                "я сказал пароль"
+            ],
+            "name": "begin4",
+            "order": 1
+        },
+        {
+            "active": "digobin",
+            "show": [{
+                "name": "digobin",
+                "state": "speak"
+            }],
+            "slide": "",
+            "text": [
+                "Дядька засмеялся, назвал меня необученной деревенщиной и предложил чему-нибудь научить."
+            ],
+            "instantTransitionStep": "begin6",
+            "timeTransition": "6.3",
+            "next": "begin6",
+            "sound_labels": [
+                "дядька засмеялся"
+            ],
+            "name": "begin5",
+            "order": 1
+        },
+        {
+            "active": "digobin",
+            "show": [{
+                "name": "digobin",
+                "state": "speak"
+            }],
+            "slide": "",
+            "text": [
+                "Посмотрите, как это было"
+            ],
+            "instantTransitionStep": "question",
+            "timeTransition": "2.3",
+            "next": "question",
+            "sound_labels": [
+                "посмотрите"
+            ],
+            "name": "begin6",
+            "order": 1
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Конец!"
+            ],
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "name": "exit",
+            "order": 2
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default",
+                    "animation-text": [
+                        "speak"
+                    ]
+                },
+                {
+                    "name": "digobin",
+                    "state": "confusion"
+                }
+            ],
+            "text": [
+                "Хочешь я тебя немного подучу? Нажми одну из кнопок."
+            ],
+            "actions": {
+                "ДА": "step_begin",
+                "НЕТ": "repeat1"
+            },
+            "name": "question",
+            "order": 3,
+            "sound_labels": [
+                "хочешь я тебя немного подучу"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "Хочешь остаться неучем? Подумай и ещё раз нажми."
+            ],
+            "actions": {
+                "ДА": "step_begin",
+                "НЕТ": "exit"
+            },
+            "name": "repeat1",
+            "order": 4,
+            "sound_labels": [
+                "хочешь остаться неучем"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "Молодец. Тогда мы займёмся математикой. Без неё в умном доме никуда."
+            ],
+            "instantTransitionStep": "step1.1",
+            "timeTransition": "6",
+            "next": "step1.1",
+            "name": "step_begin",
+            "order": 5,
+            "sound_labels": [
+                "молодец тогда мы"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+
+            "lesson": "lesson1",
+            "alt-text": [
+                "Итак. УРОК Первый"
+            ],
+            "text": [
+                "Итак. УРОК 1."
+            ],
+            "instantTransitionStep": "step1.2",
+            "timeTransition": "2",
+            "next": "step1.2",
+            "sound_labels": [
+                "урок первый"
+            ],
+            "name": "step1.1",
+            "order": 6
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "slide": {
+                "type": "html",
+                "text": "<center style=''><div style='float:left;margin-left:95px;'   class='hideContent'> 1 </div><div  style='float:left;margin-left:5px;'   class='hideContent'> 2  </div><div  style='float:left;margin-left:5px;'  class='hideContent'> 3 </div><div  style='float:left;margin-left:5px;'  class='hideContent'> 4 </div><div  style='float:left;margin-left:5px;'  class='hideContent'> 5 ... </div></center>"
+            },
+            "interactive": "showAfterTimeConsistently",
+            "timeout": {
+                "total": "7.5",
+                "interval": "0.26"
+            },
+            "lesson": "lesson1",
+            "alt-text": [
+                "Ты, наверное, слышал, как кто- то считает, например ребята перед играми, кому водить, или мама считает гостей за столом: один, два, три, четыре и так далее."
+            ],
+            "text": [
+                "Ты, наверное, слышал, как кто-то считает – например, ребята перед играми, кому водить, или  мама считает гостей за столом: 1, 2, 3, ..."
+            ],
+            "instantTransitionStep": "step1.3",
+            "timeTransition": "13",
+            "next": "step1.3",
+            "sound_labels": [
+                "мама считает"
+            ],
+            "name": "step1.2",
+            "order": 6
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "interactive": "showAfterTime",
+            "timeout": "3",
+            "slide": {
+                "type": "html",
+                "text": "<div >1 <span class='hideContent number-even'>2</span> 3 <span class='hideContent number-even'>4</span>  5 <span class='hideContent number-even'>6</span>  7</div>"
+            },
+            "lesson": "lesson1",
+            "alt-text": [
+                "Она произносит НАТУРАЛЬНЫЕ числа. Каждое второе натуральное число – ЧЁТНОЕ. Чем, по- твоему четные числа отличаются от других"
+            ],
+            "text": [
+                "Она произносит НАТУРАЛЬНЫЕ числа. Каждое второе число – ЧЁТНОЕ. Чем, по-твоему они отличаются от других – НЕЧЁТНЫХ чисел?"
+            ],
+            "instantTransitionStep": "step1_answer",
+            "timeTransition": "15",
+            "next": "step1_answer",
+            "sound_labels": [
+                "отличаются от других"
+            ],
+            "name": "step1.3",
+            "order": 6
+        },
+        {
+            "active": "digobin",
+            "show": [{
+                    "name": "professor",
+                    "state": "surprice_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "Они красные"
+            ],
+            "interactive": "showNumbNow",
+
+            "instantTransitionStep": "step2",
+            "timeTransition": "3.5",
+            "next": "step2",
+            "sound_labels": [
+                "они красные"
+            ],
+            "name": "step1_answer",
+            "order": 7
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "slide": {
+                "type": "html",
+                "text": "<div class='numbers--blue'>1 <i>2</i> 3 <i>4</i> 5 <i>6</i> 7</div>"
+            },
+            "text": [
+                "Это не главное. Их можно сделать и синими. Главное, что все они делятся на 2. Вот ты смог бы разделить 1 на две части?"
+            ],
+            "instantTransitionStep": "step2_answer",
+            "timeTransition": "9",
+            "next": "step2_answer",
+            "sound_labels": [
+                "делятся на 2"
+            ],
+            "name": "step2",
+            "order": 8
+        },
+        {
+            "active": "digobin",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "Нет."
+            ],
+            "instantTransitionStep": "step3",
+            "timeTransition": "1",
+            "next": "step3",
+            "sound_labels": [
+                "нет"
+            ],
+            "name": "step2_answer",
+            "order": 9
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "text": [
+                "Значит, 1 – нечётное число. А 2?"
+            ],
+            "instantTransitionStep": "step3_answer",
+            "timeTransition": "5",
+            "next": "step3_answer",
+            "sound_labels": [
+                "1 не четное"
+            ],
+            "name": "step3",
+            "order": 10
+        },
+        {
+            "active": "digobin",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "slide": "2=1+1",
+            "text": [
+                "Конечно, 2=1+1"
+            ],
+
+            "instantTransitionStep": "step4",
+            "timeTransition": "3.5",
+            "next": "step4",
+            "sound_labels": [
+                "2=1+1"
+            ],
+            "name": "step3_answer",
+            "order": 11
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "agree"
+                }
+            ],
+            "text": [
+                "Правильно, значит, 2 – чётное число."
+            ],
+            "instantTransitionStep": "step4.1",
+            "timeTransition": "3",
+            "next": "step4.1",
+            "sound_labels": [
+                "2 четное",
+                "a 3"
+            ],
+            "name": "step4",
+            "order": 12
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "text": [
+                "А 3?"
+            ],
+            "instantTransitionStep": "step4_answer",
+            "timeTransition": "1",
+            "next": "step4_answer",
+            "sound_labels": [
+                "a 3"
+            ],
+            "name": "step4.1",
+            "order": 12
+        },
+        {
+            "active": "digobin",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+
+            "slide": "3=2+1",
+            "text": [
+                "Да, например, 3=2+1"
+            ],
+            "instantTransitionStep": "step5",
+            "timeTransition": "4.2",
+            "next": "step5",
+            "sound_labels": [
+                "3=2+1"
+            ],
+            "name": "step4_answer",
+            "order": 13
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "text": [
+                "Нет, делить надо на одинаковые части."
+            ],
+            "instantTransitionStep": "step5_answer",
+            "timeTransition": "4.5",
+            "next": "step5_answer",
+            "sound_labels": [
+                "делить надо"
+            ],
+            "name": "step5",
+            "order": 14
+        },
+        {
+            "active": "digobin",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "Тогда, нет."
+            ],
+
+            "instantTransitionStep": "step6",
+            "timeTransition": "2.3",
+            "next": "step6",
+            "sound_labels": [
+                "тогда нет"
+            ],
+            "name": "step5_answer",
+            "order": 15
+        },
+        {
+            "active": "professor",
+            "slide": "1 2 10 12 5 7",
+            "lesson": "lesson1",
+            "interactive": "choseEven",
+            "text": [
+                "Кажется, ты всё понял. Тогда нажми на чётные числа."
+            ],
+            "actions": {},
+            "game": {
+                "name": "select_numbers",
+                "next": "step7",
+                "valid": "МОЛОДЕЦ",
+                "fail": "ЕЩЁ ОДНА ПОПЫТКА"
+            },
+            "sound_labels": [
+                "все понял"
+            ],
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "name": "step6",
+            "order": 16
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "slide": {
+                "type": "html",
+                "text": "<ul class='numbers--red'>1 <i>2</i> 3 <i>4</i> 5 <i>6</i> 7 ... </ul>"
+            },
+            "text": [
+                "Заметим, что в числовом ряду нечётные и чётные числа чередуются. А какое число стоит перед 1?"
+            ],
+            "instantTransitionStep": "step7_zero",
+            "timeTransition": "2.3",
+            "next": "step7_zero",
+            "sound_labels": [
+                "число перед 1"
+            ],
+            "name": "step7",
+            "order": 17
+        },
+        {
+            "active": "digobin",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+
+            "slide": {
+                "type": "html",
+                "text": "<ul class='numbers--red'><i>0</i> 1 <i>2</i> 3 <i>4</i> 5 <i>6</i> 7 ...</ul>"
+            },
+            "text": [
+                "Ноль"
+            ],
+            "instantTransitionStep": "step7_negative",
+            "timeTransition": "2",
+            "next": "step7_negative",
+            "sound_labels": [
+                "ноль"
+            ],
+            "name": "step7_zero",
+            "order": 18
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "interactive": "showAfterTime",
+            "timeout": "4",
+            "slide": {
+                "type": "html",
+                "text": "<div class='numbers--red'><span class='hideContent'> -3</span> <span  class='hideContent'>-2</span><span class='hideContent'> -1 </span> 0 1 <span>2</span> 3 <span>4</span> 5 <span>6</span> </div>"
+            },
+            "text": [
+                "Ноль, и это чётное число. А перед нулём? -1, и это нечётное число, и т.д."
+            ],
+            "instantTransitionStep": "step8",
+            "timeTransition": "9",
+            "next": "step8",
+            "sound_labels": [
+                "число 0"
+            ],
+            "name": "step7_negative",
+            "order": 19
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "slide": "",
+            "text": [
+                "Теперь рассмотрим несколько свойств чётных и нечётных чисел. Попробуй ответить на несколько вопросов:"
+            ],
+            "instantTransitionStep": "step9",
+            "timeTransition": "7.6",
+            "next": "step9",
+            "sound_labels": [
+                "свойства",
+                "сумма четных"
+            ],
+            "name": "step8",
+            "order": 20
+        },
+        {
+            "active": "professor",
+            "slide": {
+                "type": "html",
+                "text": "Чётная или нет сумма двух чётных чисел? <br/> Ч + Ч = ?"
+            },
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "text": [
+                "Помоги домовёнку ответить на вопросы."
+            ],
+            "actions": {
+                "ЧЁТНАЯ": "step10",
+                "НЕЧЁТНАЯ": "repeat_step9"
+            },
+            "sound_labels": [
+                "помоги домовенку"
+            ],
+            "name": "step9",
+            "order": 21
+        },
+        {
+            "active": "professor",
+            "slide": "Чётная или нет сумма двух чётных чисел?",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "text": [
+                "Неправильно. Попробуй еще раз"
+            ],
+            "actions": {
+                "ЧЁТНАЯ": "step10",
+                "НЕЧЁТНАЯ": "repeat_step9"
+            },
+            "name": "repeat_step9",
+            "order": 22,
+            "sound_labels": [
+                "неправильно"
+            ]
+        },
+        {
+            "active": "professor",
+            "slide": "Ч + Ч = Ч",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "agree"
+                }
+            ],
+            "text": [
+                " Конечно, чётная."
+            ],
+            "instantTransitionStep": "step12",
+            "timeTransition": "2.9",
+            "next": "step12",
+            "sound_labels": [
+                "конечно четное"
+            ],
+            "name": "step10",
+            "order": 23
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "slide": "Н + Н = ?",
+            "text": [
+                "А чётная или нет сумма двух нечётных чисел?"
+            ],
+            "actions": {
+                "ЧЁТНАЯ": "step13",
+                "НЕЧЁТНАЯ": {
+                    "nextStep": "step12",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                }
+            },
+            "sound_labels": [
+                "сумма нечетных"
+            ],
+            "name": "step12",
+            "order": 24
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "agree"
+                }
+            ],
+            "slide": "Н + Н = Ч",
+            "text": [
+                "Тоже чётная."
+            ],
+            "instantTransitionStep": "step14",
+            "timeTransition": "2.4",
+            "next": "step14",
+            "sound_labels": [
+                "тоже четное"
+            ],
+            "name": "step13",
+            "order": 25
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "slide": "Н + Ч = ?",
+            "text": [
+                "А чётная или нет сумма чётного и нечётного числа?"
+            ],
+            "actions": {
+                "ЧЁТНАЯ": {
+                    "nextStep": "step14",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                },
+                "НЕЧЁТНАЯ": "step15"
+            },
+            "sound_labels": [
+                "чет и нечет"
+            ],
+            "name": "step14",
+            "order": 26
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "agree"
+                }
+            ],
+            "slide": "Н + Ч = Н",
+            "text": [
+                "Конечно, нечётная."
+            ],
+            "instantTransitionStep": "step17",
+            "timeTransition": "2.4",
+            "next": "step17",
+            "sound_labels": [
+                "конечно нечетное"
+            ],
+            "name": "step15",
+            "order": 27
+        },
+        {
+            "active": "professor",
+            "slide": "Ч + Ч + ... Ч = ?",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "text": [
+                "Чётная или нет сумма нескольких (не обязательно двух) чётных чисел?"
+            ],
+            "actions": {
+                "ЧЁТНАЯ": "step18",
+                "НЕЧЁТНАЯ": {
+                    "nextStep": "step17",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                }
+            },
+            "sound_labels": [
+                "сумма нескольких четных"
+            ],
+            "name": "step17",
+            "order": 28
+        },
+        {
+            "active": "professor",
+            "slide": "Ч + Ч + ... + Ч = Ч",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "Конечно, чётная. После каждого прибавления она остаётся чётной."
+            ],
+            "instantTransitionStep": "step19",
+            "timeTransition": "6",
+            "next": "step19",
+            "sound_labels": [
+                "конечно четная"
+            ],
+            "name": "step18",
+            "order": 29
+        },
+        {
+            "active": "professor",
+            "slide": "Н + Н + ... Н = ?",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "text": [
+                "Чётная или нет сумма нескольких (не обязательно двух) нечётных чисел?"
+            ],
+            "actions": {
+                "ЧЁТНАЯ": {
+                    "nextStep": "step19",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                },
+                "НЕЧЁТНАЯ": {
+                    "nextStep": "step19",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                },
+                "НЕИЗВЕСТНО": "step20"
+            },
+            "sound_labels": [
+                "сумма нескольки нечетных"
+            ],
+            "name": "step19",
+            "order": 30
+        },
+        {
+            "active": "professor",
+            "slide": "",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "Ответ зависит от того, сколько чисел мы складываем. Смотри, что происходит. "
+            ],
+            "instantTransitionStep": "step20.1",
+            "timeTransition": "6",
+            "next": "step20.1",
+            "sound_labels": [
+                "смотри что происходит"
+            ],
+            "name": "step20",
+            "order": 31
+        },
+        {
+            "active": "professor",
+            "slide": "Н + Ч = Н",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "Если к нечётному числу прибавить нечётное, то сумма становится чётной."
+            ],
+            "instantTransitionStep": "step20.2",
+            "timeTransition": "5",
+            "next": "step20.2",
+            "sound_labels": [
+                "нечет и нечет"
+            ],
+            "name": "step20.1",
+            "order": 31
+        },
+        {
+            "active": "professor",
+            "slide": "Н + Ч = Н<br/> Ч + Н = Н",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "Если к чётному числу прибавить нечётное, то сумма становится нечётной, т.е. при прибавлении нечётного числа чётность меняется, в любом случае, что к четному, что к нечетному прибавляем. "
+            ],
+            "instantTransitionStep": "step21",
+            "timeTransition": "14.5",
+            "next": "step21",
+            "sound_labels": [
+                "чет и нечет 2"
+            ],
+            "name": "step20.2",
+            "order": 31
+        },
+        {
+            "active": "professor",
+            "slide": "Сумма целых чисел чётна, если количество нечётных слагаемых чётно.",
+            "text": [
+                "Каждое новое нечётное слагаемое меняет чётность результата."
+            ],
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "instantTransitionStep": "step21.1",
+            "timeTransition": "5.5",
+            "next": "step21.1",
+            "sound_labels": [
+                "меняет четность"
+            ],
+            "name": "step21",
+            "order": 32
+        },
+        {
+            "active": "professor",
+            "slide": "Сумма целых чисел чётна, если количество нечётных слагаемых чётно.",
+            "text": [
+                "Таким образом, мы вывели важное правило: сумма целых чисел чётна, если количество нечётных слагаемых чётно."
+            ],
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "instantTransitionStep": "step22",
+            "timeTransition": "10.2",
+            "next": "step22",
+            "sound_labels": [
+                "правило суммы"
+            ],
+            "name": "step21.1",
+            "order": 32
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "slide": "Чётная или нет сумма чисел от 1 до 10?",
+            "text": [
+                "Ответь на вопрос: чётная или нет сумма чисел от 1 до 10"
+            ],
+            "actions": {
+                "ЧЁТНАЯ": {
+                    "nextStep": "step22",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                },
+                "НЕЧЁТНАЯ": "step23"
+            },
+            "sound_labels": [
+                "сумма 1-10"
+            ],
+            "name": "step22",
+            "order": 33
+        },
+        {
+            "active": "professor",
+            "show": [{
+                "name": "digobin",
+                "state": "default"
+            }],
+            "text": [
+                "Нечётная, т.к. нечётных слагаемых в этой сумме – пять. И чётных пять, но это не имеет значения."
+            ],
+            "instantTransitionStep": "step24",
+            "timeTransition": "6.2",
+            "next": "step24",
+            "sound_labels": [
+                "правильно. нечетная"
+            ],
+            "name": "step23",
+            "order": 34
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "slide": "Чётная или нет сумма чисел от 1 до 20?",
+            "text": [
+                "Ответь на вопрос: чётная или нет сумма чисел от 1 до 20?"
+            ],
+            "actions": {
+                "ЧЁТНАЯ": "step25",
+                "НЕЧЁТНАЯ": {
+                    "nextStep": "step24",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                }
+            },
+            "sound_labels": [
+                "сумма 1-20"
+            ],
+            "name": "step24",
+            "order": 35
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "Чётная, т.к. нечётных слагаемых в этой сумме – десять."
+            ],
+            "instantTransitionStep": "step26",
+            "timeTransition": "4",
+            "next": "step26",
+            "sound_labels": [
+                "сумма четная"
+            ],
+            "name": "step25",
+            "order": 36
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "slide": "Чётная или нет сумма чисел от 1 до 2019?",
+            "text": [
+                "Чётная или нет сумма чисел от 1 до 2019?"
+            ],
+            "actions": {
+                "ЧЁТНАЯ": "step27",
+                "НЕЧЁТНАЯ": {
+                    "nextStep": "step26",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                }
+            },
+            "sound_labels": [
+                "сумма 1-2019"
+            ],
+            "name": "step26",
+            "order": 37
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "agree"
+                }
+            ],
+            "text": [
+                "Правильно. Четная, т.к. нечётных слагаемых в этой сумме – 1010, а чётных – 1009, но это не имеет значения."
+            ],
+            "instantTransitionStep": "step28",
+            "timeTransition": "10",
+            "next": "step28",
+            "sound_labels": [
+                "паравильно т.к нечетных 1010"
+            ],
+            "name": "step27",
+            "order": 38
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "slide": "",
+            "text": [
+                "Разберём ещё несколько задач на тему «Чётность»"
+            ],
+            "instantTransitionStep": "task1",
+            "timeTransition": "4",
+            "next": "task1",
+            "sound_labels": [
+                "еще задачи"
+            ],
+            "name": "step28",
+            "order": 39
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "slide": "В классе 25 учеников. 1 сентября каждый ученик подарил учителю букет или из 3 роз, или из 5 георгинов, или из 7 гвоздик. Может ли у учителя оказаться всего 100 цветков?",
+            "text": [
+                "В классе 25 учеников. 1 сентября каждый ученик подарил учителю букет или из 3 роз, или из 5 георгинов, или из 7 гвоздик."
+            ],
+            "sound_labels": [
+                "25 учеников"
+            ],
+            "instantTransitionStep": "task1.1",
+            "timeTransition": "12.8",
+            "next": "task1.1",
+            "name": "task1",
+            "order": 40
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "slide": "В классе 25 учеников. 1 сентября каждый ученик подарил учителю букет или из 3 роз, или из 5 георгинов, или из 7 гвоздик. Может ли у учителя оказаться всего 100 цветков?",
+            "text": [
+                "Может ли у учителя оказаться всего 100 цветков?"
+            ],
+            "actions": {
+                "Да": {
+                    "nextStep": "task1",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                },
+                "Нет": "task1_true",
+                "Пропустить эту задачу": "task2"
+            },
+            "sound_labels": [
+                "100 цветков"
+            ],
+            "instantTransitionStep": "task1.2",
+            "timeTransition": "5.2",
+            "next": "task1.2",
+            "name": "task1.1",
+            "order": 40
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "slide": "В классе 25 учеников. 1 сентября каждый ученик подарил учителю букет или из 3 роз, или из 5 георгинов, или из 7 гвоздик. Может ли у учителя оказаться всего 100 цветков?",
+            "text": [
+                "Напоминаю, что если ты на вопрос «Можно ли…» отвечаешь «Да», то надо привести пример, как это сделать. Если «Нет», то надо объяснить почему."
+            ],
+            "actions": {
+                "Да": {
+                    "nextStep": "task1",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                },
+                "Нет": "task1_true",
+                "Пропустить эту задачу": "task2"
+            },
+            "sound_labels": [
+                "напоминаю, что если ты на"
+            ],
+            "name": "task1.2",
+            "order": 40,
+            "next": "task1.2"
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "actions": {
+                "Да": "task1_answer",
+                "Нет": "task2"
+            },
+            "slide": "",
+            "text": [
+                "Хочешь послушать обьяснения?"
+            ],
+            "next": "task1_answer",
+            "name": "task1_true",
+            "sound_labels": [
+                "хочешь послушать обьясннения"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "actions": {
+                "Понятно": "task2"
+            },
+            "slide": "Решение нашей задачи - нет, не может. Сумма 25 нечётных чисел  (а количество гвоздик в каждом букете нечетно , 3, 5  или 7 )  \n Так вот , эта сумма не может дать чётный результат,  а 100 это четное число",
+            "text": [
+                "Решение нашей задачи - нет, не может. Сумма 25 нечётных чисел  (а количество гвоздик в каждом букете нечетно , 3, 5  или 7 )  \n Так вот , эта сумма не может дать чётный результат,  а 100 это четное число"
+            ],
+            "name": "task1_answer",
+            "sound_labels": [
+                "решение нашей задачи"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "slide": "Расшифруйте ребус МУХА + МУХА = СЛОН. Согласным буквам соответствуют цифры одной чётности, а гласным – другой. ",
+            "text": [
+                "Расшифруйте ребус МУХА + МУХА = СЛОН. "
+            ],
+            "instantTransitionStep": "task2.1",
+            "timeTransition": "5.5",
+            "next": "task2.1",
+            "name": "task2",
+            "order": 41,
+            "sound_labels": [
+                "расшифруйте ребус муха плюс муха"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "slide": "Расшифруйте ребус МУХА + МУХА = СЛОН. Согласным буквам соответствуют цифры одной чётности, а гласным – другой.",
+            "text": [
+                "Если известно, что согласным буквам соответствуют цифры одной чётности, а гласным – другой."
+            ],
+            "actions": {
+                "Прослушать решение": "task2_answer.2",
+                "Пропустить эту задачу": "task_self"
+            },
+            "name": "task2.1",
+            "order": 41,
+            "sound_labels": [
+                "согласным буквам соответствуют"
+            ],
+            "next": "step57"
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "slide": {
+                "type": "html",
+                "text": "<p class='defaultSlide__mini-font'>2УХА+2УХА = 4ЛОН или </br> 4УХА+4УХА = 8ЛОН </br>В первом случае Н=0, Н=6,</br> Во втором случае Н=0, Н=2, Н=6</p>"
+            },
+            "text": [
+                "\"Н\"- последняя буква в слове слон, должна быть чётным числом, потому что  эта сумма двух букв \"А\""
+            ],
+            "instantTransitionStep": "task2_answer.3",
+            "timeTransition": "8",
+            "next": "task2_answer.3",
+            "name": "task2_answer.2",
+            "sound_labels": [
+                "н последняя буква"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "slide": {
+                "type": "html",
+                "text": "<p  class='defaultSlide__mini-font'>2УХА+2УХА = 4ЛОН или </br> 4УХА+4УХА = 8ЛОН </br>В первом случае Н=0, Н=6,</br> Во втором случае Н=0, Н=2, Н=6</p>"
+            },
+            "text": [
+                "Значит, согласные – чётные, а гласные – нечётные"
+            ],
+            "name": "task2_answer.3",
+            "sound_labels": [
+                "значит согласные"
+            ],
+            "instantTransitionStep": "task2_answer.4",
+            "timeTransition": "4",
+            "next": "task2_answer.4"
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "slide": {
+                "type": "html",
+                "text": "<p  class='defaultSlide__mini-font'>2УХА+2УХА = 4ЛОН или </br> 4УХА+4УХА = 8ЛОН </br>В первом случае Н=0, Н=6,</br> Во втором случае Н=0, Н=2, Н=6</p>"
+            },
+            "name": "task2_answer.4",
+            "text": [
+                "\"М\" не больше 4, иначе сумма двух мух будет давать пятизначное число , а слон четырехзначное число."
+            ],
+            "instantTransitionStep": "task2_answer.5",
+            "timeTransition": "8.5",
+            "next": "task2_answer.5",
+            "sound_labels": [
+                "м не больше 4х"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "actions": {
+                "Непонятно": "task2_answer.2",
+                "Понятно": "task_self"
+            },
+            "slide": {
+                "type": "html",
+                "text": "<p class='defaultSlide__mini-font'>2УХА+2УХА = 4ЛОН или </br> 4УХА+4УХА = 8ЛОН </br>В первом случае Н=0, Н=6,</br> Во втором случае Н=0, Н=2, Н=6</p>"
+            },
+            "text": [
+                "Мы получили два варианта частично расшифрованных ребусов:\n2УХА+2УХА = 4ЛОН или\n4УХА+4УХА = 8ЛОН. Остальные буквы я вам советую найти самостоятельно.\n"
+            ],
+            "name": "task2_answer.5",
+            "sound_labels": [
+                "мы получили  2 варианты"
+            ]
+        },
+        {
+            "active": "professor",
+            "slide": "",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "И напоследок, несколько задач для самостоятельного решения."
+            ],
+            "sound_labels": [
+                "и на последок"
+            ],
+            "instantTransitionStep": "task4",
+            "timeTransition": "3.2",
+            "next": "task4",
+            "name": "task_self",
+            "order": 42
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "slide": "Можно ли в 25-угольнике провести несколько диагоналей, чтобы из каждой вершины выходило 3 или 5?",
+            "text": [
+                "Можно ли в 25-угольнике провести несколько диагоналей, чтобы из каждой вершины выходило 3 или 5?"
+            ],
+            "actions": {
+                "Можно ": "task4_fail",
+                "Нельзя ": "task4_good",
+                "Пропустить эту задачу": "one_more"
+            },
+            "name": "task4",
+            "order": 43,
+            "sound_labels": [
+                "можно ли в 25 угольнике"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "confusion"
+                }
+            ],
+            "slide": "",
+            "text": [
+                "Ответ неправильный. Можешь подумать ещё"
+            ],
+            "next": "task4",
+            "name": "task4_fail",
+            "order": 44,
+            "sound_labels": [
+                "ответ не правильный"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "agree"
+                }
+            ],
+            "slide": "",
+            "text": [
+                "Правильно, но надо объяснить почему нельзя."
+            ],
+            "instantTransitionStep": "task4_good1",
+            "timeTransition": "4",
+            "next": "task4_good1",
+            "name": "task4_good",
+            "order": 45,
+            "sound_labels": [
+                "правильно но надо"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "slide": "",
+            "text": [
+                "Хочешь послушать объяснение?"
+            ],
+            "actions": {
+                "Да": "task4_answer",
+                "Нет ": "one_more"
+            },
+            "name": "task4_good1",
+            "order": 46,
+            "sound_labels": [
+                "хочешь послушать обьясннения"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "slide": "Если бы это было возможно, то количество концов всех диагоналей была бы нечётной (25 слагаемых – троек и пятёрок) ,а эта сумма должна быть чётной т.к. каждая диагональ добавляет к этой сумме двойку, потому что у каждой  диагонали два конца.",
+            "text": [
+                "Если бы это было возможно, то количество концов всех диагоналей была бы нечётной (25 слагаемых – троек и пятёрок),"
+            ],
+            "instantTransitionStep": "task4_answer.1",
+            "timeTransition": "9",
+            "next": "task4_answer.1",
+            "name": "task4_answer",
+            "order": 47,
+            "sound_labels": [
+                "если бы это было возможно"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "slide": "Если бы это было возможно, то количество концов всех диагоналей была бы нечётной (25 слагаемых – троек и пятёрок) ,а эта сумма должна быть чётной т.к. каждая диагональ добавляет к этой сумме двойку, потому что у каждой  диагонали два конца.",
+            "text": [
+                "А эта сумма должна быть чётной т.к. каждая диагональ добавляет к этой сумме двойку, потому что у каждой  диагонали два конца."
+            ],
+            "actions": {
+                "Непонятно": "task4_answer",
+                "Понятно": "one_more"
+            },
+            "name": "task4_answer.1",
+            "order": 47,
+            "sound_labels": [
+                "а эта сумма"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "slide": "",
+            "text": [
+                "Еще одна задача."
+            ],
+            "instantTransitionStep": "step58",
+            "timeTransition": "2",
+            "next": "step58",
+            "name": "one_more",
+            "sound_labels": [
+                "еще одна задача"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "slide": "Кузнечик прыгает по прямой, причем в первый раз он прыгнул на 1 см в какую-то сторону, во второй раз - на 2 см и так далее. Может ли после 2019 прыжков он оказаться там, где начинал?",
+            "text": [
+                "Кузнечик прыгает по прямой, причем в первый раз он прыгнул на 1 см в какую-то сторону, во второй раз - на 2 см, в третий на 3  и так далее. Может ли после 2019 прыжков он оказаться там, где начинал?"
+            ],
+            "instantTransitionStep": "step59",
+            "timeTransition": "16",
+            "next": "step59",
+            "name": "step58",
+            "sound_labels": [
+                "кузнечик прыгает"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "slide": "Кузнечик прыгает по прямой, причем в первый раз он прыгнул на 1 см в какую-то сторону, во второй раз - на 2 см и так далее. А может ли он оказаться в 1 см от начальной точки?",
+            "text": [
+                "А может ли он оказаться в 1 см от начальной точки?"
+            ],
+            "instantTransitionStep": "step59.1",
+            "timeTransition": "9",
+            "next": "step59.1",
+            "name": "step59",
+            "sound_labels": [
+                "а может ли он оказаться"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "slide": "",
+            "text": [
+                "Последняя задача"
+            ],
+            "instantTransitionStep": "step60",
+            "timeTransition": "2",
+            "next": "step60",
+            "name": "step59.1",
+            "sound_labels": [
+                "и еще последняя задача"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "slide": "",
+            "text": [
+                "Петя купил общую тетрадь объемом 96 листов и пронумеровал все её страницы по порядку числами от 1 до 192. Вася вырвал из этой тетради 25 листов и сложил все 50 чисел, которые на них написаны. \n"
+            ],
+            "instantTransitionStep": "step61",
+            "timeTransition": "18.6",
+            "next": "step61",
+            "name": "step60",
+            "sound_labels": [
+                "петя купил"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "slide": "Петя купил общую тетрадь объемом 96 листов и пронумеровал все её страницы по порядку числами от 1 до 192. Вася вырвал из этой тетради 25 листов и сложил все 50 чисел, которые на них написаны. . Могло ли у него получиться 2019?",
+            "text": [
+                "Могло ли у него получиться 2019?"
+            ],
+            "instantTransitionStep": "step62",
+            "timeTransition": "12",
+            "next": "step62",
+            "name": "step61",
+            "sound_labels": [
+                "могло ли у него получиться"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "slide": "Петя купил общую тетрадь объемом 96 листов и пронумеровал все её страницы по порядку числами от 1 до 192. Вася вырвал из этой тетради 25 листов и сложил все 50 чисел, которые на них написаны. . А 2020?",
+            "text": [
+                "А 2020?"
+            ],
+            "instantTransitionStep": "finish",
+            "timeTransition": "12",
+            "next": "finish",
+            "name": "step62",
+            "sound_labels": [
+                "а 2020?"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "greeting"
+                }
+            ],
+            "slide": "",
+            "text": [
+                "Конец."
+            ],
+            "name": "finish",
+            "order": 48
+        }
+    ]
+}

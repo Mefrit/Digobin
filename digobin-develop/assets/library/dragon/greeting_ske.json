@@ -1,0 +1,393 @@
+{
+    "frameRate": 24,
+    "isGlobal": 0,
+    "armature": [
+        {
+            "skin": [
+                {
+                    "name": "",
+                    "slot": [
+                        {
+                            "display": [
+                                {
+                                    "path": "3",
+                                    "type": "image",
+                                    "name": "3",
+                                    "transform": {
+                                        "y": 21.5237,
+                                        "skX": 91.3103,
+                                        "skY": 91.3103,
+                                        "x": 48.0046
+                                    }
+                                }
+                            ],
+                            "name": "3"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "4",
+                                    "type": "image",
+                                    "name": "4",
+                                    "transform": {
+                                        "y": 118.6452,
+                                        "x": -24.2887
+                                    }
+                                }
+                            ],
+                            "name": "4"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "5",
+                                    "type": "image",
+                                    "name": "5",
+                                    "transform": {
+                                        "y": -0.518,
+                                        "skX": 92.1728,
+                                        "skY": 92.1728,
+                                        "x": 103.3613
+                                    }
+                                }
+                            ],
+                            "name": "5"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "6",
+                                    "type": "image",
+                                    "name": "6",
+                                    "transform": {
+                                        "y": 24.3341,
+                                        "skX": -34.8989,
+                                        "skY": -34.8989,
+                                        "x": 15.7085
+                                    }
+                                }
+                            ],
+                            "name": "6"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "0",
+                                    "type": "image",
+                                    "name": "0",
+                                    "transform": {
+                                        "y": 6.9127,
+                                        "skX": 96.3402,
+                                        "skY": 96.3402,
+                                        "x": 25.4672
+                                    }
+                                }
+                            ],
+                            "name": "0"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "7",
+                                    "type": "image",
+                                    "name": "7",
+                                    "transform": {
+                                        "y": 11.3225,
+                                        "skX": 102.3787,
+                                        "skY": 102.3787,
+                                        "x": 48.7071
+                                    }
+                                }
+                            ],
+                            "name": "7"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "2",
+                                    "type": "image",
+                                    "name": "2",
+                                    "transform": {
+                                        "y": -1.1722,
+                                        "skX": 179.6036,
+                                        "skY": 179.6036,
+                                        "x": 29.2175
+                                    }
+                                }
+                            ],
+                            "name": "2"
+                        }
+                    ]
+                }
+            ],
+            "type": "Armature",
+            "bone": [
+                {
+                    "name": "root",
+                    "transform": {}
+                },
+                {
+                    "length": 89,
+                    "transform": {
+                        "y": -24.2539,
+                        "skX": -91.3103,
+                        "skY": -91.3103,
+                        "x": 2.3276
+                    },
+                    "parent": "root",
+                    "name": "3"
+                },
+                {
+                    "length": 114,
+                    "transform": {
+                        "scX": 0.9292,
+                        "y": 1.2803,
+                        "scY": 0.9292,
+                        "skX": -0.8625,
+                        "skY": -0.8625,
+                        "x": 103.9145
+                    },
+                    "parent": "3",
+                    "name": "bone1"
+                },
+                {
+                    "length": 59,
+                    "transform": {
+                        "y": -55.5147,
+                        "skX": -88.2933,
+                        "skY": -88.2933,
+                        "x": 72.7705
+                    },
+                    "parent": "3",
+                    "name": "bone"
+                },
+                {
+                    "length": 45,
+                    "transform": {
+                        "y": 1.4914,
+                        "skX": 127.0717,
+                        "skY": 127.0717,
+                        "x": 115.7392
+                    },
+                    "parent": "bone1",
+                    "name": "5"
+                },
+                {
+                    "length": 77,
+                    "transform": {
+                        "y": 10.4821,
+                        "skX": 92.6725,
+                        "skY": 92.6725,
+                        "x": 68.0056
+                    },
+                    "parent": "bone",
+                    "name": "7"
+                },
+                {
+                    "length": 36,
+                    "transform": {
+                        "y": -0.5105,
+                        "skX": 5.6826,
+                        "skY": 5.6826,
+                        "x": 73.7675
+                    },
+                    "parent": "7",
+                    "name": "0"
+                }
+            ],
+            "aabb": {
+                "width": 271,
+                "y": -327.62739026960776,
+                "height": 607.7725932425258,
+                "x": -159.78870862562584
+            },
+            "slot": [
+                {
+                    "z": 0,
+                    "color": {},
+                    "name": "0",
+                    "parent": "0"
+                },
+                {
+                    "z": 1,
+                    "color": {},
+                    "name": "7",
+                    "parent": "7"
+                },
+                {
+                    "z": 2,
+                    "color": {},
+                    "name": "2",
+                    "parent": "bone"
+                },
+                {
+                    "z": 3,
+                    "color": {},
+                    "name": "3",
+                    "parent": "3"
+                },
+                {
+                    "z": 4,
+                    "color": {},
+                    "name": "4",
+                    "parent": "root"
+                },
+                {
+                    "z": 5,
+                    "color": {},
+                    "name": "5",
+                    "parent": "bone1"
+                },
+                {
+                    "z": 6,
+                    "color": {},
+                    "name": "6",
+                    "parent": "5"
+                }
+            ],
+            "animation": [
+                {
+                    "duration": 10,
+                    "frame": [],
+                    "bone": [
+                        {
+                            "frame": [
+                                {
+                                    "duration": 10,
+                                    "transform": {}
+                                }
+                            ],
+                            "name": "root"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "duration": 10,
+                                    "transform": {}
+                                }
+                            ],
+                            "name": "3"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "duration": 5,
+                                    "transform": {
+                                        "skX": 4.2443,
+                                        "skY": 4.2443
+                                    },
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 5,
+                                    "transform": {
+                                        "skX": -0.5935,
+                                        "skY": -0.5935
+                                    },
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 0,
+                                    "transform": {
+                                        "skX": 4.2433,
+                                        "skY": 4.2433
+                                    }
+                                }
+                            ],
+                            "name": "bone"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "duration": 5,
+                                    "transform": {
+                                        "skX": -0.6725,
+                                        "skY": -0.6725
+                                    },
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 5,
+                                    "transform": {
+                                        "skX": -13.9843,
+                                        "skY": -13.9843
+                                    },
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 0,
+                                    "transform": {
+                                        "skX": -0.6725,
+                                        "skY": -0.6725
+                                    }
+                                }
+                            ],
+                            "name": "7"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "duration": 5,
+                                    "transform": {
+                                        "skX": 5.3824,
+                                        "skY": 5.3824
+                                    },
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 5,
+                                    "transform": {
+                                        "skX": -12.6761,
+                                        "skY": -12.6761
+                                    },
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 0,
+                                    "transform": {
+                                        "skX": 5.3874,
+                                        "skY": 5.3874
+                                    }
+                                }
+                            ],
+                            "name": "0"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "duration": 10,
+                                    "transform": {}
+                                }
+                            ],
+                            "name": "bone1"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "duration": 10,
+                                    "transform": {}
+                                }
+                            ],
+                            "name": "5"
+                        }
+                    ],
+                    "slot": [],
+                    "ffd": [],
+                    "ik": [],
+                    "playTimes": 0,
+                    "name": "animtion0"
+                }
+            ],
+            "ik": [],
+            "name": "Armature",
+            "frameRate": 24,
+            "defaultActions": [
+                {
+                    "gotoAndPlay": "animtion0"
+                }
+            ]
+        }
+    ],
+    "name": "greeting",
+    "version": "5.0"
+}

@@ -1,0 +1,30 @@
+{
+    "name": "animation",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "tsc": "tsc --jsx react ./src/js/animate.tsx --outDir ./temp/dist",
+        "dev": "devserver"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@types/react": "^16.9.25",
+        "@types/react-dom": "^16.9.5",
+        "ag-psd": "^6.3.0",
+        "devserver": "git+https://gitlab.edu.yar.ru/phedor/devserver.git",
+        "glob": "^7.1.6",
+        "jimp": "^0.6.8",
+        "json-stringify-pretty-compact": "^2.0.0",
+        "psd": "^3.2.0",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "react-lite": "^0.15.40",
+        "requirejs": "^2.3.6"
+    },
+    "devDependencies": {
+        "canvas": "^2.6.1"
+    }
+}

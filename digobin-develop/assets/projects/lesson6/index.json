@@ -1,0 +1,2212 @@
+{
+    "steps": [
+        {
+            "active": "digobin",
+            "lesson": "lesson4",
+            "text": [
+                ""
+            ],
+            "actions": {
+                "Начать": "beginEntry"
+            },
+            "show": [{
+                "name": "professor",
+                "state": "none"
+            }],
+             "slide": "./menu/urok6.png",
+            "interactive": "createImgIntro",
+            "name": "intro",
+            "order": 0
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Привет! Рад тебя видеть! Меня зовут домовенок, точнее уже цифровенок Нейроська. Давай я все расскажу по порядку."
+            ],
+            "sound_labels": [
+                "привет! рад тебя видеть"
+            ],
+            "slide": "",
+            "show": [{
+                    "name": "digobin",
+                    "state": "none"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "interactive": "showTextBlock",
+            "instantTransitionStep": "step2Entry",
+            "timeTransition": "8",
+            "lesson": "lesson3",
+            "name": "beginEntry",
+            "order": 4,  
+            "actions": {
+                "Пропустить заставку": "step7"
+            }
+        },
+        {
+            "active": "digobin",
+            "sound_labels": [
+                "я родился"
+            ],
+            "text": [
+                "Я родился в старом деревянном доме, там всю жизнь и проработал  домовым. Но недавно мой дом снесли, и на  его месте началась грандиозная стройка. Пришлось переехать в многоэтажку и сменить род деятельности"
+            ],
+            "show": [{
+                "name": "digobin",
+                "state": "village"
+            }],
+            "instantTransitionStep": "step3Entry",
+            "timeTransition": "13.9",
+            "interactive": "backgroundEntry",
+            "lesson": "lesson3",
+            "name": "step2Entry",
+            "order": 5
+        },
+        {
+            "active": "digobin",
+            "sound_labels": [
+                "теперь я цифровенок"
+            ],
+            "text": [
+                "Теперь я цифровенок, живу в просторной современной  квартире. Но как же трудно освоиться в мире  высоких технологий"
+            ],
+            "show": [{
+                "name": "digobin",
+                "state": "walking"
+            }],
+            "instantTransitionStep": "step4Entry",
+            "timeTransition": "9",
+            "interactive": "showModernDigobin",
+            "lesson": "lesson3",
+            "name": "step3Entry",
+            "order": 6
+        },
+        {
+            "active": "digobin",
+            "sound_labels": [
+                "в школу я"
+            ],
+            "text": [
+                "В школу я, к сожалению, не ходил, и теперь осваивать все приходится с самых азов."
+            ],
+            "show": [{
+                "name": "digobin",
+                "state": "speak"
+            }],
+            "instantTransitionStep": "step6Entry",
+            "timeTransition": "6.1",
+            "interactive": "backgroundDefault",
+            "lesson": "lesson5",
+            "name": "step4Entry",
+            "order": 4
+        },
+        {
+            "active": "digobin",
+            "sound_labels": [
+                "часто слышал"
+            ],
+            "text": [
+                "Часто слышал такое выражение: 'Математика - царица всех наук.' И так оно меня зацепило, что решил начать обучение именно с математики."
+            ],
+            "show": [{
+                "name": "digobin",
+                "state": "speak"
+            }],
+            "instantTransitionStep": "step6Entry",
+            "timeTransition": "10.1",
+            "lesson": "lesson5",
+            "name": "step5Entry",
+            "next": "step6Entry",
+            "order": 5
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "А помочь мне в этом любезно согласился Сергей Геннадьевич."
+            ],
+            "sound_labels": [
+                "а помочь мне в этом"
+            ],
+            "show": [{
+                "name": "digobin",
+                "state": "speak"
+            }],
+            "interactive": "showSGentry",
+            "lesson": "lesson5",
+            "name": "step6Entry",
+            "instantTransitionStep": "step7",
+            "timeTransition": "5.5",
+            "next": "step7",
+            "order": 6
+        }, {
+            "active": "professor",
+            "text": [
+                "Сегодня мы поговорим об очень часто упоминаемом в математике принципе – принципе Дирихле."
+            ],
+            "next": "step8",
+            "name": "step7",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step8",
+            "timeTransition": "7",
+            "order": 7,
+            "sound_labels": [
+                "сегодня мы поговорим"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Часто этот принцип связывают с такой задачей: докажите, что трёх кроликов нельзя посадить в две одноместные клетки."
+            ],
+            "next": "step9",
+            "name": "step8",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step9",
+            "timeTransition": "8",
+            "order": 8,
+            "interactive": "createImg",
+            "slide": "slides_lesson6/slide6.1.png",
+            "sound_labels": [
+                "частно этот принцип связывают"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "А что тут доказывать – ведь это же очевидно!"
+            ],
+            "next": "step10",
+            "name": "step9",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step10",
+            "timeTransition": "3",
+            "order": 9,
+            "sound_labels": [
+                "а что тут доказывать"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Но, в математике принято доказывать всё, даже очевидные вещи, кроме аксиом. Но про аксиомы ты узнаешь немного позже.",
+                "Вот как доказывается утверждение про кроликов. Предположим, что кроликов удалось рассадить по клеткам."
+            ],
+            "next": "step11",
+            "name": "step10",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step11",
+            "timeTransition": "9",
+            "order": 10,
+            "sound_labels": [
+                "но в математике принято",
+                "вот как доказываются утверждение"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Я вспомнил! Ты хочешь применить метод доказательства от противного, т.е. предположить, что что-то сделать можно, а потом, прийти к противоречию."
+            ],
+            "next": "step12",
+            "name": "step11",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step12",
+            "timeTransition": "9",
+            "order": 11,
+
+            "sound_labels": [
+                "я впомнил! Ты хочешь"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Совершенно верно. Так вот, пусть кролики сидят в клетках. Обозначим за x – количество кроликов в первой клетке, а за y – количество кроликов во второй клетке. Что ты можешь сказать про x и y?"
+            ],
+            "next": "step13",
+            "name": "step12",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step13",
+            "timeTransition": "14",
+            "order": 12,
+            "slide": "slides_lesson6/slide6.2.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "совершенно верно. так вот"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Они равны 1, т.к. клетки одноместные."
+            ],
+            "next": "step14",
+            "name": "step13",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step14",
+            "timeTransition": "4",
+            "order": 13,
+            "slide": "",
+            "sound_labels": [
+                "они равны 1"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Это не совсем так. Они НЕ больше 1. А теперь узнаем, сколько же всего кроликов в клетках."
+            ],
+            "next": "step15",
+            "name": "step14",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step15",
+            "timeTransition": "8",
+            "order": 14,
+            "slide": "x≤1 y≤1",
+            "sound_labels": [
+                "это не совсем так"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Сложим x и y. Получим, что кроликов всего не больше двух!"
+            ],
+            "next": "step16",
+            "name": "step15",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step16",
+            "timeTransition": "6",
+            "order": 15,
+            "sound_labels": [
+                "сложим х и у"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "А их три. Противоречие."
+            ],
+            "next": "step17",
+            "name": "step16",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "agree"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step17",
+            "timeTransition": "2",
+            "order": 16,
+            "sound_labels": [
+                "а их три противоречие"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Решим ещё одну аналогичную задачу. В Ярославле 610 тысяч жителей. На голове у любого человека менее 150 тысяч волос. Докажите, что найдутся два ярославца, у которых одинаковое число волос на голове."
+            ],
+            "next": "step18",
+            "name": "step17",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step18",
+            "timeTransition": "16",
+            "order": 17,
+            "slide": "slides_lesson6/slide6.4.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "решим еще одну аналогичную задачу"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Ой, с кроликами всё было легко. Их было всего три, а клеток две. А здесь – 610 тысяч!"
+            ],
+            "next": "step19",
+            "name": "step18",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step19",
+            "timeTransition": "7",
+            "order": 18,
+            "sound_labels": [
+                "ой с кроликами было легко"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Но, задача от этого не становится сложнее. Как и раньше, предположим, что у всех жителей разное число волос. Обозначим за x1 количество людей с одним волоском, x2 – с двумя, x3 – с тремя волосками и т.д. До какой величины это надо будет сделать?"
+            ],
+            "next": "step20",
+            "name": "step19",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step20",
+            "timeTransition": "19",
+            "order": 19,
+            "sound_labels": [
+                "но, задача от этого не становиться сложнее"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "До 150 тысяч, даже можно меньше."
+            ],
+            "next": "step21",
+            "name": "step20",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step21",
+            "timeTransition": "3",
+            "order": 20,
+            "sound_labels": [
+                "до 150 тысяч"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "А ещё мы о ком-то забыли…"
+            ],
+            "next": "step22",
+            "name": "step21",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step22",
+            "timeTransition": "3",
+            "order": 21,
+            "sound_labels": [
+                "а еще мы о ком то"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Да, конечно, ведь есть ещё совсем лысые люди. У них вообще нет волос."
+            ],
+            "next": "step23",
+            "name": "step22",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step23",
+            "timeTransition": "6",
+            "order": 22,
+            "sound_labels": [
+                "да, конечно, ведь есть еще"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Верно, пусть x0 – количество лысых в Ярославле. Каждый икс, т.е. x0, x1, x2, и т.д. по предположению, не больше 1. Что\n\nже мы получим, если сложим все значения иксов?"
+            ],
+            "next": "step24",
+            "name": "step23",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step24",
+            "timeTransition": "16",
+            "order": 23,
+            "slide": "slides_lesson6/slide6.5.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "верно, пусть х0"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Сейчас подумаю. Сложим всех лысых со всеми, у кого 1 волосок, у кого 2 волоска и т.д. Мы получим, сколько всего жителей Ярославля, ведь каждого мы учтём."
+            ],
+            "next": "step25",
+            "name": "step24",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step25",
+            "timeTransition": "10",
+            "order": 24,
+            "sound_labels": [
+                "сейчас подумаю. Сложим всех лысых"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Правильно. Но получить мы сможем число, меньшее 150 тысяч, т.к. иксов менее 150 тысяч, и каждый не больше 1."
+            ],
+            "next": "step26",
+            "name": "step25",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step26",
+            "timeTransition": "10",
+            "order": 25,
+            "sound_labels": [
+                "правильно но получить"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Опять противоречие!"
+            ],
+            "next": "step27",
+            "name": "step26",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_palm_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step27",
+            "timeTransition": "2",
+            "order": 26,
+            "sound_labels": [
+                "опять противоречие"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Я хочу отметить, что мы доказали даже чуть больше, чем надо было. Мы доказали, что есть, по крайней мере, пять ярославцев с одинаковым число волос на голове.",
+                "Ведь, предположив, что их не больше четырёх, после сложения всех иксов мы получили бы, что ярославцев не более 150 тысяч, умноженных на 4, что меньше численности Ярославля."
+            ],
+            "next": "step28",
+            "name": "step27",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step28",
+            "timeTransition": "11",
+            "order": 27,
+            "sound_labels": [
+                "я хочу отметить, что мы доказали",
+                "ведь, предположив"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "В задачах подобного рода говорят, что мы имеем дело с обобщённым принципом Дирихле."
+            ],
+            "next": "step29",
+            "name": "step28",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step29",
+            "timeTransition": "7",
+            "order": 28,
+            "slide": "Обобщённый принцип Дирихле",
+            "sound_labels": [
+                "в задачах подобного"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Я заметил, что доказательства и простого, и обобщённого принципа Дирихле очень похожи."
+            ],
+            "next": "step30",
+            "name": "step29",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step30",
+            "timeTransition": "6",
+            "order": 29,
+            "sound_labels": [
+                "я заметил, что доказательства"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Да. Они опираются на метод «от противного», в котором противоречия получаются после суммирования некоторых неравенств. Так вот, применение принципа Дирихле, чаще всего, это не поиск в задаче «клеток и кроликов», а применение указанного метода доказательства"
+            ],
+            "next": "step31",
+            "name": "step30",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step31",
+            "timeTransition": "19",
+            "order": 30,
+            "sound_labels": [
+                "да они опираются на метод"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Понятно."
+            ],
+            "next": "step32",
+            "name": "step31",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step32",
+            "timeTransition": "1",
+            "order": 31,
+            "sound_labels": [
+                "понятно"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Тогда, для закрепления материала решим ещё несколько задач.",
+                "В классе 30 учеников. Докажите, что найдутся трое, у которых дни рождения приходятся на один месяц."
+            ],
+            "next": "step33",
+            "name": "step32",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step33",
+            "timeTransition": "4",
+            "order": 32,
+            "sound_labels": [
+                "тогда для закрепления материалла",
+                "в классе 30 учеников, докажите"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Так. Надо решать «от противного». Пусть таких трёх учеников нет. Тогда, в каждый месяц родилось не более двух учеников, и всего в классе не более 2x12 =24 ученика. Ура, противоречие!"
+            ],
+            "next": "step34",
+            "name": "step33",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step34",
+            "timeTransition": "13",
+            "order": 33,
+            "sound_labels": [
+                "так, надо рещшать от противного"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Молодец! А ответь на такой вопрос: «Сколько учеников должно учиться в школе, чтобы обязательно нашлись двое с совпадающим днём рождения?"
+            ],
+            "next": "step35",
+            "name": "step34",
+            "slide": "Сколько учеников должно учиться в школе, чтобы обязательно нашлись двое с совпадающим днём рождения?",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step35",
+            "timeTransition": "10",
+            "order": 34,
+            "sound_labels": [
+                "молодец! а ответь"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Элементарно: 366 !"
+            ],
+            "next": "step36",
+            "name": "step35",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step36",
+            "timeTransition": "2",
+            "order": 35,
+            "sound_labels": [
+                "элементарно 366"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Ребята, поправьте Цифровёнка."
+            ],
+            "actions": {
+                "365": {
+                    "nextStep": "step36",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                },
+                "366": {
+                    "nextStep": "step36",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                },
+                "367": "step37"
+            },
+            "name": "step36",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step37",
+            "timeTransition": "4",
+            "order": 36,
+
+            "next": "step37",
+            "sound_labels": [
+                "ребята, поправьте цифровенка"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "А, я забыл, что 2020-й год високосный, т.е. для гарантированного совпадения дней рождения у двоих, надо, чтобы учеников было больше, чем дней в году, хотя бы на одного."
+            ],
+            "next": "step38",
+            "name": "step37",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step38",
+            "timeTransition": "11",
+            "order": 37,
+            "sound_labels": [
+                "а я забыл, что 2020й год високосный"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Следующая задача.",
+                "За круглым столом сидят 100 школьников, причём, мальчиков больше половины. Докажите, что прямо напротив какого-то мальчика тоже сидит мальчик."
+            ],
+            "next": "step39",
+            "name": "step38",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step39",
+            "timeTransition": "10",
+            "order": 38,
+            "slide": "slides_lesson6/slide6.8.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "следующая задача",
+                "за круглым столом сидят 100"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Понятно. Мальчиков много. Где-нибудь такие двое и найдутся!"
+            ],
+            "next": "step40",
+            "name": "step39",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step40",
+            "timeTransition": "4",
+            "order": 39,
+            "sound_labels": [
+                "понятно мальчиков много"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Это не строгое рассуждение. Вот как надо решать эту задачу. Разобьём школьников на пары сидящих напротив друг друга. Всего пар будет 50. И, если в каждой паре не более одного мальчика, то всего их не больше 50, а их по условию больше половины."
+            ],
+            "next": "step41",
+            "name": "step40",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step41",
+            "timeTransition": "19",
+            "order": 40,
+            "sound_labels": [
+                "это не строгое рассуждение"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Как просто!"
+            ],
+            "next": "step42",
+            "name": "step41",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step42",
+            "timeTransition": "1",
+            "order": 41,
+            "sound_labels": [
+                "как просто"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Можно предложить ещё одно решение. Если бы напротив каждого мальчика сидела бы девочка, то девочек оказалось бы не меньше, чем мальчиков, что тоже противоречит условию."
+            ],
+            "next": "step43",
+            "name": "step42",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step43",
+            "timeTransition": "13",
+            "order": 42,
+            "sound_labels": [
+                "можно предположить еще одно"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Ещё задача. Вовочка хочет выписать на доске как можно больше разных двузначных чисел, среди которых нет двух, дающих в сумме 100. Сколько чисел он сможет выписать?"
+            ],
+            "next": "step44",
+            "name": "step43",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step44",
+            "timeTransition": "13",
+            "order": 43,
+            "sound_labels": [
+                "еще задача Вовочка хочет"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Я бы попробовал выписать числа, но боюсь, что это займёт много времени. 25, 16, 47, 88, 51,"
+            ],
+            "next": "step45",
+            "name": "step44",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step45",
+            "timeTransition": "10",
+            "order": 44,
+            "interactive": "showAfterTimeConsistently",
+            "timeout": {
+                "total": "0.8",
+                "interval": "0.56"
+            },
+            "slide": {
+                "type": "html",
+                "text": "<center><div style='float:left;margin-left:50px;'   class='hideContent'>  25,  </div><div  style='float:left'   class='hideContent'>  16,   </div><div  style='float:left'  class='hideContent'>  47,  </div><div style='float:left'   class='hideContent'>  88,  </div><div style='float:left'   class='hideContent'>  51    </div></center>"
+            },
+            "sound_labels": [
+                "я бы мог попробовал выписать"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "И не только во времени дело. Ещё надо будет доказать, что больше чисел выписать нельзя. А это не совсем просто. Поэтому, послушай более короткое решение."
+            ],
+            "next": "step46",
+            "name": "step45",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step46",
+            "timeTransition": "10",
+            "order": 45,
+            "sound_labels": [
+                "не только во времени дело"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Разобьём двузначные числа, начиная с самого маленького, на пары, сумма которых равна 100. Такими парами будут: (10 и 90), (11 и 89), (12 и 88) и т.д."
+            ],
+            "next": "step47",
+            "name": "step46",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step47",
+            "timeTransition": "14",
+            "order": 46,
+            "interactive": "showAfterTimeConsistently",
+            "timeout": {
+                "total": "0.8",
+                "interval": "0.56"
+            },
+            "slide": {
+                "type": "html",
+                "text": "<center class='defaultSlide__mini-font'><div style='float:left;margin-left:5px;'   class='hideContent'> (10, 90) </div><div  style='float:left'   class='hideContent'>  (11, 89)   </div><div  style='float:left'  class='hideContent'>  (12, 88)... </div></center>"
+            },
+            "sound_labels": [
+                "разобьем двузначные числа"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "А зачем нам такие пары? Нам ведь как раз не нужно, чтобы сумма двух чисел равнялась ста."
+            ],
+            "next": "step48",
+            "name": "step47",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step48",
+            "timeTransition": "6",
+            "order": 47,
+            "sound_labels": [
+                "а зачем нам такие пары"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Не торопись. Сегодня, оба числа в паре нам не нужны, но одно из них мы выписать можем. Так вот, каждое число от 10 до 49 найдёт себе пару – это числа от 90 до 51. Какие же числа пару не найдут?"
+            ],
+            "next": "step49",
+            "name": "step48",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step49",
+            "timeTransition": "16",
+            "order": 48,
+            "slide": {
+                "type": "html",
+                "text": "<div style='text-align:left' class='defaultSlide__mini-font'>(10, 90)(11, 89)(12, 88)…(48, 52)(49, 51)</div>"
+            },
+            "sound_labels": [
+                "не торопись, конечно,"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Число 50. К нему парным может быть само это число. А ещё без пары останутся числа от 91 до 99."
+            ],
+            "next": "step50",
+            "name": "step49",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step50",
+            "timeTransition": "9",
+            "order": 49,
+            "slide": {
+                "type": "html",
+                "text": "<div style='text-align:left' class='defaultSlide__mini-font'>(10, 90)(11, 89)(12, 88)…(48, 52)(49, 51) <br/>50, 91, 92, 93, 94, 95, 96, 97, 98, 99</div>"
+            },
+            "sound_labels": [
+                "число 50"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Смотри, что получается. Вова может выписать из каждой пары только одно число, Всего пар 40. Кроме этого можно взять все непарные числа, их всего 10. Таким образом, выписаны будут всего 50 чисел."
+            ],
+            "next": "step51",
+            "name": "step50",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step51",
+            "timeTransition": "16",
+            "order": 50,
+            "slide": {
+                "type": "html",
+                "text": "<div style='text-align:left' class='defaultSlide__mini-font'>(10,<span class='numbers--red'> 90</span>)(11, <span class='numbers--red'>89</span>)(12, <span class='numbers--red'>88</span>)…(48, <span class='numbers--red'>52,</span>)(49, <span class='numbers--red'>51</span>) <br/><span class='numbers--red'>50, 91, 92, 93, 94, 95, 96, 97, 98, 99</span></div>"
+            },
+            "sound_labels": [
+                "смотри что получается"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Теперь попробуем решить такую задачу. В каждую клетку таблицы 5 на 5 нужно вписать одно число, либо 0, либо 1, либо -1. Может ли оказаться, что суммы чисел в каждой строке, каждом столбце и двух диагоналях – различны?"
+            ],
+            "next": "step52",
+            "name": "step51",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step52",
+            "timeTransition": "18",
+            "order": 51,
+            "slide": "В каждую клетку таблицы 5 на 5 нужно вписать одно число, либо 0, либо 1, либо -1. Может ли оказаться, что суммы чисел в каждой строке, каждом столбце и двух диагоналях – различны?",
+            "sound_labels": [
+                "теперь поробуем решить такую задачу в каждую"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Сразу трудно сказать."
+            ],
+            "next": "step53",
+            "name": "step52",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step53",
+            "timeTransition": "2",
+            "order": 52,
+            "sound_labels": [
+                "сразу трудно сказать"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "А какую самую маленькую сумму можно получить?"
+            ],
+            "next": "step54",
+            "name": "step53",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step54",
+            "timeTransition": "3",
+            "order": 53,
+            "sound_labels": [
+                "а какую самую маленькую"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "-5, если вписать в ряд все минус единицы"
+            ],
+            "next": "step55",
+            "name": "step54",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step55",
+            "timeTransition": "4",
+            "order": 54,
+            "sound_labels": [
+                "-5 если вписать вряд"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "А самую большую?"
+            ],
+            "next": "step56",
+            "name": "step55",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step56",
+            "timeTransition": "2",
+            "order": 55,
+            "sound_labels": [
+                "а самую большую"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "+5, если вписать плюс единицы"
+            ],
+            "next": "step57",
+            "name": "step56",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step57",
+            "timeTransition": "4",
+            "order": 56,
+            "sound_labels": [
+                "+5 если вписать +1"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "А сколько всего значений от -5 до +5"
+            ],
+            "next": "step58",
+            "name": "step57",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step58",
+            "timeTransition": "4",
+            "order": 57,
+            "sound_labels": [
+                "а сколько всего значений"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "5 отрицательных, 5 положительных и 0. Всего 11 значений."
+            ],
+            "next": "step59",
+            "name": "step58",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step59",
+            "timeTransition": "5",
+            "order": 58,
+            "sound_labels": [
+                "5 отрицательных, 5 положительных"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Итак, мы доказали, что больше 11 разных значений получить нельзя. Значит, среди двенадцати сумм (5 по строкам, 5 по столбцам и 2 диагонали) обязательно будут одинаковые. Задача решена."
+            ],
+            "next": "step60",
+            "name": "step59",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step60",
+            "timeTransition": "15",
+            "order": 59,
+            "sound_labels": [
+                "итак  мы доказали, что больше 11"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "А, можно ли получить 11 различных значений?"
+            ],
+            "next": "step61",
+            "name": "step60",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step61",
+            "timeTransition": "3",
+            "order": 60,
+            "sound_labels": [
+                "а можно ли получить 11"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Давай оставим эту задачу ребятам. Пусть они на досуге попробуют получить как можно больше разных значений. А мы решим ещё несколько задач на принцип Дирихле."
+            ],
+            "next": "step62",
+            "name": "step61",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step62",
+            "timeTransition": "11",
+            "order": 61,
+            "slide": "",
+            "sound_labels": [
+                "давай оставим эту задачу ребятам"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Задача про грибы. У двадцати одного грибника оказалось собрано всего 200 грибов. Докажите, что какие-то двое грибников собрали одинаковое количество грибов."
+            ],
+            "next": "step63",
+            "name": "step62",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step63",
+            "timeTransition": "12",
+            "order": 62,
+            "interactive": "createImg",
+            "slide": "slides_lesson6/slide6.16.png",
+            "sound_labels": [
+                "задача про грибы у двадцати 1"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Я в деревне любил собирать грибы"
+            ],
+            "next": "step64",
+            "name": "step63",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step64",
+            "timeTransition": "3",
+            "order": 63,
+            "sound_labels": [
+                "я в деревне любил собирать грибы"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Не отвлекайся. Итак, предположим…"
+            ],
+            "next": "step65",
+            "name": "step64",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step65",
+            "timeTransition": "3",
+            "order": 64,
+            "sound_labels": [
+                "не отвекайся"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Что у всех собрано разное число грибов."
+            ],
+            "next": "step66",
+            "name": "step65",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step66",
+            "timeTransition": "3",
+            "order": 65,
+            "sound_labels": [
+                "что у всех собранно разное"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Молодец. Дальше…"
+            ],
+            "next": "step67",
+            "name": "step66",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step67",
+            "timeTransition": "2",
+            "order": 66,
+            "sound_labels": [
+                "молодец, дальше"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "У кого-то может быть 0 грибов, у кого-то – один, два, и т.д. И никакого противоречия нет."
+            ],
+            "next": "step68",
+            "name": "step67",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step68",
+            "timeTransition": "6",
+            "order": 67,
+            "sound_labels": [
+                "у кого то может быть 0"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "А какое наименьшее количество грибов у них может быть вместе? Ясно, что наименьшее число грибов будет тогда, когда количество грибов выражается наименьшими возможными числами, т.е. числами от 0 до 20. А эта сумма (можешь сам посчитать) равна 210. Противоречие доказывает, что разного количества грибов у всех быть не может."
+            ],
+            "next": "step69",
+            "name": "step68",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step69",
+            "timeTransition": "25",
+            "order": 68,
+            "sound_labels": [
+                "а какое наименьшее количество грибов"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Решим ещё 2-3 задачи на математические темы."
+            ],
+            "next": "step69.1",
+            "name": "step69",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step69.1",
+            "timeTransition": "5",
+            "order": 69,
+            "sound_labels": [
+                "решим еще 2-3 задачи на математические темы"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                ""
+            ],
+            "next": "step70",
+            "name": "step69.1",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "slide": "Докажите, что среди 11 натуральных чисел найдутся 2 числа, разность которых делиться на 10.",
+            "lesson": "lesson6",
+            "instantTransitionStep": "step70",
+            "timeTransition": "5",
+            "order": 69
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Решение. Посмотрим на последние цифры наших чисел. Всего цифр 10, а чисел – 11. Что следует из принципа Дирихле?"
+            ],
+            "next": "step71",
+            "name": "step70",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step71",
+            "timeTransition": "10",
+            "order": 70,
+            "sound_labels": [
+                "решение поссмотрим на последние цифры наших чисел"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Что у каких-то чисел последние цифры совпадают!"
+            ],
+            "next": "step72",
+            "name": "step71",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step72",
+            "timeTransition": "3",
+            "order": 71,
+            "sound_labels": [
+                "что у каких то чисел"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "А это значит, что разность этих чисел оканчивается цифрой 0, т.е. делится на 10."
+            ],
+            "next": "step73",
+            "name": "step72",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step73",
+            "timeTransition": "6",
+            "order": 72,
+
+            "sound_labels": [
+                "а это значит"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Ещё одна – геометрическая задача."
+            ],
+            "next": "step73.1",
+            "name": "step73",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step73.1",
+            "timeTransition": "4",
+
+            "order": 73,
+            "sound_labels": [
+                "еще одна геоментрическая задача"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                ""
+            ],
+            "next": "step74",
+            "name": "step73.1",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "interactive": "createImg",
+            "slide": "slides_lesson6/slide6.19.png",
+            "lesson": "lesson6",
+            "instantTransitionStep": "step74",
+            "timeTransition": "3",
+            "order": 74
+
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "И причем здесь принцип Дирихле?"
+            ],
+            "next": "step75",
+            "name": "step74",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step75",
+            "timeTransition": "2",
+            "order": 74,
+            "sound_labels": [
+                "и при чем сдесь принцип"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Сейчас мы его применим в решении."
+            ],
+            "next": "step76",
+            "name": "step75",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step76",
+            "timeTransition": "4",
+            "order": 75,
+            "sound_labels": [
+                "сейчас мы его применим в решении"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Разобьём квадрат вертикальными и горизонтальными линиями на квадраты со стороной 20 см. Сколько получится таких квадратов?"
+            ],
+            "next": "step77",
+            "name": "step76",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step77",
+            "timeTransition": "9",
+            "order": 76,
+            "interactive": "createImg",
+            "slide": "slides_lesson6/slide6.20.png",
+            "sound_labels": [
+                "разобьем квадрат вертикальными"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Пятью пять – двадцать пять."
+            ],
+            "next": "step78",
+            "name": "step77",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step78",
+            "timeTransition": "2",
+            "order": 77,
+            "sound_labels": [
+                "5 * 5 = 25"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "А точек сколько?"
+            ],
+            "next": "step79",
+            "name": "step78",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step79",
+            "timeTransition": "3",
+            "order": 78,
+            "sound_labels": [
+                "а точек сколько"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "51."
+            ],
+            "next": "step80",
+            "name": "step79",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step80",
+            "timeTransition": "2",
+            "order": 79,
+            "sound_labels": [
+                "51"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "И что следует из обобщённого принципа Дирихле?"
+            ],
+            "next": "step81",
+            "name": "step80",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step81",
+            "timeTransition": "4",
+            "order": 80,
+            "sound_labels": [
+                "и что следует из обобщенного принципа дирихле?"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Что в какой-то квадрат попадёт хотя бы 3 точки."
+            ],
+            "next": "step82",
+            "name": "step81",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step82",
+            "timeTransition": "4",
+            "order": 81,
+            "sound_labels": [
+                "что в какой то квадрат попадет хотя бы 3 точки"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "А это и надо было доказать."
+            ],
+            "next": "step83",
+            "name": "step82",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step83",
+            "timeTransition": "3",
+            "order": 82,
+            "sound_labels": [
+                "а это и надо было доказать"
+            ],
+            "actions": {
+                "Непонятно": "step73.1",
+                "Понятно": "step83"
+            }
+        },
+        {
+            "active": "professor",
+            "text": [
+                "И напоследок, достаточно известная важная задача."
+            ],
+            "next": "step84",
+            "name": "step83",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step84",
+            "timeTransition": "4",
+            "order": 83,
+            "slide": "В классе некоторые ученики дружат друг с другом. Докажите, что найдутся двое, у которых одинаковое количество друзей в этом классе.",
+            "sound_labels": [
+                "и на последок достаточно известная"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+
+                "Я попробую решить сам. Пусть в классе всего n учеников. У самого нелюдимого может вообще не быть друзей. А у самого общительного – все друзья. Т.е. количество друзей – от нуля до n-1. Всего n значений. А всего учеников… Ой, тоже n. Никакого противоречия."
+            ],
+            "next": "step85",
+            "name": "step84",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step85",
+            "timeTransition": "9",
+            "order": 84,
+            "sound_labels": [
+                "пусть в классе всего"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Ты не обратил внимания, что в классе не могут быть одновременно два ученика, один из которых дружит со всеми, а другой – ни с кем."
+            ],
+            "next": "step86",
+            "name": "step85",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step86",
+            "timeTransition": "10",
+            "order": 85,
+            "sound_labels": [
+                "ты не обратил внимание"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Ура! Значит, разных значений всего n-1, и по принципу Дирихле, найдутся два ученика с одинаковым числом друзей!"
+            ],
+            "next": "step87",
+            "name": "step86",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step87",
+            "timeTransition": "9",
+            "order": 86,
+            "sound_labels": [
+                "ура! значит"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [],
+            "next": "step88",
+            "name": "step87",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "greeting"
+                }
+            ],
+            "lesson": "lesson6",
+            "instantTransitionStep": "step88",
+            "timeTransition": "10",
+            "order": 87,
+            "slide": "Конец."
+        }
+    ]
+}

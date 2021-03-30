@@ -1,0 +1,760 @@
+{
+    "frameRate": 24,
+    "isGlobal": 0,
+    "name": "eyebrows_SG",
+    "version": "5.0",
+    "armature": [
+        {
+            "slot": [
+                {
+                    "z": 0,
+                    "name": "body",
+                    "parent": "root",
+                    "color": {}
+                },
+                {
+                    "z": 1,
+                    "name": "head",
+                    "parent": "head",
+                    "color": {}
+                },
+                {
+                    "z": 2,
+                    "name": "right_a1",
+                    "parent": "root",
+                    "color": {}
+                },
+                {
+                    "z": 3,
+                    "name": "right_palm",
+                    "parent": "root",
+                    "color": {}
+                },
+                {
+                    "z": 4,
+                    "name": "right_a2",
+                    "parent": "root",
+                    "color": {}
+                },
+                {
+                    "z": 5,
+                    "name": "left_a1",
+                    "parent": "root",
+                    "color": {}
+                },
+                {
+                    "z": 6,
+                    "name": "left_palm",
+                    "parent": "root",
+                    "color": {}
+                },
+                {
+                    "z": 7,
+                    "name": "left_a2",
+                    "parent": "root",
+                    "color": {}
+                },
+                {
+                    "z": 8,
+                    "name": "nose",
+                    "parent": "nose",
+                    "color": {}
+                },
+                {
+                    "z": 9,
+                    "name": "8",
+                    "parent": "8",
+                    "color": {}
+                },
+                {
+                    "z": 10,
+                    "name": "9",
+                    "parent": "91",
+                    "color": {}
+                },
+                {
+                    "z": 11,
+                    "name": "open",
+                    "parent": "open",
+                    "color": {}
+                },
+                {
+                    "z": 12,
+                    "name": "eyebrows",
+                    "parent": "eyebrows",
+                    "color": {}
+                }
+            ],
+            "ik": [],
+            "type": "Armature",
+            "frameRate": 24,
+            "bone": [
+                {
+                    "name": "root",
+                    "transform": {}
+                },
+                {
+                    "length": 124,
+                    "transform": {
+                        "skY": -90.7136,
+                        "y": -139.7694,
+                        "skX": -90.7136,
+                        "x": 16.5246
+                    },
+                    "parent": "root",
+                    "name": "head"
+                },
+                {
+                    "length": 69,
+                    "transform": {
+                        "skY": -90.5309,
+                        "y": 34.406,
+                        "skX": -90.5309,
+                        "x": 84.5781
+                    },
+                    "parent": "head",
+                    "name": "eyebrows"
+                },
+                {
+                    "length": 24,
+                    "transform": {
+                        "skY": 6.0015,
+                        "y": -8.7041,
+                        "skX": 6.0015,
+                        "x": 35.8612
+                    },
+                    "parent": "head",
+                    "name": "nose"
+                },
+                {
+                    "length": 48,
+                    "transform": {
+                        "skY": 92.4688,
+                        "y": -25.7403,
+                        "skX": 92.4688,
+                        "x": -3.0797
+                    },
+                    "parent": "head",
+                    "name": "8"
+                },
+                {
+                    "length": 59,
+                    "transform": {
+                        "skY": -87.8423,
+                        "y": 26.2247,
+                        "skX": -87.8423,
+                        "x": 58.0279
+                    },
+                    "parent": "head",
+                    "name": "open"
+                },
+                {
+                    "length": 40,
+                    "transform": {
+                        "skY": 90.7136,
+                        "y": -24.4256,
+                        "skX": 90.7136,
+                        "x": 19.2203
+                    },
+                    "parent": "head",
+                    "name": "91"
+                }
+            ],
+            "aabb": {
+                "width": 527.5,
+                "y": -295.2694496325321,
+                "height": 444.2694496325321,
+                "x": -248.5
+            },
+            "skin": [
+                {
+                    "name": "",
+                    "slot": [
+                        {
+                            "display": [
+                                {
+                                    "path": "open",
+                                    "type": "image",
+                                    "name": "open",
+                                    "transform": {
+                                        "skY": 178.5559,
+                                        "y": 1.0916,
+                                        "scX": 0.9466,
+                                        "scY": 0.9466,
+                                        "skX": 178.5559,
+                                        "x": 28.8397
+                                    }
+                                }
+                            ],
+                            "name": "open"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "right_a2",
+                                    "type": "image",
+                                    "name": "right_a2",
+                                    "transform": {
+                                        "y": 86.5,
+                                        "x": -143
+                                    }
+                                }
+                            ],
+                            "name": "right_a2"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "left_palm",
+                                    "type": "image",
+                                    "name": "left_palm",
+                                    "transform": {
+                                        "y": 103.25,
+                                        "x": 59.85
+                                    }
+                                }
+                            ],
+                            "name": "left_palm"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "nose",
+                                    "type": "image",
+                                    "name": "nose",
+                                    "transform": {
+                                        "skY": 84.712,
+                                        "y": 4.0171,
+                                        "skX": 84.712,
+                                        "x": 8.2352
+                                    }
+                                }
+                            ],
+                            "name": "nose"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "head",
+                                    "type": "image",
+                                    "name": "head",
+                                    "transform": {
+                                        "skY": 90.7136,
+                                        "y": 0.7591,
+                                        "skX": 90.7136,
+                                        "x": 72.9962
+                                    }
+                                }
+                            ],
+                            "name": "head"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "9",
+                                    "type": "image",
+                                    "name": "9",
+                                    "transform": {
+                                        "y": -0.8444,
+                                        "x": 19.9691
+                                    }
+                                }
+                            ],
+                            "name": "9"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "right_palm",
+                                    "type": "image",
+                                    "name": "right_palm",
+                                    "transform": {
+                                        "y": 107.5,
+                                        "x": -11
+                                    }
+                                }
+                            ],
+                            "name": "right_palm"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "eyebrows",
+                                    "type": "image",
+                                    "name": "eyebrows",
+                                    "transform": {
+                                        "skY": -178.7555,
+                                        "y": -0.207,
+                                        "skX": -178.7555,
+                                        "x": 36.5131
+                                    }
+                                }
+                            ],
+                            "name": "eyebrows"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "left_a1",
+                                    "type": "image",
+                                    "name": "left_a1",
+                                    "transform": {
+                                        "y": -4.5,
+                                        "x": 200
+                                    }
+                                }
+                            ],
+                            "name": "left_a1"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "left_a2",
+                                    "type": "image",
+                                    "name": "left_a2",
+                                    "transform": {
+                                        "y": 85.5,
+                                        "x": 186
+                                    }
+                                }
+                            ],
+                            "name": "left_a2"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "body",
+                                    "type": "image",
+                                    "name": "body",
+                                    "transform": {
+                                        "y": -15.25,
+                                        "x": 1
+                                    }
+                                }
+                            ],
+                            "name": "body"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "8",
+                                    "type": "image",
+                                    "name": "8",
+                                    "transform": {
+                                        "skY": -1.7552,
+                                        "y": -3.0896,
+                                        "skX": -1.7552,
+                                        "x": 22.4659
+                                    }
+                                }
+                            ],
+                            "name": "8"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "right_a1",
+                                    "type": "image",
+                                    "name": "right_a1",
+                                    "transform": {
+                                        "y": 3.5,
+                                        "x": -176
+                                    }
+                                }
+                            ],
+                            "name": "right_a1"
+                        }
+                    ]
+                }
+            ],
+            "defaultActions": [
+                {
+                    "gotoAndPlay": "animtion0"
+                }
+            ],
+            "name": "Armature",
+            "animation": [
+                {
+                    "slot": [],
+                    "frame": [],
+                    "ik": [],
+                    "bone": [
+                        {
+                            "frame": [
+                                {
+                                    "duration": 54,
+                                    "transform": {}
+                                }
+                            ],
+                            "name": "root"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 9,
+                                    "transform": {
+                                        "y": 3.5401,
+                                        "x": -0.6808
+                                    }
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 7,
+                                    "transform": {
+                                        "y": 3.5401,
+                                        "x": -0.6808
+                                    }
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 5,
+                                    "transform": {
+                                        "y": 3.5401,
+                                        "x": -0.6808
+                                    }
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 12,
+                                    "transform": {
+                                        "y": 3.5401,
+                                        "x": -0.6808
+                                    }
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 11,
+                                    "transform": {
+                                        "y": 3.5401,
+                                        "x": -0.6808
+                                    }
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 10,
+                                    "transform": {
+                                        "y": 3.5401,
+                                        "x": -0.6808
+                                    }
+                                },
+                                {
+                                    "duration": 0,
+                                    "transform": {
+                                        "y": 3.5401,
+                                        "x": -0.6808
+                                    }
+                                }
+                            ],
+                            "name": "head"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 9,
+                                    "transform": {
+                                        "y": -0.729,
+                                        "x": -3.8644
+                                    }
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 7,
+                                    "transform": {
+                                        "y": -0.7306,
+                                        "x": -3.9964
+                                    }
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 5,
+                                    "transform": {
+                                        "y": -0.6971,
+                                        "x": -1.3029
+                                    }
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 12,
+                                    "transform": {
+                                        "y": -0.6971,
+                                        "x": -1.3029
+                                    }
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 11,
+                                    "transform": {
+                                        "y": -0.7335,
+                                        "x": -4.2262
+                                    }
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 10,
+                                    "transform": {
+                                        "y": -0.7517,
+                                        "x": -5.6879
+                                    }
+                                },
+                                {
+                                    "duration": 0,
+                                    "transform": {
+                                        "y": -0.7517,
+                                        "x": -5.6879
+                                    }
+                                }
+                            ],
+                            "name": "eyebrows"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 9,
+                                    "transform": {
+                                        "y": 0.0085,
+                                        "x": 0.6807
+                                    }
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 7,
+                                    "transform": {
+                                        "y": 0.0085,
+                                        "x": 0.6807
+                                    }
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 5,
+                                    "transform": {
+                                        "y": 0.0085,
+                                        "x": 0.6807
+                                    }
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 12,
+                                    "transform": {
+                                        "y": 0.0085,
+                                        "x": 0.6807
+                                    }
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 11,
+                                    "transform": {
+                                        "y": 0.0085,
+                                        "x": 0.6807
+                                    }
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 10,
+                                    "transform": {
+                                        "y": 0.0085,
+                                        "x": 0.6807
+                                    }
+                                },
+                                {
+                                    "duration": 0,
+                                    "transform": {
+                                        "y": 0.0085,
+                                        "x": 0.6807
+                                    }
+                                }
+                            ],
+                            "name": "open"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 9,
+                                    "transform": {
+                                        "y": 0.0085,
+                                        "x": 0.6807
+                                    }
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 7,
+                                    "transform": {
+                                        "y": 0.0085,
+                                        "x": 0.6807
+                                    }
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 5,
+                                    "transform": {
+                                        "y": 0.0085,
+                                        "x": 0.6807
+                                    }
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 12,
+                                    "transform": {
+                                        "y": 0.0085,
+                                        "x": 0.6807
+                                    }
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 11,
+                                    "transform": {
+                                        "y": 0.0085,
+                                        "x": 0.6807
+                                    }
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 10,
+                                    "transform": {
+                                        "y": 0.0085,
+                                        "x": 0.6807
+                                    }
+                                },
+                                {
+                                    "duration": 0,
+                                    "transform": {
+                                        "y": 0.0085,
+                                        "x": 0.6807
+                                    }
+                                }
+                            ],
+                            "name": "nose"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 9,
+                                    "transform": {
+                                        "y": 0.017,
+                                        "x": 1.3615
+                                    }
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 7,
+                                    "transform": {
+                                        "y": 0.017,
+                                        "x": 1.3615
+                                    }
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 5,
+                                    "transform": {
+                                        "y": 0.017,
+                                        "x": 1.3615
+                                    }
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 12,
+                                    "transform": {
+                                        "y": 0.017,
+                                        "x": 1.3615
+                                    }
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 11,
+                                    "transform": {
+                                        "y": 0.017,
+                                        "x": 1.3615
+                                    }
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 10,
+                                    "transform": {
+                                        "y": 0.017,
+                                        "x": 1.3615
+                                    }
+                                },
+                                {
+                                    "duration": 0,
+                                    "transform": {
+                                        "y": 0.017,
+                                        "x": 1.3615
+                                    }
+                                }
+                            ],
+                            "name": "8"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 9,
+                                    "transform": {
+                                        "y": 0.2693,
+                                        "x": -0.2079
+                                    }
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 7,
+                                    "transform": {
+                                        "y": 0.2693,
+                                        "x": -0.2079
+                                    }
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 5,
+                                    "transform": {
+                                        "y": 0.2693,
+                                        "x": -0.2079
+                                    }
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 12,
+                                    "transform": {
+                                        "y": 0.2693,
+                                        "x": -0.2079
+                                    }
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 11,
+                                    "transform": {
+                                        "y": 0.2693,
+                                        "x": -0.2079
+                                    }
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "duration": 10,
+                                    "transform": {
+                                        "y": 0.2693,
+                                        "x": -0.2079
+                                    }
+                                },
+                                {
+                                    "duration": 0,
+                                    "transform": {
+                                        "y": 0.2693,
+                                        "x": -0.2079
+                                    }
+                                }
+                            ],
+                            "name": "91"
+                        }
+                    ],
+                    "ffd": [],
+                    "duration": 54,
+                    "name": "animtion0",
+                    "playTimes": 0
+                }
+            ]
+        }
+    ]
+}

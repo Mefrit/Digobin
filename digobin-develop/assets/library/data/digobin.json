@@ -1,0 +1,103 @@
+[{
+        "top": 656,
+        "left": 282,
+        "height": 82,
+        "width": 106,
+        "name": "0",
+        "hidden": false,
+        "path": "digobin/0.png"
+    },
+    {
+        "top": 330,
+        "left": 256,
+        "height": 90,
+        "width": 69,
+        "name": "1",
+        "hidden": false,
+        "path": "digobin/1.png"
+    },
+    {
+        "top": 459,
+        "left": 368,
+        "height": 473,
+        "width": 232,
+        "name": "2",
+        "hidden": false,
+        "path": "digobin/2.png"
+    },
+    {
+        "top": 320,
+        "left": 430,
+        "height": 99,
+        "width": 66,
+        "name": "3",
+        "hidden": false,
+        "path": "digobin/3.png"
+    },
+    {
+        "top": 279,
+        "left": 256,
+        "height": 81,
+        "width": 73,
+        "name": "4",
+        "hidden": false,
+        "path": "digobin/4.png"
+    },
+    {
+        "top": 267,
+        "left": 430,
+        "height": 84,
+        "width": 75,
+        "name": "5",
+        "hidden": false,
+        "path": "digobin/5.png"
+    },
+    {
+        "top": 250,
+        "left": 345,
+        "height": 90,
+        "width": 123,
+        "name": "6",
+        "hidden": false,
+        "path": "digobin/6.png"
+    },
+    {
+        "top": 116,
+        "left": 344,
+        "height": 220,
+        "width": 214,
+        "name": "7",
+        "hidden": false,
+        "path": "digobin/7.png"
+    },
+    {
+        "top": 136,
+        "left": 346,
+        "height": 36,
+        "width": 121,
+        "name": "Open",
+        "type": "eyes",
+        "hidden": false,
+        "path": "digobin/Open.png",
+        "zIndex": 3
+    }, {
+        "top": 133,
+        "left": 346,
+        "height": 36,
+        "width": 121,
+        "type": "eyes",
+        "name": "Close",
+        "hidden": false,
+        "path": "digobin/Close.png",
+        "zIndex": 3
+    },
+    {
+        "top": 111,
+        "left": 346,
+        "height": 23,
+        "width": 108,
+        "name": "9",
+        "hidden": false,
+        "path": "digobin/9.png"
+    }
+]

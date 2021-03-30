@@ -1,0 +1,91 @@
+[{
+    "name": "O",
+    "width": 29,
+    "height": 25,
+    "x": 0,
+    "y": 0
+}, {
+    "name": "WQ",
+    "width": 36,
+    "height": 24,
+    "x": 0,
+    "y": 25
+}, {
+    "name": "U",
+    "width": 39,
+    "height": 22,
+    "x": 0,
+    "y": 49
+}, {
+    "name": "rest",
+    "width": 44,
+    "height": 5,
+    "x": 0,
+    "y": 71
+}, {
+    "name": "FV",
+    "width": 45,
+    "height": 13,
+    "x": 0,
+    "y": 76
+}, {
+    "name": "etc",
+    "width": 46,
+    "height": 16,
+    "x": 0,
+    "y": 89
+}, {
+    "name": "L",
+    "width": 46,
+    "height": 18,
+    "x": 0,
+    "y": 105
+}, {
+    "name": "MBP",
+    "width": 50,
+    "height": 8,
+    "x": 0,
+    "y": 123
+}, {
+    "name": "E",
+    "width": 54,
+    "height": 22,
+    "x": 0,
+    "y": 131
+}, {
+    "name": "AI",
+    "width": 60,
+    "height": 26,
+    "x": 0,
+    "y": 153
+}, {
+    "name": "Close",
+    "width": 121,
+    "height": 36,
+    "x": 0,
+    "y": 179
+}, {
+    "name": "Open",
+    "width": 121,
+    "height": 36,
+    "x": 0,
+    "y": 215
+}, {
+    "name": "eye_brows",
+    "width": 129,
+    "height": 19,
+    "x": 0,
+    "y": 251
+}, {
+    "name": "head",
+    "width": 219,
+    "height": 223,
+    "x": 0,
+    "y": 270
+}, {
+    "name": "body",
+    "width": 253,
+    "height": 511,
+    "x": 253,
+    "y": 0
+}]

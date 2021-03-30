@@ -1,0 +1,160 @@
+[
+    {
+        "name": "head",
+        "path": "images/head.png",
+        "id": 1567160911699,
+        "left": 739,
+        "top": 38,
+        "width": 219,
+        "height": 223,
+        "hidden": false,
+        "zIndex": 1
+    },
+    {
+        "name": "Open",
+        "path": "images/Open.png",
+        "id": 1567160919742,
+        "left": 792,
+        "top": 155,
+        "width": 121,
+        "height": 36,
+        "hidden": false,
+        "zIndex": 2
+    },
+    {
+        "name": "body",
+        "path": "images/body.png",
+        "id": 1567161160708,
+        "left": 732,
+        "top": 241,
+        "width": 253,
+        "height": 511,
+        "hidden": false
+    },
+    {
+        "name": "eye_brows",
+        "path": "images/eye_brows.png",
+        "id": 1567161226026,
+        "left": 785,
+        "top": 136,
+        "width": 129,
+        "height": 19,
+        "hidden": false,
+        "zIndex": 2
+    },
+    {
+        "name": "Mouth",
+        "children": [
+            {
+                "name": "AI",
+                "path": "images/AI.png",
+                "id": 1567161547544,
+                "left": 819,
+                "top": 221,
+                "width": 60,
+                "height": 26,
+                "hidden": true,
+                "zIndex": 2
+            },
+            {
+                "name": "E",
+                "path": "images/E.png",
+                "id": 1567161548145,
+                "left": 822,
+                "top": 223,
+                "width": 54,
+                "height": 22,
+                "hidden": true,
+                "zIndex": 2
+            },
+            {
+                "name": "FV",
+                "path": "images/FV.png",
+                "id": 1567161548793,
+                "left": 828,
+                "top": 225,
+                "width": 45,
+                "height": 13,
+                "hidden": true,
+                "zIndex": 2
+            },
+            {
+                "name": "L",
+                "path": "images/L.png",
+                "id": 1567161549376,
+                "left": 826,
+                "top": 224,
+                "width": 46,
+                "height": 18,
+                "hidden": true,
+                "zIndex": 2
+            },
+            {
+                "name": "MBP",
+                "path": "images/MBP.png",
+                "id": 1567161549905,
+                "left": 825,
+                "top": 227,
+                "width": 50,
+                "height": 8,
+                "hidden": true,
+                "zIndex": 2
+            },
+            {
+                "name": "O",
+                "path": "images/O.png",
+                "id": 1567161550433,
+                "left": 835,
+                "top": 221,
+                "width": 29,
+                "height": 25,
+                "hidden": true,
+                "zIndex": 2
+            },
+            {
+                "name": "U",
+                "path": "images/U.png",
+                "id": 1567161551898,
+                "left": 830,
+                "top": 222,
+                "width": 39,
+                "height": 22,
+                "hidden": true,
+                "zIndex": 2
+            },
+            {
+                "name": "WQ",
+                "path": "images/WQ.png",
+                "id": 1567161552449,
+                "left": 831,
+                "top": 220,
+                "width": 36,
+                "height": 24,
+                "hidden": true,
+                "zIndex": 2
+            },
+            {
+                "name": "rest",
+                "path": "images/rest.png",
+                "id": 1567161555281,
+                "left": 827,
+                "top": 229,
+                "width": 44,
+                "height": 5,
+                "hidden": false,
+                "zIndex": 2
+            },
+            {
+                "name": "etc",
+                "path": "images/etc.png",
+                "id": 1567161556063,
+                "left": 827,
+                "top": 225,
+                "width": 46,
+                "height": 16,
+                "hidden": true,
+                "zIndex": 2
+            }
+        ]
+    }
+]

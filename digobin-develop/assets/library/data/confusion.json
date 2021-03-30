@@ -1,0 +1,74 @@
+[
+  {
+    "top": 378,
+    "left": 397,
+    "height": 89,
+    "width": 173,
+    "name": "Слой 41 #1",
+    "hidden": false,
+    "path": "confusion/0.png"
+  },
+  {
+    "top": 385,
+    "left": 75,
+    "height": 81,
+    "width": 173,
+    "name": "Слой 38",
+    "hidden": false,
+    "path": "confusion/1.png"
+  },
+  {
+    "top": 357,
+    "left": 209,
+    "height": 474,
+    "width": 257,
+    "name": "Слой 35",
+    "hidden": false,
+    "path": "confusion/2.png"
+  },
+  {
+    "top": 361,
+    "left": 376,
+    "height": 107,
+    "width": 50,
+    "name": "Слой 29",
+    "hidden": false,
+    "path": "confusion/3.png"
+  },
+  {
+    "top": 357,
+    "left": 218,
+    "height": 102,
+    "width": 51,
+    "name": "Слой 28",
+    "hidden": false,
+    "path": "confusion/4.png"
+  },
+  {
+    "top": 326,
+    "left": 257,
+    "height": 92,
+    "width": 126,
+    "name": "Слой 26",
+    "hidden": false,
+    "path": "confusion/5.png"
+  },
+  {
+    "top": 140,
+    "left": 219,
+    "height": 205,
+    "width": 204,
+    "name": "Слой 25",
+    "hidden": false,
+    "path": "confusion/6.png"
+  },
+  {
+    "top": 246,
+    "left": 263,
+    "height": 38,
+    "width": 118,
+    "name": "Слой 23",
+    "hidden": false,
+    "path": "confusion/8.png"
+  }
+]

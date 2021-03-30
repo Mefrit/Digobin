@@ -1,0 +1,56 @@
+[
+    {
+        "top": 162,
+        "left": 183,
+        "height": 159,
+        "width": 108,
+        "name": "Вставленный слой",
+        "hidden": false,
+        "path": "thinking/0.png"
+    },
+    {
+        "top": 260,
+        "left": 196,
+        "height": 89,
+        "width": 102,
+        "name": "Слой 29",
+        "hidden": false,
+        "path": "thinking/1.png"
+    },
+    {
+        "top": 237,
+        "left": 199,
+        "height": 507,
+        "width": 260,
+        "name": "Слой 28",
+        "hidden": false,
+        "path": "thinking/2.png"
+    },
+    {
+        "top": 31,
+        "left": 221,
+        "height": 224,
+        "width": 223,
+        "name": "Слой 19",
+        "hidden": false,
+        "path": "thinking/3.png"
+    },
+    {
+        "top": 138,
+        "left": 271,
+        "height": 20,
+        "width": 118,
+        "name": "Слой 15",
+        "hidden": false,
+        "path": "thinking/4.png"
+    },
+    {
+        "top": 157,
+        "left": 267,
+        "height": 36,
+        "width": 126,
+        "name": "Слой 16",
+        "hidden": false,
+        "path": "thinking/5.png"
+    }
+]

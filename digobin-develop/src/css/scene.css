@@ -1,0 +1,320 @@
+.textblock {
+    user-select: none;
+    -moz-user-select: none;
+    background: rgba(124, 227, 246, 0.9);
+    position: absolute;
+    width: 600px;
+    margin-left: -300px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 4px solid rgba(81, 148, 160);
+    left: 50%;
+    bottom: 50px;
+    z-index: 999;
+    font-size: 25px;
+    font-family: Calibri;
+    font-weight: bold;
+    color: #000;
+    cursor: pointer;
+    min-height: 35px;
+    max-height: 120px;
+    /* overflow: auto; */
+}
+
+.textblock_entry {
+    bottom: '10px';
+    width: '750px';
+    left: '44%';
+}
+
+.textblock_name {
+    position: absolute;
+    top: -40px;
+    background: inherit;
+    border: 4px solid rgba(81, 148, 160);
+    border-radius: 10px 10px 0 0;
+    font-size: 20px;
+    padding: 4px;
+}
+
+.textblock__content {
+    max-height: 125px;
+    overflow: auto;
+}
+
+.digobin_village {
+    z-index: 0;
+}
+
+.digobin_village_left {
+    z-index: 0;
+}
+
+.textblock--professor {
+    background: rgba(81, 160, 101, 0.9);
+}
+
+
+/* .slide {
+    position: absolute;
+    text-align: center;
+    width: 660px;
+    _border: 1px solid red;
+    font-family: Calibri;
+    z-index: 1002;
+    font-size: 60px;
+    top: 100px;
+    left: 240px;        
+} */
+
+.slide {
+    position: absolute;
+    top: 90px;
+    left: 240px;
+    text-align: center;
+    width: 660px;
+    height: auto;
+    /* _border: 1px solid red; */
+    font-family: Calibri;
+    z-index: 1002;
+    font-size: 60px;
+}
+
+.defaultSlide {
+    float: right;
+    min-width: 350px;
+    width: 100%;
+    max-width: 300px;
+    min-height: 160px;
+    background-color: #ffffffe8;
+    padding: 5px;
+    align-content: center;
+    box-shadow: 3px -3px 5px rgb(221, 221, 221);
+    border-radius: 10px;
+    font-size: 40px;
+    z-index: 999;
+}
+
+.defaultSlide__contentNotString {
+    position: absolute;
+    top: 100px;
+    z-index: 1002;
+    left: 560px;
+    font-size: 25px;
+}
+
+.defaultSlide__mini-font {
+    font-size: 25px;
+}
+
+.defaultSlide__center {
+    width: 300px;
+    padding-left: 41px;
+}
+
+.buttons {
+    position: absolute;
+    z-index: 1000;
+    top: 65%;
+    right: 30%;
+}
+
+.buttons button {
+    border: 4px solid rgba(81, 148, 160);
+    font-size: 20px;
+    min-width: 50px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(124, 227, 246, 0.95);
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.buttons button:hover {
+    background: #9ef3fb;
+}
+
+.end_speach_icon {
+    opacity: 0;
+    width: 100px;
+    height: 100px;
+    background: url(../images/end_speach_icon.png) no-repeat;
+    background-size: 100%;
+    z-index: 1000;
+    position: absolute;
+    left: 610px;
+    top: 620px;
+    cursor: pointer;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    background: url(../images/background.png) no-repeat;
+    background-size: 100%;
+    float: left;
+}
+
+.lessonContainer,
+.imageEntry {
+    position: relative;
+    /* z-index: 999; */
+    margin-left: 20%;
+    margin-top: 7%;
+    padding: 5px;
+    width: 52%;
+    height: auto;
+    max-height: 60%;
+    overflow: auto;
+}
+
+.lessonContainer__elemMenu {
+    cursor: pointer;
+    width: 30%;
+    height: auto;
+    margin-right: 10px;
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 0.1px;
+    border-radius: 10px;
+    float: left;
+    color: rgb(0, 0, 0);
+}
+
+.elemMenu__img {
+    width: 90%;
+    padding: 3%;
+    float: left;
+}
+
+.elemMenu__header {
+    float: left;
+    padding-left: 10px;
+}
+
+
+/* класс для фонового изображения */
+
+.background_entry {
+    width: 100%;
+    height: 100%;
+    background: url(../images/background_entry.png) no-repeat;
+    /* background-size: 95%;
+    margin: auto 6%; */
+    float: left;
+}
+
+
+/* классы для позиционирования персонажей */
+
+.professor__position {
+    float: left;
+    margin-left: 10%;
+    margin-top: 7%;
+}
+
+.digobin__position {
+    margin-left: 60%;
+    margin-top: 18%;
+    float: left;
+    background-size: 55%;
+    display: none;
+}
+
+.professor,
+.digobin {
+    width: 100%;
+    height: 100%;
+    background-size: 95%;
+    float: left;
+}
+
+.menu {
+    position: absolute;
+    z-index: 1000;
+    margin-left: 74%;
+    float: left;
+    width: 20%;
+    height: 82px;
+    background: url(../images/controls.png) no-repeat;
+}
+
+.menu_home {
+    width: 64px;
+    height: 57px;
+    background: url(../images/home.png) no-repeat;
+    cursor: pointer;
+    border: 0px solid black;
+    margin-left: 15px;
+    float: left;
+    background-size: auto;
+}
+
+.menu_retry {
+    width: 65px;
+    height: 55px;
+    background: url(../images/retry.png) no-repeat;
+    cursor: pointer;
+    border: 0px solid black;
+    margin-left: 15px;
+    float: left;
+}
+
+.menu_settings {
+    width: 59px;
+    height: 61px;
+    background: url(../images/settings.png) no-repeat;
+    cursor: pointer;
+    border: 0px solid black;
+    margin-left: 15px;
+    float: left;
+}
+
+.numbers--red {
+    /* font-style: normal; */
+    color: red;
+}
+
+.numbers--blue {
+    font-size: 40px;
+}
+
+.numbers--blue i {
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(117, 144, 233);
+}
+
+::-webkit-scrollbar-button {
+    background-image: url('');
+    background-repeat: no-repeat;
+    width: 2px;
+    height: 0px
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(87, 87, 87, 0.5);
+    box-shadow: 0px 0px 3px rgb(54, 54, 54) inset;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 3px;
+    border-radius: 0px;
+    /* background-color:#51bff1; */
+    background-color: #4c4c4dfa;
+    background-image: url('https://yraaa.ru/_pu/24/59610063.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+::-webkit-resizer {
+    background-image: url('');
+    background-repeat: no-repeat;
+    width: 4px;
+    height: 0px
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}

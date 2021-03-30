@@ -1,0 +1,187 @@
+﻿body, html {
+    padding: 0;
+    margin: 0;    
+    font-family: Tahoma;
+    font-size: 12px;
+    height: 100%;
+    overflow: hidden;
+}
+
+#root {
+    height: 100%;
+}
+
+.app {
+    display: grid;
+    grid-template-rows: 30px 1fr;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.workarea {
+    display: flex;
+    flex: 0 0 auto;
+    overflow: hidden;
+}
+
+.story {
+    padding: 10px;
+    width: 300px;
+    height: 100%;
+    overflow-y: auto;
+    position: relative;
+    box-sizing: border-box;
+
+
+    &__bar {
+        position: absolute;
+        border-right: 1px solid red;
+        border-top: 1px solid red;
+        border-bottom: 1px solid red;
+        box-sizing: border-box;
+    }
+    
+    &__item {
+        border: 1px solid #cfcfcf;
+        margin-bottom: 20px;    
+        max-width: 200px;
+        cursor: pointer;
+        padding: 10px;
+    }
+    
+    &__item--professor {
+        background: #ccffcc;
+    }
+    
+    &__item--digobin {
+        background: #b3e5fc;
+    }       
+    
+    &__item:hover {    
+        background: #fefefe;
+    }
+
+    &__item--professor:hover {
+        background: #e6ffe6;
+    }
+
+    &__item--digobin:hover {
+        background: #e0f7fa;
+    }
+}
+
+.step {  
+    padding: 20px;
+
+    &__item {
+        margin-bottom: 15px;
+    }
+
+    &__text {
+        border: 1px solid #cfcfcf;
+        font-family: Tahoma;
+        font-size: 12px;
+        width: 400px;
+        padding: 4px;
+        margin: 4px 0;
+        height: 85px;
+        overflow: auto;
+    }
+
+    &__active {
+        font-weight: bold;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    &__edit {
+        margin-left: 10px;
+        color: red;
+        display: inline-block;
+    }
+
+}
+
+select  {
+    border: 1px solid #cfcfcf;
+    padding: 4px;
+    font-family: Tahoma;
+    background: #cfcfcf;
+}
+
+#image {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #cfcfcf;
+    background: #ffffff;
+}
+
+.project__name, button {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 6px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.project {
+    ul {
+        list-style-type: none;
+    }
+    
+    li {
+        margin-top: 5px;
+    }   
+}
+
+.ui-select {
+    position: relative;
+}
+
+.selected {
+    width: 200px;
+    border: 1px solid #cfcfcf;
+    padding: 6px;
+    background: #cfcfcf;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.option {
+    padding: 6px;
+    cursor: pointer;
+
+    &--selected {
+        background: rgba(255, 0, 0, 0.472);
+    }
+
+
+    &--match {
+        background: rgba(0, 255, 0, 0.287);
+    }
+    &:hover {
+        background: #efefef;
+    }
+}
+
+.select {
+    border: 1px solid #cfcfcf;
+    width: 300px;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    position: absolute;
+    background: #fff;
+    max-height: 400px;
+    top: 30px;
+    left: 0;
+    z-index: 1000;
+    overflow-y: auto;
+}
+

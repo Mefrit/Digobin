@@ -1,0 +1,363 @@
+{
+    "frameRate": 24,
+    "isGlobal": 0,
+    "armature": [
+        {
+            "ik": [],
+            "defaultActions": [
+                {
+                    "gotoAndPlay": "animtion0"
+                }
+            ],
+            "bone": [
+                {
+                    "name": "root",
+                    "transform": {}
+                },
+                {
+                    "length": 58,
+                    "transform": {
+                        "y": 0.3287,
+                        "skX": 178.7324,
+                        "skY": 178.7324,
+                        "x": 61.7028
+                    },
+                    "parent": "root",
+                    "name": "body"
+                },
+                {
+                    "length": 158,
+                    "transform": {
+                        "y": -1.2997,
+                        "skX": 95.9892,
+                        "skY": 95.9892,
+                        "x": 58.7931
+                    },
+                    "parent": "body",
+                    "name": "body1"
+                },
+                {
+                    "length": 268,
+                    "transform": {
+                        "skX": -76.6563,
+                        "skY": -76.6563,
+                        "x": 58.7644
+                    },
+                    "parent": "body",
+                    "name": "body2"
+                },
+                {
+                    "length": 70,
+                    "transform": {
+                        "y": 1.2712,
+                        "skX": 52.7724,
+                        "skY": 52.7724,
+                        "x": 268.6613
+                    },
+                    "parent": "body2",
+                    "name": "foot"
+                },
+                {
+                    "length": 155,
+                    "transform": {
+                        "y": -2.6982,
+                        "skX": 2.5292,
+                        "skY": 2.5292,
+                        "x": 159.6196
+                    },
+                    "parent": "body1",
+                    "name": "head"
+                }
+            ],
+            "type": "Armature",
+            "frameRate": 24,
+            "animation": [
+                {
+                    "ik": [],
+                    "playTimes": 0,
+                    "bone": [
+                        {
+                            "frame": [
+                                {
+                                    "transform": {},
+                                    "duration": 82
+                                }
+                            ],
+                            "name": "root"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "transform": {
+                                        "x": -6.1311
+                                    },
+                                    "duration": 82
+                                }
+                            ],
+                            "name": "body"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "transform": {},
+                                    "duration": 82
+                                }
+                            ],
+                            "name": "body1"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "transform": {},
+                                    "duration": 82
+                                }
+                            ],
+                            "name": "body2"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "transform": {},
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "transform": {
+                                        "skX": -2.0931,
+                                        "skY": -2.0931
+                                    },
+                                    "duration": 9
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "transform": {
+                                        "skX": -9.926,
+                                        "skY": -9.926
+                                    },
+                                    "duration": 6
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "transform": {
+                                        "skX": -12.4936,
+                                        "skY": -12.4936
+                                    },
+                                    "duration": 6
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "transform": {
+                                        "skX": -6.5624,
+                                        "skY": -6.5624
+                                    },
+                                    "duration": 8
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "transform": {
+                                        "skX": -2.0931,
+                                        "skY": -2.0931
+                                    },
+                                    "duration": 17
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "transform": {
+                                        "skX": -2.0931,
+                                        "skY": -2.0931
+                                    },
+                                    "duration": 21
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "transform": {
+                                        "skX": -2.0931,
+                                        "skY": -2.0931
+                                    },
+                                    "duration": 13
+                                },
+                                {
+                                    "transform": {
+                                        "skX": -2.0931,
+                                        "skY": -2.0931
+                                    },
+                                    "duration": 0
+                                }
+                            ],
+                            "name": "foot"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "transform": {},
+                                    "duration": 2
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "transform": {
+                                        "skX": -1.2364,
+                                        "skY": -1.2364
+                                    },
+                                    "duration": 9
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "transform": {
+                                        "skX": -7.1649,
+                                        "skY": -7.1649
+                                    },
+                                    "duration": 6
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "transform": {
+                                        "skX": -10.5463,
+                                        "skY": -10.5463
+                                    },
+                                    "duration": 6
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "transform": {
+                                        "skX": -6.6452,
+                                        "skY": -6.6452
+                                    },
+                                    "duration": 8
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "transform": {
+                                        "skX": -1.2364,
+                                        "skY": -1.2364
+                                    },
+                                    "duration": 17
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "transform": {
+                                        "skX": -1.2364,
+                                        "skY": -1.2364
+                                    },
+                                    "duration": 10
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "transform": {
+                                        "skX": 2.9219,
+                                        "skY": 2.9219
+                                    },
+                                    "duration": 11
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "transform": {
+                                        "skX": -1.2364,
+                                        "skY": -1.2364
+                                    },
+                                    "duration": 13
+                                },
+                                {
+                                    "transform": {
+                                        "skX": -1.2364,
+                                        "skY": -1.2364
+                                    },
+                                    "duration": 0
+                                }
+                            ],
+                            "name": "head"
+                        }
+                    ],
+                    "slot": [],
+                    "ffd": [],
+                    "frame": [],
+                    "name": "animtion0",
+                    "duration": 82
+                }
+            ],
+            "skin": [
+                {
+                    "slot": [
+                        {
+                            "display": [
+                                {
+                                    "path": "foot",
+                                    "type": "image",
+                                    "name": "foot",
+                                    "transform": {
+                                        "y": -5.3163,
+                                        "skX": -154.8485,
+                                        "skY": -154.8485,
+                                        "x": 38.1241
+                                    }
+                                }
+                            ],
+                            "name": "foot"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "head",
+                                    "type": "image",
+                                    "name": "head",
+                                    "transform": {
+                                        "y": 1.6606,
+                                        "skX": 82.7491,
+                                        "skY": 82.7491,
+                                        "x": 96.6828
+                                    }
+                                }
+                            ],
+                            "name": "head"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "body",
+                                    "type": "image",
+                                    "name": "body",
+                                    "transform": {
+                                        "y": -49.6401,
+                                        "skX": -102.0761,
+                                        "skY": -102.0761,
+                                        "x": 77.6327
+                                    }
+                                }
+                            ],
+                            "name": "body"
+                        }
+                    ],
+                    "name": ""
+                }
+            ],
+            "aabb": {
+                "width": 357.0000000000001,
+                "y": -368.57134905055403,
+                "height": 724.0000000000001,
+                "x": -166.74716628790114
+            },
+            "slot": [
+                {
+                    "z": 0,
+                    "name": "foot",
+                    "parent": "foot",
+                    "color": {}
+                },
+                {
+                    "z": 1,
+                    "name": "body",
+                    "parent": "body2",
+                    "color": {}
+                },
+                {
+                    "z": 2,
+                    "name": "head",
+                    "parent": "head",
+                    "color": {}
+                }
+            ],
+            "name": "Armature"
+        }
+    ],
+    "name": "last_digobin",
+    "version": "5.0"
+}

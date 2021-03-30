@@ -1,0 +1,157 @@
+{
+    "status": "development1",
+    "steps": [
+        {
+            "active": "digobin",
+            "text": [
+                ""
+            ],
+            "actions": {
+                "Прослушать историю": "begin"
+            },
+            "show": [
+                {
+                    "name": "digobin",
+                    "state": "none"
+                },
+                {
+                    "name": "professor",
+                    "state": "none"
+                }
+            ],
+            "interactive": "intro",
+            "lesson": "entry",
+            "next": "begin",
+            "name": "intro",
+            "order": 0
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Привет! Рад тебя видеть! Меня зовут домовенок, точнее уже цифровенок Нейроська. Давай я все расскажи по порядку."
+            ],
+            "sound_labels": [
+                "привет! рад тебя видеть"
+            ],
+            "slide": "",
+            "show": [
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "instantTransitionStep": "step2",
+            "timeTransition": "8",
+            "lesson": "entry",
+            "name": "begin",
+            "next": "step2",
+            "order": 1
+        },
+        {
+            "active": "digobin",
+            "sound_labels": [
+                " я родился"
+            ],
+            "text": [
+                "Я родился в старом деревянном доме, там всю жизнь и проработал  домовым. Но недавно мой дом снесли, и на  его месте началась грандиозная стройка. Пришлось переехать в многоэтажку и сменить род деятельности"
+            ],
+            "show": [
+                {
+                    "name": "digobin",
+                    "state": "village"
+                }
+            ],
+            "instantTransitionStep": "step3",
+            "timeTransition": "13.9",
+            "interactive": "backgroundEntry",
+            "lesson": "entry",
+            "name": "step2",
+            "next": "step3",
+            "order": 2
+        },
+        {
+            "active": "digobin",
+            "sound_labels": [
+                "теперь я цифровенок"
+            ],
+            "text": [
+                "Теперь я цифровенок, живу в просторной современной  квартире. Но как же трудно освоиться в мире  высоких технологий"
+            ],
+            "show": [
+                {
+                    "name": "digobin",
+                    "state": "walking"
+                }
+            ],
+            "instantTransitionStep": "step4",
+            "timeTransition": "7.2",
+            "interactive": "showModernDigobin",
+            "lesson": "entry",
+            "name": "step3",
+            "next": "step4",
+            "order": 3
+        },
+        {
+            "active": "digobin",
+            "sound_labels": [
+                "в школу я"
+            ],
+            "text": [
+                "В школу я, к сожалению, не ходил, и теперь осваивать все приходится с самых азов."
+            ],
+            "show": [
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "instantTransitionStep": "step5",
+            "timeTransition": "6.1",
+            "interactive": "backgroundDefault",
+            "lesson": "entry",
+            "name": "step4",
+            "next": "step5",
+            "order": 4
+        },
+        {
+            "active": "digobin",
+            "sound_labels": [
+                "часто слышал"
+            ],
+            "text": [
+                "Часто слышал такое выражение: 'Математика - царица всех наук.' И так оно меня зацепило, что решил начать обучение именно с математики."
+            ],
+            "show": [
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "instantTransitionStep": "step6",
+            "timeTransition": "10.1",
+            "lesson": "entry",
+            "name": "step5",
+            "next": "step6",
+            "order": 5
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "А помочь мне в этом любезно согласился Сергей Геннадьевич."
+            ],
+            "sound_labels": [
+                "а помочь мне в этом"
+            ],
+            "show": [
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "interactive": "showSGentry",
+            "lesson": "entry",
+            "name": "step6",
+            "order": 6
+        }
+    ]
+}

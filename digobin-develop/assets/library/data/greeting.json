@@ -1,0 +1,65 @@
+[
+  {
+    "top": 181,
+    "left": 431,
+    "height": 73,
+    "width": 69,
+    "name": "Кисть",
+    "hidden": false,
+    "path": "greeting/0.png"
+  },
+  {
+    "top": 296,
+    "left": 463,
+    "height": 74,
+    "width": 120,
+    "name": "Рука1",
+    "hidden": false,
+    "path": "greeting/2.png"
+  },
+  {
+    "top": 261,
+    "left": 546,
+    "height": 187,
+    "width": 165,
+    "name": "Body",
+    "hidden": false,
+    "path": "greeting/3.png"
+  },
+  {
+    "top": 388,
+    "left": 446,
+    "height": 323,
+    "width": 271,
+    "name": "Ноги",
+    "hidden": false,
+    "path": "greeting/4.png"
+  },
+  {
+    "top": 85,
+    "left": 509,
+    "height": 207,
+    "width": 193,
+    "name": "Head",
+    "hidden": false,
+    "path": "greeting/5.png"
+  },
+  {
+    "top": 189,
+    "left": 550,
+    "height": 33,
+    "width": 112,
+    "name": "Глаза",
+    "hidden": false,
+    "path": "greeting/6.png"
+  },
+  {
+    "top": 187,
+    "left": 449,
+    "height": 162,
+    "width": 60,
+    "name": "Рука2",
+    "hidden": false,
+    "path": "greeting/7.png"
+  }
+]

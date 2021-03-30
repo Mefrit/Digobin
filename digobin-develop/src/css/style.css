@@ -1,0 +1,403 @@
+﻿html,
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Tahoma;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: #363635;
+    /*url(../images/pattern.png);    */
+    position: relative;
+}
+
+.scene {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 1280px;
+    transform-origin: 0 0;
+    height: 720px;
+}
+
+.controls {
+    position: absolute;
+    right: 0;
+    width: 100px;
+    top: 0;
+    bottom: 0;
+    background: #1c2128;
+    padding: 5px;
+    border-left: 2px solid #29323b;
+    overflow: hidden;
+    z-index: 100;
+    display: none;
+}
+
+.loading {
+    text-align: center;
+    display: block;
+    width: 200px;
+    height: 220px;
+    margin: 20% auto;
+}
+
+.controls__group {
+    margin-bottom: 10px;
+}
+
+.controls__group input {
+    font-family: inherit;
+}
+
+.controls__group label {
+    color: #fff;
+    margin-right: 10px;
+}
+
+.controls button {
+    border: none;
+    background: #283038;
+    padding: 5px 8px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.controls button:hover {
+    background: #485664;
+}
+
+.step-list {
+    background: #fff;
+    font-size: 12px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.step__text {
+    width: 300px;
+}
+
+#step-group {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.step-list li {
+    padding: 5px 5px 5px 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.step-list li:hover {
+    background: #efefef;
+}
+
+.step__item--active {
+    color: red;
+}
+
+.step__item--active:before {
+    content: "\2022";
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+
+/* step6 */
+
+.number {
+    background-color: none;
+    float: left;
+    padding: 5px;
+    padding-top: 0px;
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.number-whiteRound {
+    margin: 10px;
+    margin-top: 0px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* padding-top:3px; */
+    background-color: white;
+}
+
+.number-succsess {
+    background-color: #90ee90;
+}
+
+.number-fail {
+    background-color: red;
+}
+
+/* step1 */
+
+.number-even {
+    color: red;
+    transition: 3s;
+}
+
+.hideContent {
+    width: auto;
+    opacity: 0;
+    transition: 1s;
+}
+
+.prominentNumber {
+    /* float:left; */
+    opacity: 1;
+    /*Элемент полностью прозрачный (невидимый)*/
+    transition: 1s;
+    /*Скорость перехода состояния элемента*/
+}
+
+#block {
+    float: left;
+}
+
+.wave_left_hand {
+    height: 100px;
+    width: 100px;
+    display: block;
+    left: 800px;
+    top: 140px;
+    z-index: 999;
+}
+
+.image {
+    margin-left: 350px;
+    max-width: 310px;
+    max-height: 300px;
+}
+
+.image-entry {
+    margin-left: 70px;
+    margin-top: 30px;
+    /* margin-left:210px; */
+    max-width: 530px;
+}
+
+.grasshopperStep {
+    margin-left: 100px;
+}
+
+.showDevTools {
+    display: block;
+}
+
+/* классы для позиционирования персонажей */
+
+/* .professor__position{
+    float: left;
+    margin-left:10%;
+    margin-top:7%;
+  
+}
+.digobin__position{
+    margin-left:45%;
+    margin-top:5%;
+    float: left;
+
+}
+.professor , .digobin{
+    width:100%;
+    height:100%;
+    background-size: 95%;
+    float: left;
+} */
+
+/* классы для слайдов в уроках */
+
+.lesson5__string {
+    font-size: 28px;
+}
+
+.lesson5__red_title {
+    color: rgb(122, 43, 43);
+}
+
+/* loading */
+#floatingCirclesG {
+    position: relative;
+    width: 125px;
+    height: 125px;
+    margin: auto;
+    transform: scale(0.6);
+    -o-transform: scale(0.6);
+    -ms-transform: scale(0.6);
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+}
+
+.f_circleG {
+    position: absolute;
+    background-color: rgb(235, 241, 245);
+    height: 22px;
+    width: 22px;
+    border-radius: 12px;
+    -o-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    animation-name: f_fadeG;
+    -o-animation-name: f_fadeG;
+    -ms-animation-name: f_fadeG;
+    -webkit-animation-name: f_fadeG;
+    -moz-animation-name: f_fadeG;
+    animation-duration: 1.2s;
+    -o-animation-duration: 1.2s;
+    -ms-animation-duration: 1.2s;
+    -webkit-animation-duration: 1.2s;
+    -moz-animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    -ms-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    animation-direction: normal;
+    -o-animation-direction: normal;
+    -ms-animation-direction: normal;
+    -webkit-animation-direction: normal;
+    -moz-animation-direction: normal;
+}
+
+#frotateG_01 {
+    left: 0;
+    top: 51px;
+    animation-delay: 0.45s;
+    -o-animation-delay: 0.45s;
+    -ms-animation-delay: 0.45s;
+    -webkit-animation-delay: 0.45s;
+    -moz-animation-delay: 0.45s;
+}
+
+#frotateG_02 {
+    left: 15px;
+    top: 15px;
+    animation-delay: 0.6s;
+    -o-animation-delay: 0.6s;
+    -ms-animation-delay: 0.6s;
+    -webkit-animation-delay: 0.6s;
+    -moz-animation-delay: 0.6s;
+}
+
+#frotateG_03 {
+    left: 51px;
+    top: 0;
+    animation-delay: 0.75s;
+    -o-animation-delay: 0.75s;
+    -ms-animation-delay: 0.75s;
+    -webkit-animation-delay: 0.75s;
+    -moz-animation-delay: 0.75s;
+}
+
+#frotateG_04 {
+    right: 15px;
+    top: 15px;
+    animation-delay: 0.9s;
+    -o-animation-delay: 0.9s;
+    -ms-animation-delay: 0.9s;
+    -webkit-animation-delay: 0.9s;
+    -moz-animation-delay: 0.9s;
+}
+
+#frotateG_05 {
+    right: 0;
+    top: 51px;
+    animation-delay: 1.05s;
+    -o-animation-delay: 1.05s;
+    -ms-animation-delay: 1.05s;
+    -webkit-animation-delay: 1.05s;
+    -moz-animation-delay: 1.05s;
+}
+
+#frotateG_06 {
+    right: 15px;
+    bottom: 15px;
+    animation-delay: 1.2s;
+    -o-animation-delay: 1.2s;
+    -ms-animation-delay: 1.2s;
+    -webkit-animation-delay: 1.2s;
+    -moz-animation-delay: 1.2s;
+}
+
+#frotateG_07 {
+    left: 51px;
+    bottom: 0;
+    animation-delay: 1.35s;
+    -o-animation-delay: 1.35s;
+    -ms-animation-delay: 1.35s;
+    -webkit-animation-delay: 1.35s;
+    -moz-animation-delay: 1.35s;
+}
+
+#frotateG_08 {
+    left: 15px;
+    bottom: 15px;
+    animation-delay: 1.5s;
+    -o-animation-delay: 1.5s;
+    -ms-animation-delay: 1.5s;
+    -webkit-animation-delay: 1.5s;
+    -moz-animation-delay: 1.5s;
+}
+
+@keyframes f_fadeG {
+    0% {
+        background-color: rgb(9, 110, 219);
+    }
+
+    100% {
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+@-o-keyframes f_fadeG {
+    0% {
+        background-color: rgb(9, 110, 219);
+    }
+
+    100% {
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+@-ms-keyframes f_fadeG {
+    0% {
+        background-color: rgb(9, 110, 219);
+    }
+
+    100% {
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+@-webkit-keyframes f_fadeG {
+    0% {
+        background-color: rgb(9, 110, 219);
+    }
+
+    100% {
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+@-moz-keyframes f_fadeG {
+    0% {
+        background-color: rgb(9, 110, 219);
+    }
+
+    100% {
+        background-color: rgb(255, 255, 255);
+    }
+}

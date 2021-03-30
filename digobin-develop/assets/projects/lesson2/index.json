@@ -1,0 +1,2177 @@
+{
+    "status": "development",
+    "steps": [{
+            "active": "digobin",
+            "text": [
+                ""
+            ],
+            "actions": {
+                "Начать": "beginEntry"
+            },
+            "show": [{
+                    "name": "digobin",
+                    "state": "none"
+                },
+                {
+                    "name": "professor",
+                    "state": "none"
+                }
+            ],
+            "lesson": "lesson2",
+            "slide": "./menu/urok2.png",
+            "interactive": "createImgIntro",
+            "next": "beginEntry",
+            "name": "intro",
+            "order": 3
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Привет! Рад тебя видеть! Меня зовут домовенок, точнее уже цифровенок Нейроська. Давай я все расскажу по порядку."
+            ],
+            "sound_labels": [
+                "привет! рад тебя видеть"
+            ],
+            "slide": "",
+            "show": [{
+                "name": "digobin",
+                "state": "speak"
+            }],
+            "interactive": "showTextBlock",
+            "instantTransitionStep": "step2Entry",
+            "timeTransition": "8",
+            "lesson": "lesson2",
+            "name": "beginEntry",
+            "order": 4,  
+            "actions": {
+                "Пропустить заставку": "step0"
+            }
+        },
+        {
+            "active": "digobin",
+            "sound_labels": [
+                " я родился"
+            ],
+            "text": [
+                "Я родился в старом деревянном доме, там всю жизнь и проработал  домовым. Но недавно мой дом снесли, и на  его месте началась грандиозная стройка. Пришлось переехать в многоэтажку и сменить род деятельности."
+            ],
+            "show": [{
+                "name": "digobin",
+                "state": "village"
+            }],
+            "instantTransitionStep": "step3Entry",
+            "timeTransition": "13.9",
+            "interactive": "backgroundEntry",
+            "lesson": "lesson2",
+            "name": "step2Entry",
+            "order": 5
+        },
+        {
+            "active": "digobin",
+            "sound_labels": [
+                "теперь я цифровенок"
+            ],
+            "text": [
+                "Теперь я цифровенок, живу в просторной современной  квартире. Но как же трудно освоиться в мире  высоких технологий."
+            ],
+            "show": [{
+                "name": "digobin",
+                "state": "walking"
+            }],
+            "instantTransitionStep": "step5Entry",
+            "timeTransition": "9",
+            "interactive": "showModernDigobin",
+            "lesson": "lesson2",
+            "name": "step3Entry",
+            "order": 6
+        },
+        {
+            "active": "digobin",
+            "sound_labels": [
+                "в школу я"
+            ],
+            "text": [
+                "В школу я, к сожалению, не ходил, и теперь осваивать все приходится с самых азов."
+            ],
+            "show": [{
+                "name": "digobin",
+                "state": "speak"
+            }],
+            "instantTransitionStep": "step5Entry",
+            "timeTransition": "6.1",
+            "interactive": "backgroundDefault",
+            "lesson": "lesson2",
+            "name": "step4Entry",
+            "order": 7
+        },
+        {
+            "active": "digobin",
+            "sound_labels": [
+                "часто слышал"
+            ],
+            "text": [
+                "Часто слышал такое выражение: 'Математика - царица всех наук.' И так оно меня зацепило, что решил начать обучение именно с математики."
+            ],
+            "show": [{
+                "name": "digobin",
+                "state": "speak"
+            }],
+            "interactive": "backgroundDefault",
+            "instantTransitionStep": "step6Entry",
+            "timeTransition": "10.1",
+            "lesson": "lesson2",
+            "name": "step5Entry",
+
+            "order": 8
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "А помочь мне в этом любезно согласился Сергей Геннадьевич."
+            ],
+            "sound_labels": [
+                "а помочь мне в этом"
+            ],
+            "show": [{
+                "name": "professor",
+                "state": "default"
+            }, {
+                "name": "digobin",
+                "state": "speak"
+            }],
+            "interactive": "showSGentry",
+            "lesson": "lesson2",
+            "name": "step6Entry",
+            "instantTransitionStep": "step0",
+            "timeTransition": "5.5",
+            "next": "step0",
+            "order": 9
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "slide": "",
+            "text": [
+                "На первом уроке ты познакомился с чётными и нечётными числами. Ты хорошо усвоил тот урок?"
+            ],
+            "instantTransitionStep": "step1",
+            "timeTransition": "7.7",
+            "next": "step1",
+            "name": "step0",
+            "order": 10,
+            "sound_labels": [
+                "на первом уроке"
+            ]
+        },
+        {
+            "active": "digobin",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "Да. Я узнал свойства чётных и нечётных чисел. Научился решать некоторые задачи."
+            ],
+            "instantTransitionStep": "step2",
+            "timeTransition": "6",
+            "next": "step2",
+            "sound_labels": [
+                "я узнал"
+            ],
+            "name": "step1",
+            "order": 11
+        },
+        {
+            "active": "professor",
+            "text": [
+                "На этом уроке мы продолжим тему чётности. Представь такую картинку."
+            ],
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "instantTransitionStep": "step2.1",
+            "timeTransition": "5.2",
+            "next": "step2.1",
+            "name": "step2",
+            "lesson": "lesson2",
+            "order": 12,
+            "sound_labels": [
+                "на этом уроке мы"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Дед Мороз выстроил вокруг новогодней ёлки хоровод. В нём каждый мальчик держит руками двух девочек, а каждая девочка – двух мальчиков. "
+            ],
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "instantTransitionStep": "step3",
+            "timeTransition": "10.4",
+            "next": "step3",
+            "name": "step2.1",
+            "lesson": "lesson2",
+            "slide": "slides_lesson2/roundelay.png",
+            "interactive": "createImg",
+            "order": 12,
+            "sound_labels": [
+                "дед мороз выстроил вокруг"
+            ]
+        },
+        {
+            "active": "digobin",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "Прошлый Новый год  жил ещё в деревне. Там ёлки росли вокруг моего дома. Но, хороводы все любили."
+            ],
+            "instantTransitionStep": "step4",
+            "timeTransition": "7.5",
+            "next": "step4",
+            "sound_labels": [
+                "прошлый новый год"
+            ],
+            "name": "step3",
+            "order": 13
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "text": [
+                "Так вот, докажи, что детей в хороводе чётное количество. И при этом, мальчиков столько же, сколько и девочек."
+            ],
+            "next": "step5",
+            "instantTransitionStep": "step5",
+            "timeTransition": "18",
+            "name": "step4",
+            "order": 14,
+            "sound_labels": [
+                "так вот докажи что"
+            ]
+        },
+        {
+            "active": "digobin",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "Я могу просто их подсчитать, но для этого мне нужно увидеть хоровод."
+            ],
+            "instantTransitionStep": "step6",
+            "timeTransition": "4.5",
+            "next": "step6",
+            "sound_labels": [
+                "я могу подсчитать"
+            ],
+            "name": "step5",
+            "order": 15
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "Нет, это не доказательство. Таким подсчётом ты только рассмотришь частный случай задачи. "
+            ],
+            "instantTransitionStep": "step6.1",
+            "timeTransition": "6.2",
+            "next": "step6.1",
+            "name": "step6",
+            "order": 16,
+            "sound_labels": [
+                "нет это не докозательство"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "А тебе надо доказать, что это так в любом хороводе."
+            ],
+            "instantTransitionStep": "step7",
+            "timeTransition": "4.5",
+            "next": "step7",
+            "name": "step6.1",
+            "order": 16,
+            "sound_labels": [
+                "а тебе надо доказать"
+            ]
+        },
+        {
+            "active": "digobin",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "А как это доказать сразу для всех хороводов?"
+            ],
+            "instantTransitionStep": "step8",
+            "timeTransition": "3",
+            "next": "step8",
+            "sound_labels": [
+                "а как это даказать?"
+            ],
+            "name": "step7",
+            "order": 17
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "Представь, что каждый мальчик перестал держать девочку правой рукой. А девочка, соответственно, освободила свою левую руку. "
+            ],
+            "instantTransitionStep": "step8.1",
+            "timeTransition": "8.2",
+            "next": "step8.1",
+            "name": "step8",
+            "order": 18,
+            "sound_labels": [
+                "представь что каждый мальчик"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "text": [
+                "Что произойдёт?"
+            ],
+            "next": "step9",
+            "instantTransitionStep": "step9",
+            "timeTransition": "14",
+            "name": "step8.1",
+            "order": 18,
+            "sound_labels": [
+                "что произойдет"
+            ]
+        },
+        {
+            "active": "digobin",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "Хоровод распадается на пары."
+            ],
+            "instantTransitionStep": "step10",
+            "timeTransition": "3",
+            "next": "step10",
+            "sound_labels": [
+                "распадается на пары"
+            ],
+            "name": "step9",
+            "order": 19
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "Правильно. Значит количество детей в хороводе – чётноее число. "
+            ],
+            "instantTransitionStep": "step10.1",
+            "timeTransition": "5",
+            "next": "step10.1",
+            "name": "step10",
+            "order": 110,
+            "sound_labels": [
+                "правильно значит количество"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "А мальчиков и девочек – поровну – по одному в каждой паре."
+            ],
+            "instantTransitionStep": "step10.2",
+            "timeTransition": "4.5",
+            "next": "step10.2",
+            "name": "step10.1",
+            "order": 110,
+            "sound_labels": [
+                "а мальчиков и девочек"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "Главный вывод из этой задачи: \n"
+            ],
+            "instantTransitionStep": "step10.3",
+            "timeTransition": "3",
+            "next": "step10.3",
+            "name": "step10.2",
+            "order": 110,
+            "sound_labels": [
+                "главный вывод из задачи"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "Если по кругу стоят элементы (предметы), у которых чередуются какие-то свойства (в нашей задаче чередуются мальчики с девочками), то количество элементов – чётное."
+            ],
+            "instantTransitionStep": "step11",
+            "timeTransition": "11",
+            "next": "step11",
+            "name": "step10.3",
+            "order": 110,
+            "sound_labels": [
+                "если по кругу стоят элементы"
+            ]
+        },
+        {
+            "active": "digobin",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "Это понятно."
+            ],
+            "instantTransitionStep": "step12",
+            "timeTransition": "3",
+            "next": "step12",
+            "sound_labels": [
+                "это понятно"
+            ],
+            "name": "step11",
+            "order": 111
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "Ещё одно свойство, связанное с чётностью. Чётное количество предметов можно разбить на пары, а нечётное нельзя. "
+            ],
+            "instantTransitionStep": "step12.1",
+            "timeTransition": "8.4",
+            "next": "step12.1",
+            "name": "step12",
+            "lesson": "lesson2",
+            "slide": "slides_lesson2/columOfChildren.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "еще одно свойство"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "Это хорошо известно всем, кто ходил в детский сад. Когда воспитательница выводит детей на прогулку, она строит их парами. "
+            ],
+            "instantTransitionStep": "step12.2",
+            "timeTransition": "8",
+            "next": "step12.2",
+            "name": "step12.1",
+            "lesson": "lesson2",
+            "sound_labels": [
+                "это хорошо известно"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "Если же детей нечётное число, то один ребёнок остаётся без пары и, обычно, воспитательница идёт с этим ребёнком. "
+            ],
+            "instantTransitionStep": "step13",
+            "timeTransition": "8.2",
+            "next": "step13",
+            "name": "step12.2",
+            "lesson": "lesson2",
+            "sound_labels": [
+                "если же детей нечетное"
+            ]
+        },
+        {
+            "active": "digobin",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "Жаль, что я не ходил в детский сад. А то я бы всё знал про чётные и нечётные числа."
+            ],
+            "instantTransitionStep": "step14",
+            "timeTransition": "6",
+            "next": "step14",
+            "name": "step13",
+            "lesson": "lesson2",
+            "slide": "",
+            "interactive": "clearSlide",
+            "sound_labels": [
+                "жаль что я не ходил"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "text": [
+                "Что ещё может чередоваться?"
+            ],
+            "next": "step15",
+            "instantTransitionStep": "step15",
+            "timeTransition": "14",
+            "name": "step14",
+            "sound_labels": [
+                "а что еще может"
+            ]
+        },
+        {
+            "active": "digobin",
+            "show": [{
+                    "name": "professor",
+                    "state": "surprice_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "Чередоваться может ДЕНЬ-НОЧЬ-ДЕНЬ-НОЧЬ…"
+            ],
+            "instantTransitionStep": "step16",
+            "timeTransition": "3.8",
+            "next": "step16",
+            "name": "step15",
+            "sound_labels": [
+                "чередоваться может"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "confusion"
+                }
+            ],
+            "text": [
+                "Это неудачный пример. Дней и ночей бесконечно. И по кругу их не разместить."
+            ],
+            "instantTransitionStep": "step17",
+            "timeTransition": "6",
+            "next": "step17",
+            "name": "step16",
+            "sound_labels": [
+                "это неудачный пример"
+            ]
+        },
+        {
+            "active": "digobin",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "Я недавно научился передвигать шахматные фигуры и заметил, что конь при своих ходах на доске чередует белые и чёрные поля."
+            ],
+            "instantTransitionStep": "step19",
+            "timeTransition": "8.2",
+            "next": "step19",
+            "name": "step17",
+            "lesson": "lesson2",
+            "slide": "slides_lesson2/hourse.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "я недавно научился"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "text": [
+                "Да, и это используется в некоторых задах. \nНапример, такая задача: "
+            ],
+            "instantTransitionStep": "step19.1",
+            "timeTransition": "5",
+            "next": "step19.1",
+            "name": "step19",
+            "sound_labels": [
+                "да и это используется"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "text": [
+                "Конь сделал несколько ходов и вернулся на исходную позицию. Докажи, что он сделал чётное число ходов."
+            ],
+            "next": "step20",
+            "instantTransitionStep": "step20",
+            "timeTransition": "16",
+            "name": "step19.1",
+            "sound_labels": [
+                "конь сделал несколько"
+            ]
+        },
+        {
+            "active": "digobin",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_palm_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "Так это же следует из сформулированного нами утверждения."
+            ],
+            "instantTransitionStep": "step21",
+            "timeTransition": "3.7",
+            "next": "step21",
+            "name": "step20",
+            "sound_labels": [
+                "так это-же следует"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "agree"
+                }
+            ],
+            "text": [
+                "Правильно. Молодец!"
+            ],
+            "instantTransitionStep": "step22",
+            "timeTransition": "2",
+            "next": "step22",
+            "name": "step21",
+            "sound_labels": [
+                "правильно молодец"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "Вот ещё пара задач на тему чередования. "
+            ],
+            "instantTransitionStep": "step22.1",
+            "timeTransition": "4",
+            "next": "step22.1",
+            "name": "step22",
+            "lesson": "lesson2",
+            "sound_labels": [
+                "вот еще пару задач"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "text": [
+                "Катя и ее друзья встали по кругу. Оказалось, что оба соседа каждого ребенка – одного пола. Мальчиков среди Катиных друзей пять. А сколько девочек?"
+            ],
+            "instantTransitionStep": "step23",
+            "timeTransition": "12",
+            "next": "step23",
+            "name": "step22.1",
+            "lesson": "lesson2",
+            "slide": "slides_lesson2/children.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "катя и ее друзья"
+            ]
+        },
+        {
+            "active": "digobin",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "Надо подумать. Рядом с Катей два мальчика."
+            ],
+            "instantTransitionStep": "step24",
+            "timeTransition": "4",
+            "next": "step24",
+            "name": "step23",
+            "sound_labels": [
+                "надо подумать"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "text": [
+                "А почему два мальчика, а не две девочки? Ты рискуешь пропустить один из двух возможных случаев."
+            ],
+            "instantTransitionStep": "step25",
+            "timeTransition": "7",
+            "next": "step25",
+            "name": "step24",
+            "sound_labels": [
+                "а почему два мальчика"
+            ]
+        },
+        {
+            "active": "digobin",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "А-а. Сначала рассмотрим случай с мальчиками, а потом с девочками."
+            ],
+            "instantTransitionStep": "step25.1",
+            "timeTransition": "5",
+            "next": "step25.1",
+            "name": "step25",
+            "sound_labels": [
+                "aaa2",
+                "за мальчиками"
+            ]
+        },
+        {
+            "active": "digobin",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "За мальчиками должны стоять девочки, т.к. с другой стороны от них – девочка Катя, потом опять мальчики, т.к. с другой стороны от этих девочек – мальчики. И, так далее."
+            ],
+            "instantTransitionStep": "step26",
+            "timeTransition": "12",
+            "next": "step26",
+            "name": "step25.1",
+            "sound_labels": [
+                "за мальчиками"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "Верно. Значит, в этом случае, в кругу мальчики и девочки чередуются и их поровну.\n"
+            ],
+            "instantTransitionStep": "step26.1",
+            "timeTransition": "7",
+            "next": "step26.1",
+            "name": "step26",
+            "sound_labels": [
+                "верно"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "Мальчиков – пять, значит и девочек – пять. Среди них – Катя, а остальные четверо – её подруги."
+            ],
+            "instantTransitionStep": "step26.2",
+            "timeTransition": "7",
+            "next": "step26.2",
+            "name": "step26.1",
+            "sound_labels": [
+                "мальчиков пять значит"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "Остался второй случай."
+            ],
+            "instantTransitionStep": "step27",
+            "timeTransition": "3",
+            "next": "step27",
+            "name": "step26.2",
+            "sound_labels": [
+                "остается второй"
+            ]
+        },
+        {
+            "active": "digobin",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "Если рядом с Катей девочки, то за ними – опять девочки, потом опять."
+            ],
+            "instantTransitionStep": "step27.1",
+            "timeTransition": "5.5",
+            "next": "step27.1",
+            "name": "step27",
+            "sound_labels": [
+                "рядом с катей"
+            ]
+        },
+        {
+            "active": "digobin",
+            "show": [{
+                    "name": "professor",
+                    "state": "false_answer_animation"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                " Что же получается? Мальчиков вообще нет, а по условию они есть"
+            ],
+            "instantTransitionStep": "step28",
+            "timeTransition": "5.3",
+            "next": "step28",
+            "name": "step27.1",
+            "sound_labels": [
+                "что же получается"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "agree"
+                }
+            ],
+            "text": [
+                "Да, мы пришли к противоречию, значит, этот случай невозможен."
+            ],
+
+            "timeTransition": "5.3",
+            "actions": {
+                "Понятно": "step29",
+                "Непонятно": "step22.1"
+            },
+            "name": "step28",
+            "sound_labels": [
+                "да мы пришли к противоречию"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "Ещё задача. "
+            ],
+            "instantTransitionStep": "step29.1",
+            "timeTransition": "2",
+            "next": "step29.1",
+            "name": "step29",
+            "lesson": "lesson2",
+            "sound_labels": [
+                "еще задача"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "text": [
+                "Может ли прямая, не содержащая вершин замкнутой 11-звенной ломаной,\nпересекать все ее звенья?\n"
+            ],
+            "next": "step30",
+            "instantTransitionStep": "step30",
+            "timeTransition": "16",
+            "name": "step29.1",
+            "lesson": "lesson2",
+            "slide": "slides_lesson2/straight.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "может ли прямая"
+            ]
+        },
+        {
+            "active": "digobin",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "Я сейчас нарисую эту ломаную и эту прямую. "
+            ],
+            "instantTransitionStep": "step30.1",
+            "timeTransition": "4.5",
+            "next": "step30.1",
+            "name": "step30",
+            "sound_labels": [
+                "я сейчас нарисую"
+            ]
+        },
+        {
+            "active": "digobin",
+            "show": [{
+                    "name": "professor",
+                    "state": "false_answer_animation"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "Что-то пока не получается."
+            ],
+            "instantTransitionStep": "step31",
+            "timeTransition": "3",
+            "next": "step31",
+            "name": "step30.1",
+            "sound_labels": [
+                "что то не получается"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "text": [
+                "И не получится. Я сейчас это докажу.\n"
+            ],
+            "instantTransitionStep": "step31.1",
+            "timeTransition": "3",
+            "next": "step31.1",
+            "name": "step31",
+            "sound_labels": [
+                "и не получится"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "Пусть такая прямая и такая ломаная существуют.\n"
+            ],
+            "instantTransitionStep": "step31.2",
+            "timeTransition": "4.5",
+            "next": "step31.2",
+            "name": "step31.1",
+            "sound_labels": [
+                "пусть такая приямая и такая"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "Прямая делит плоскость на две части. Назовём их условно – левая и правая.\n"
+            ],
+            "instantTransitionStep": "step31.3",
+            "timeTransition": "6",
+            "next": "step31.3",
+            "name": "step31.2",
+            "sound_labels": [
+                "прямая делит плоскость"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "Давай пойдём вдоль ломаной от вершины к вершине. Начнём с какой-нибудь вершины из левой части. "
+            ],
+            "instantTransitionStep": "step31.4",
+            "timeTransition": "7",
+            "next": "step31.4",
+            "name": "step31.3",
+            "sound_labels": [
+                "давай пойдем"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "При пересечении нашей прямой мы попадаем в правую часть, потом опять в левую, и т.д.  Вершины чередуются: они – то в левой, то в правой части.\n"
+            ],
+            "instantTransitionStep": "step32",
+            "timeTransition": "12.3",
+            "next": "step32",
+            "name": "step31.4",
+            "sound_labels": [
+                "при пересечении нашей прямой"
+            ]
+        },
+        {
+            "active": "digobin",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "А раз ломаная замкнутая, то всего вершин должно быть чётное количество. А их 11."
+            ],
+            "instantTransitionStep": "step32.1",
+            "timeTransition": "8",
+            "next": "step32.1",
+            "name": "step32",
+            "sound_labels": [
+                "а раз ломаная замкнутая"
+            ]
+        },
+        {
+            "active": "digobin",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "Противоречие."
+            ],
+            "instantTransitionStep": "step33",
+            "timeTransition": "2",
+            "next": "step33",
+            "name": "step32.1",
+            "sound_labels": [
+                "противоречие"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "Значит наше предположение, что такая прямая и ломаная существуют, было неверно.\n\n"
+            ],
+            "instantTransitionStep": "step33.1",
+            "timeTransition": "6.5",
+            "next": "step33.1",
+            "name": "step33",
+            "sound_labels": [
+                "значит наше предположение"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "Приём, который мы применили, называется доказательством от противного."
+            ],
+            "instantTransitionStep": "step34",
+            "timeTransition": "5.3",
+            "next": "step34",
+            "name": "step33.1",
+            "sound_labels": [
+                "прием который мы применили"
+            ]
+        },
+        {
+            "active": "digobin",
+            "show": [{
+                    "name": "professor",
+                    "state": "surprice_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "И вовсе не противный приём, а даже симпатичный."
+            ],
+            "instantTransitionStep": "step34.1",
+            "timeTransition": "4",
+            "next": "step34.1",
+            "name": "step34",
+            "sound_labels": [
+                "и вовсе не противный"
+            ]
+        },
+        {
+            "active": "digobin",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "Предполагаем, что что-то существует, рассуждаем, получаем противоречие. "
+            ],
+            "instantTransitionStep": "step34.2",
+            "timeTransition": "6",
+            "next": "step34.2",
+            "name": "step34.1",
+            "sound_labels": [
+                "предпологаем"
+            ]
+        },
+        {
+            "active": "digobin",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "Значит, предположение было неверно."
+            ],
+            "instantTransitionStep": "step35",
+            "timeTransition": "3.5",
+            "next": "step35",
+            "name": "step34.2",
+            "sound_labels": [
+                "значит было неверно"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "Вот ещё задача на тему Чётность. Но связана она не с чередованием, а с разбиением на пары. "
+            ],
+            "instantTransitionStep": "step35.1",
+            "timeTransition": "7",
+            "next": "step35.1",
+            "name": "step35",
+            "lesson": "lesson2",
+            "sound_labels": [
+                "вот еще задача на тему"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "text": [
+                "Все костяшки домино выложили в цепь. На одном конце оказалось 5 очков. Сколько очков на другом конце?"
+            ],
+            "next": "step36",
+            "instantTransitionStep": "step36",
+            "timeTransition": "19",
+            "name": "step35.1",
+            "lesson": "lesson2",
+            "slide": "slides_lesson2/domino.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "все костяшки домино"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "Ребята, помогите Цифровёнку. Нажмите на кнопку с правильным ответом."
+            ],
+            "name": "step36",
+            "lesson": "lesson2",
+            "slide": "",
+            "interactive": "showDominoAnswers",
+            "sound_labels": [
+                "ребята помогите цифровенку"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "text": [
+                "Дать правильный ответ в этой задаче, не главное. Надо его обосновать.\nСколько всего раз в комплекте домино встречается число 5?\n"
+            ],
+            "instantTransitionStep": "step38",
+            "timeTransition": "18",
+            "next": "step38",
+            "name": "step37",
+            "lesson": "lesson2",
+            "slide": "slides_lesson2/domino.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "дать правильный ответ в этой"
+            ]
+        },
+        {
+            "active": "digobin",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "5-1, 5-2, 5-3, 5-4, 5-5, 5-6 и 5-пусто, т.е. 5-0. Т.е. 8 раз, считая, что на дубле 5-5 она встречается дважды."
+            ],
+            "instantTransitionStep": "step39",
+            "timeTransition": "17.5",
+            "next": "step39",
+            "name": "step38",
+            "sound_labels": [
+                "5-1"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "text": [
+                "Хорошо. А как располагаются пятёрки в цепочке домино?"
+            ],
+            "next": "step40",
+            "instantTransitionStep": "step40",
+            "timeTransition": "16",
+            "name": "step39",
+            "sound_labels": [
+                "хорошо а как"
+            ]
+        },
+        {
+            "active": "digobin",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "Обязательно парами. Пятёрка к пятёрке."
+            ],
+            "instantTransitionStep": "step41",
+            "timeTransition": "3.7",
+            "next": "step41",
+            "name": "step40",
+            "sound_labels": [
+                "обязательно парами"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "text": [
+                "Правильно. И пятёрок внутри пар – чётное число. А с краю стоит пятёрка без пары. Это значит, …"
+            ],
+            "instantTransitionStep": "step42",
+            "timeTransition": "8.5",
+            "next": "step42",
+            "name": "step41",
+            "sound_labels": [
+                "правильно и пятерок внутри"
+            ]
+        },
+        {
+            "active": "digobin",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_palm_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "Что с другого конца – тоже пятёрка!"
+            ],
+
+            "actions": {
+                "Непонятно": "step37",
+                "Понятно": "step43"
+            },
+            "name": "step42",
+            "sound_labels": [
+                "что с другого конца"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "text": [
+                "\nДругой пример. Можно ли нарисовать 9-звенную замкнутую ломаную, каждое звено которой пересекается ровно с одним из остальных звеньев?\n"
+            ],
+            "next": "step44",
+            "instantTransitionStep": "step44",
+            "timeTransition": "28",
+            "name": "step43",
+            "lesson": "lesson2",
+            "slide": "slides_lesson2/brokenLine.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "другой пример можно ли"
+            ]
+        },
+        {
+            "active": "digobin",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "Про ломаную мы уже решали."
+            ],
+            "instantTransitionStep": "step45",
+            "timeTransition": "3",
+            "next": "step45",
+            "name": "step44",
+            "sound_labels": [
+                "уже решали"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "text": [
+                "Это совсем другая задача.\nВот её решение: Если бы такое было возможно, то все звенья ломаной разбились бы\nна пары пересекающихся. Однако тогда число звеньев должно быть четным.\n"
+            ],
+            "instantTransitionStep": "step46",
+            "timeTransition": "14",
+            "actions": {
+                "Понятно": "step46"
+            },
+            "name": "step45",
+            "lesson": "lesson2",
+            "slide": "slides_lesson2/brokenLineClr.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "совсем другая задача"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "text": [
+                "Ещё пример.\nВ народной дружине 100 человек и каждый вечер трое из них идут на дежурство. Может ли через некоторое время оказаться так, что каждый с каждым дежурил ровно один раз?\n"
+            ],
+            "next": "step47",
+            "instantTransitionStep": "step47",
+            "timeTransition": "35",
+            "name": "step46",
+            "lesson": "lesson2",
+            "slide": "slides_lesson2/vigilantes.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "еще пример"
+            ]
+        },
+        {
+            "active": "digobin",
+            "show": [{
+                    "name": "professor",
+                    "state": "surprice_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "Это трудная задача. Составить расписания дежурств для 100 человек очень тяжело."
+            ],
+            "instantTransitionStep": "step48",
+            "timeTransition": "6.5",
+            "next": "step48",
+            "name": "step47",
+            "sound_labels": [
+                "это трудная задача"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "Не торопись. Составлять расписание совсем необязательно. Тем более, что это невозможно. Докажем это.\nВыделим какого-нибудь дружинника. Пусть его зовут Иван Иванович. По условию, он должен с каждым из остальных дежурить по одному разу. За одно дежурство он должен отдежурить с какой-то парой дружинников. Т.е. оставшиеся дружинники должны были разбиться на пары, дежурящих с Иваном Ивановичем.\n"
+            ],
+            "instantTransitionStep": "step49",
+            "timeTransition": "30.4",
+            "next": "step49",
+            "name": "step48",
+            "sound_labels": [
+                "160"
+            ]
+        },
+        {
+            "active": "digobin",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "А 99 оставшихся дружинника на пары не разбиваются!"
+            ],
+
+            "actions": {
+                "Непонятно": "step47",
+                "Понятно": "step50"
+            },
+            "name": "step49",
+            "sound_labels": [
+                "99 оставшихся"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "Верно. Ещё одна задача, гдё применение идеи чётность заметить довольно трудно .\n"
+            ],
+            "instantTransitionStep": "step51",
+            "timeTransition": "8",
+            "next": "step51",
+            "name": "step50",
+            "sound_labels": [
+                "165"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "text": [
+                "Три кузнечика играют на прямой в чехарду. Каждый раз один из\nних прыгает через другого (но не через двух сразу!). Могут ли они после 2019\nпрыжков оказаться на прежних местах?\n"
+            ],
+            "next": "step52",
+            "instantTransitionStep": "step52",
+            "timeTransition": "18",
+            "name": "step51",
+            "lesson": "lesson2",
+            "slide": "slides_lesson2/grasshopper.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "170"
+            ]
+        },
+        {
+            "active": "digobin",
+            "show": [{
+                    "name": "professor",
+                    "state": "surprice_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "Неужели надо рассматривать 2019 прыжков? Урока не хватит."
+            ],
+            "instantTransitionStep": "step53",
+            "timeTransition": "5.7",
+            "next": "step53",
+            "name": "step52",
+            "sound_labels": [
+                "неужели надо"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "Разберём решение этой задачи. Очень хочется применит идею чередования. Но, сначала надо понять, что в задаче чередуется. Конечно, кузнечики меняют свои положения, но этого мало. Чередования их положения не видно. Например, если первый кузнечик сделает два прыжка подряд, то получатся такие положения кузнечиков."
+            ],
+            "instantTransitionStep": "step54",
+            "timeTransition": "24",
+            "next": "step54",
+            "name": "step53",
+            "lesson": "lesson2",
+            "slide": "slides_lesson2/grasshopper_step1.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "175"
+            ]
+        },
+        {
+            "active": "digobin",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "Никакого чередования не видно."
+            ],
+            "instantTransitionStep": "step55",
+            "timeTransition": "3",
+            "next": "step55",
+            "name": "step54",
+            "sound_labels": [
+                "никакого"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "Чтобы его заметить сделаем ещё несколько ходов в игре."
+            ],
+            "lesson": "lesson2",
+            "slide": "slides_lesson2/grasshopper_step2.png",
+            "interactive": "createImg",
+            "instantTransitionStep": "step56",
+            "timeTransition": "5",
+            "next": "step56",
+            "name": "step55",
+            "sound_labels": [
+                "180"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "text": [
+                "Теперь остановимся и спросим себя, а можно ли получить какое-то другое расположение кузнечиков.\nДля этого покрасим исходное положение в жёлтый цвет. \n"
+            ],
+            "instantTransitionStep": "step57",
+            "timeTransition": "11",
+            "next": "step57",
+            "name": "step56",
+            "lesson": "lesson2",
+            "slide": "slides_lesson2/grasshopper_step2-yellow.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "190"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "А теперь покрасим положения, в которые можно попасть из жёлтого, в голубой. Нетрудно заметить, что каждый прыжок любого кузнечика ведёт к смене цвета. \nИтак, после 2019 прыжков кузнечики окажутся в положении отличного от начального цвета.\n"
+            ],
+            "instantTransitionStep": "step58",
+            "timeTransition": "19",
+            "next": "step58",
+            "lesson": "lesson2",
+            "slide": "slides_lesson2/grasshopper_step3.png",
+            "interactive": "createImg",
+            "name": "step57",
+            "sound_labels": [
+                "200"
+            ]
+        },
+        {
+            "active": "digobin",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "Значит, вернуться за нечётное число прыжков они не смогут."
+            ],
+
+            "actions": {
+                "Непонятно": "step53",
+                "Понятно": "step59"
+            },
+            "name": "step58",
+            "sound_labels": [
+                "значит они не смогут"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "agree"
+                }
+            ],
+            "text": [
+                "Если ты всё понял, то должен справиться с задачами для самостоятельного решения."
+            ],
+            "instantTransitionStep": "step60",
+            "timeTransition": "7.3",
+            "next": "step60",
+            "name": "step59",
+            "lesson": "lesson2",
+            "slide": "",
+            "interactive": "clearSlide",
+            "sound_labels": [
+                "220"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "slide": "1. Конь начал движение с клетки a1 на шахматной доске и закончил в клетке h8. Мог ли он побывать в каждой клетке доски ровно один раз?",
+            "text": [
+                "1. Конь начал движение с клетки a1 на шахматной доске и закончил в клетке h8. Мог ли он побывать в каждой клетке доски ровно один раз?"
+            ],
+            "actions": {
+                "Следующая задача": "step61"
+            },
+            "next": "step61",
+            "name": "step60",
+            "sound_labels": [
+                "230"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "slide": "2. Из набора домино выбросили все кости с “пустышками”. Можно ли оставшиеся кости выложить в ряд?",
+            "text": [
+                "2. Из набора домино выбросили все кости с “пустышками”. Можно ли оставшиеся кости выложить в ряд?"
+            ],
+            "actions": {
+                "Следующая задача": "step62"
+            },
+            "next": "step62",
+            "name": "step61",
+            "sound_labels": [
+                "240"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "slide": "3. 25 мальчиков и 25 девочек сидят за круглым столом. Докажите, что у кого-то из сидящих за столом оба соседа - мальчики.",
+            "text": [
+                "3. 25 мальчиков и 25 девочек сидят за круглым столом. Докажите, что у кого-то из сидящих за столом оба соседа - мальчики."
+            ],
+            "actions": {
+                "Завершить урок": "finish"
+            },
+            "next": false,
+            "name": "step62",
+            "sound_labels": [
+                "250-2"
+            ]
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "greeting"
+                }
+            ],
+            "slide": "",
+            "text": [
+                "Конец."
+            ],
+            "name": "finish",
+            "order": 238
+        }
+    ]
+}

@@ -1,0 +1,2270 @@
+{
+
+    "steps": [{
+            "active": "digobin",
+            "lesson": "lesson4",
+            "text": [
+                ""
+            ],
+            "actions": {
+                "Начать": "beginEntry"
+            },
+            "show": [{
+                "name": "professor",
+                "state": "none"
+            }],
+            "slide": "./menu/urok4.png",
+            "interactive": "createImgIntro",
+            "name": "intro",
+            "order": 0
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Привет! Рад тебя видеть! Меня зовут домовенок, точнее уже цифровенок Нейроська. Давай я все расскажу по порядку."
+            ],
+            "sound_labels": [
+                "привет! рад тебя видеть"
+            ],
+            "slide": "",
+            "show": [{
+                    "name": "digobin",
+                    "state": "none"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "interactive": "showTextBlock",
+            "instantTransitionStep": "step2Entry",
+            "timeTransition": "8",
+            "lesson": "lesson3",
+            "name": "beginEntry",
+            "order": 4,  
+            "actions": {
+                "Пропустить заставку": "step1"
+            }
+        },
+        {
+            "active": "digobin",
+            "sound_labels": [
+                "я родился"
+            ],
+            "text": [
+                "Я родился в старом деревянном доме, там всю жизнь и проработал  домовым. Но недавно мой дом снесли, и на  его месте началась грандиозная стройка. Пришлось переехать в многоэтажку и сменить род деятельности"
+            ],
+            "show": [{
+                "name": "digobin",
+                "state": "village"
+            }],
+            "instantTransitionStep": "step3Entry",
+            "timeTransition": "13.9",
+            "interactive": "backgroundEntry",
+            "lesson": "lesson3",
+            "name": "step2Entry",
+            "order": 5
+        },
+        {
+            "active": "digobin",
+            "sound_labels": [
+                "теперь я цифровенок"
+            ],
+            "text": [
+                "Теперь я цифровенок, живу в просторной современной  квартире. Но как же трудно освоиться в мире  высоких технологий"
+            ],
+            "show": [{
+                "name": "digobin",
+                "state": "walking"
+            }],
+            "instantTransitionStep": "step4Entry",
+            "timeTransition": "9",
+            "interactive": "showModernDigobin",
+            "lesson": "lesson3",
+            "name": "step3Entry",
+            "order": 3
+        },
+        {
+            "active": "digobin",
+            "sound_labels": [
+                "в школу я"
+            ],
+            "text": [
+                "В школу я, к сожалению, не ходил, и теперь осваивать все приходится с самых азов."
+            ],
+            "show": [{
+                "name": "digobin",
+                "state": "speak"
+            }],
+            "instantTransitionStep": "step5Entry",
+            "timeTransition": "6.1",
+            "interactive": "backgroundDefault",
+            "lesson": "lesson4",
+            "name": "step4Entry",
+            "order": 4
+        },
+        {
+            "active": "digobin",
+            "sound_labels": [
+                "часто слышал"
+            ],
+            "text": [
+                "Часто слышал такое выражение: 'Математика - царица всех наук.' И так оно меня зацепило, что решил начать обучение именно с математики."
+            ],
+            "show": [{
+                "name": "digobin",
+                "state": "speak"
+            }],
+            "instantTransitionStep": "step6Entry",
+            "timeTransition": "10.1",
+            "lesson": "lesson4",
+            "name": "step5Entry",
+            "order": 5
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "А помочь мне в этом любезно согласился Сергей Геннадьевич."
+            ],
+            "sound_labels": [
+                "а помочь мне в этом"
+            ],
+            "show": [{
+                "name": "digobin",
+                "state": "speak"
+            }],
+            "interactive": "showSGentry",
+            "lesson": "lesson4",
+            "name": "step6Entry",
+            "instantTransitionStep": "step1",
+            "timeTransition": "5.5",
+            "next": "step1",
+            "order": 6
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Сегодня мы поговорим о комбинаторике."
+            ],
+            "next": "step2",
+            "name": "step1",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step2",
+            "timeTransition": 3.99,
+            "order": 7,
+            "sound_labels": [
+                "сегодня мы поговорим"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Ой! Я такое слово даже выговорить не смогу."
+            ],
+            "next": "step3",
+            "name": "step2",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step3",
+            "timeTransition": 2.99,
+            "order": 8,
+            "sound_labels": [
+                "ой я такое"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Не бойся! Этот важный раздел математики назван от слова «комбинировать». И изучает он, как правило, разные комбинации элементов конечных множеств."
+            ],
+            "next": "step4",
+            "name": "step3",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step4",
+            "timeTransition": 11,
+            "order": 9,
+            "sound_labels": [
+                "не бойся этот важный раздел"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "А можно какой-нибудь пример задачи из комбинаторики?"
+            ],
+            "next": "step5",
+            "name": "step4",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step5",
+            "timeTransition": 4,
+            "order": 10,
+            "slide": "",
+            "sound_labels": [
+                "а можно какой нибудь"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Конечно. Например, сколькими способами можно расставить 6 разных стульев вокруг круглого стола?\nИли, сколько слов можно составить из заданного набора букв?\n"
+            ],
+            "next": "step6",
+            "name": "step5",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step6",
+            "timeTransition": 10.99,
+            "order": 11,
+            "slide": "slides_lesson4/slide1.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "конечно. Например"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Интересные вопросы. И как же отвечать на такие вопросы?"
+            ],
+            "next": "step7",
+            "name": "step6",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step7",
+            "timeTransition": 3.99,
+            "order": 12,
+            "sound_labels": [
+                "интересные вопросы"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Об этом мы сегодня и поговорим. "
+            ],
+            "next": "step8",
+            "name": "step7",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step8",
+            "timeTransition": 1.99,
+            "order": 13,
+            "sound_labels": [
+                "об этом мы сегодня"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Интересно!"
+            ],
+            "next": "step9",
+            "name": "step8",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step9",
+            "timeTransition": 1.99,
+            "order": 14,
+            "sound_labels": [
+                "интересно"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Прежде чем начать решать комбинаторные задачи остановимся на некоторых основных моментах."
+            ],
+            "next": "step10",
+            "name": "step9",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step10",
+            "timeTransition": 5.99,
+            "order": 15,
+            "sound_labels": [
+                "прежде чем решать"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Сначала надо чётко уяснить, что такое способ или вариант, о которых говориться в задаче."
+            ],
+            "next": "step11",
+            "name": "step10",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step11",
+            "timeTransition": 7,
+            "order": 16,
+            "sound_labels": [
+                "сначала надо четко"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Приведём такой пример.\nСколькими способами можно разделить 2 конфеты между двумя мальчиками Вовой и Димой? \n"
+            ],
+            "next": "step12",
+            "name": "step11",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step12",
+            "timeTransition": 15,
+            "order": 17,
+            "slide": "slides_lesson4/slide2.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "приведем такой пример"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Если ты не уточнишь, что значит разделить, справедливым или не обязательно должно быть это разделение, а также не выяснишь одинаковые у нас конфеты или разные, то ответы могут быть самыми различными."
+            ],
+            "next": "step13",
+            "name": "step12",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step13",
+            "timeTransition": 14,
+            "order": 18,
+            "sound_labels": [
+                "Если ты не уточнишь что"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Конечно, справедливым! И конфеты должны быть одинаковыми, иначе, справедливо разделить не получится. "
+            ],
+            "next": "step14",
+            "name": "step13",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step14",
+            "timeTransition": 8,
+            "order": 19,
+            "sound_labels": [
+                "конечно справедливым"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Если конфеты одинаковые, а деление должно быть справедливым, то способ всего один – каждый мальчик должен получить по одной конфете."
+            ],
+            "next": "step15",
+            "name": "step14",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "agree"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step15",
+            "timeTransition": 8,
+            "order": 20,
+            "slide": "slides_lesson4/slide3.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "если конфеты одинаковые"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "В этом случае задача не интересна."
+            ],
+            "next": "step16",
+            "name": "step15",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step16",
+            "timeTransition": 3.5,
+            "order": 21,
+            "sound_labels": [
+                "в этом случае задача"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Конечно. А если конфеты неодинаковые? Например, одна карамелька и одна ириска."
+            ],
+            "next": "step17",
+            "name": "step16",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "confusion"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step17",
+            "timeTransition": 5.99,
+            "order": 22,
+            "slide": "slides_lesson4/slide4.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "конечно а если конфеты не"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Тогда надо кого-то обидеть."
+            ],
+            "next": "step18",
+            "name": "step17",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step18",
+            "timeTransition": 2.99,
+            "order": 23,
+            "sound_labels": [
+                "тогда надо кого-то обидеть"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Да, карамельку можно отдать Диме, а ириску Вове А можно и наоборот, то есть, получаем два способа. \n\n"
+            ],
+            "next": "step19",
+            "name": "step18",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step19",
+            "timeTransition": 5.99,
+            "order": 24,
+            "slide": "slides_lesson4/slide5.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "да карамельку можно отдать"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "А вот если деление вообще не подразумевает какой-либо справедливости, то способов ещё больше – можно обе конфеты отдать Вове или обе конфеты отдать Диме. По крайней мере, уже есть четыре способа."
+            ],
+            "next": "step20",
+            "name": "step19",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson4",
+            "actions": {
+                "Непонятно": "step11",
+                "Понятно": "step20"
+            },
+            "order": 25,
+            "slide": "slides_lesson4/slide6.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "а вот если деление вообще не подразумевает"
+            ],
+            "instantTransitionStep": "step20"
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Понятно."
+            ],
+            "next": "step21",
+            "name": "step20",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step21",
+            "timeTransition": 2.2,
+            "order": 26,
+            "sound_labels": [
+                "понятно"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "В комбинаторике есть несколько правил, которые надо твёрдо усвоить. Одним из них является Правило произведения."
+            ],
+            "next": "step22",
+            "name": "step21",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step24",
+            "timeTransition": 7.1,
+            "order": 27,
+            "sound_labels": [
+                "в комбинаторике есть несколько"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "И в чём же оно состоит?"
+            ],
+            "next": "step23",
+            "name": "step22",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step23",
+            "timeTransition": 1.99,
+            "order": 28,
+            "sound_labels": [
+                "и в чем же оно состоит"
+            ],
+            "slide": "Правило произведения"
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Если вариант состоит из независимых частей  частей и известно количество способов выполнить каждую из частей, то общее число вариантов равно произведению этих количеств."
+            ],
+            "next": "step23.1",
+            "name": "step23",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step23.1",
+            "timeTransition": "14",
+            "order": 29,
+            "sound_labels": [
+                "если вариант состоит из"
+            ],
+            "slide": "Правило произведения\nЕсли вариант состоит из независимых частей, и известно количество способов выполнить каждую из частей, то общее число вариантов равно произведению этих количеств.\n"
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Пока не совсем понятно."
+            ],
+            "next": "step23.2",
+            "name": "step23.1",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step23.2",
+            "timeTransition": "2",
+            "order": 30,
+            "sound_labels": [
+                "пока не совсем понятно"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Рассмотрим такой пример: вариант обеда это набор из первого, второго и третьего блюда . В столовой весит меню, где указанно , что предлагается три первых блюда: борщ, уха и куриный суп, два вторых блюда:каша и пельмени  и четыре третьих: чай, компот, сок и молоко.\nВарианты независимы - то есть выбор одного или другого блюда не зависит от того, что мы уже выбрали. Сколько всего вариантов обеда?"
+            ],
+            "next": "step23.3",
+            "name": "step23.2",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step23.3",
+            "timeTransition": "28",
+            "order": 31,
+            "sound_labels": [
+                "рассмотрим такой пример вариант обеда"
+            ],
+            "interactive": "createImg",
+            "slide": "slides_lesson4/slide35.png"
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "3 умножить на 2 и умножить на 4?"
+            ],
+            "next": "step23.5",
+            "name": "step23.3",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step23.5",
+            "timeTransition": "3",
+            "order": 32,
+            "sound_labels": [
+                "3 *2 *4"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Да. 3 на 2 на 4 – всего 24 способа.\n"
+            ],
+            "next": "step23.7",
+            "name": "step23.5",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step23.7",
+            "timeTransition": "5",
+            "order": 33,
+            "sound_labels": [
+                "да 3 на 2 на 4"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Попробую это объяснить.\nПоставим на листочке точку. От неё будем проводить стрелки, соответствующие выбору, сначала первого блюда, потом второго, затем третьего блюда.\nНа картинке проведены три возможности первого шага. Пройдя от начальной точки по одной стрелке, мы как бы делаем выбор первой части обеда.\n"
+            ],
+            "next": "step23.8",
+            "name": "step23.7",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step23.8",
+            "timeTransition": "34",
+            "order": 34,
+            "sound_labels": [
+                "попробую это объяснить"
+            ],
+            "interactive": "createImg",
+            "slide": "slides_lesson4/slide36.png"
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Теперь проведём возможные вторые шаги. Продолжим первые стрелки, добавив вторые – соответствующие возможным выборам второй части обеда. \nОт каждого конца трёх стрелок будет проведено ещё по две, т.е. новых концов стрелок будет 3 умножить на 2, т.е. 6. Это означает, что выбрать две части обеда можно шестью способами.\n"
+            ],
+            "next": "step23.9",
+            "name": "step23.8",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step23.9",
+            "timeTransition": "25",
+            "order": 35,
+            "sound_labels": [
+                "теперь проведем возможные вторые"
+            ],
+            "interactive": "createImg",
+            "slide": "slides_lesson4/slide34.png"
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Теперь я всегда буду строить дерево вариантов."
+            ],
+            "next": "step23.10",
+            "name": "step23.9",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step23.10",
+            "timeTransition": "3",
+            "order": 36,
+            "sound_labels": [
+                "теперь я всегда буду строить"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Как раз этого теперь делать и не надо. Ведь у нас появилось правило умножения!\nТолько надо твёрдо помнить, что варианты на каждом шаге должны быть независимы.\nЕсли это не так, то применение правила умножения приводит к ошибке.\n"
+            ],
+            "next": "step23.11",
+            "name": "step23.10",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "slide": "Варианты на каждом шаге должны быть независимы.",
+            "lesson": "lesson4",
+            "instantTransitionStep": "step23.11",
+            "timeTransition": "16",
+            "order": 37,
+            "sound_labels": [
+                "как раз этого делать не"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Рассмотрим такой пример. Пусть надо решить предыдущую задачу с маленьким дополнительным условием. А, именно. Нельзя пить молоко, если перед этим ты поел рыбу."
+            ],
+            "next": "step23.12",
+            "name": "step23.11",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step23.12",
+            "timeTransition": "12",
+            "order": 38,
+            "sound_labels": [
+                "рассмотрим такой пример с маленьким"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Я как-то запил молоком жареную щуку. Потом у меня были проблемы."
+            ],
+            "next": "step23.13",
+            "name": "step23.12",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step23.13",
+            "timeTransition": "4",
+            "order": 39,
+            "sound_labels": [
+                "я как то запил молоком"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Так вот. Сколько теперь существует вариантов обеда?"
+            ],
+            "next": "step23.14",
+            "name": "step23.13",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step23.14",
+            "timeTransition": "5",
+            "order": 40,
+            "sound_labels": [
+                "так вот сколько теперь"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Ясно, что меньше, т.к. в случае ухи молоко запрещается."
+            ],
+            "next": "step23.15",
+            "name": "step23.14",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step23.15",
+            "timeTransition": "4",
+            "order": 41,
+            "sound_labels": [
+                "ясно что меньше  тк"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Да, в дереве вариантов некоторые отрезки проводить уже нельзя. Так, из двух вариантов из шести (они в середине картинки) мы можем провести не по 4 отрезка, а только по 3.\nЗначит, всего вариантов будет не 24, а на два меньше, т.е. 22.\n"
+            ],
+            "next": "step23.16",
+            "name": "step23.15",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step23.16",
+            "timeTransition": "19",
+            "order": 42,
+            "sound_labels": [
+                "да, в дереву вариантов"
+            ],
+            "interactive": "createImg",
+            "slide": "slides_lesson4/slide34.png"
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Понятно. А, какое второе правило?"
+            ],
+            "next": "step24",
+            "name": "step23.16",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step24",
+            "timeTransition": "3",
+            "order": 43,
+            "sound_labels": [
+                "понятно,  а какое второе правило"
+            ]
+        },
+
+
+
+        {
+            "active": "professor",
+            "text": [
+                "Второе важное правило комбинаторики называется Правило суммы. \nПростой пример.\nСколько всего слов в словаре русского языка?\n"
+            ],
+            "next": "step28",
+            "name": "step24",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step28",
+            "timeTransition": 15,
+            "order": 48,
+            "sound_labels": [
+                "второе важное правило"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [],
+            "next": "step26",
+            "name": "step25",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step26",
+            "timeTransition": "10",
+            "order": 49
+        },
+
+        {
+            "active": "digobin",
+            "text": [
+                "Я бы просто пересчитал. Правда, долго бы пришлось считать, и ошибиться легко. "
+            ],
+            "next": "step29",
+            "name": "step28",
+            "show": [{
+                    "name": "professor",
+                    "state": "surprice_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step29",
+            "timeTransition": 7.2,
+            "order": 52,
+            "sound_labels": [
+                "я бы просто пересчитал"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Я тебя не буду заставлять считать. Я хочу обратить внимание, что считать можно так: сначала пересчитать слова, начинающиеся на букву А. Их не так много, по сравнению со всем словарём, поэтому это можно сделать и записать результат. Затем – на букву Б, на букву В, и так далее, а потом все получившиеся результаты сложить. В этом и состоит правило суммы. "
+            ],
+            "next": "step30",
+            "name": "step29",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson4",
+            "actions": {
+                "Непонятно": "step29",
+                "Понятно": "step30"
+            },
+            "order": 53,
+            "slide": "slides_lesson4/slide8.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "я тебя не буду заставлять"
+            ],
+            "instantTransitionStep": "step30"
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Так это и ребёнку понятно. Я всегда так делаю. "
+            ],
+            "next": "step31",
+            "name": "step30",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step31",
+            "timeTransition": 4.1,
+            "order": 54,
+            "sound_labels": [
+                "так это и ребенку понятно"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Само правило понятно, но иногда, применяя правило суммы легко ошибиться. \nДавай рассмотрим такой пример: сколькими способами на доску размером три на три можно поставить три ладьи так, чтобы все поля были биты?\n"
+            ],
+            "next": "step32",
+            "name": "step31",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step32",
+            "timeTransition": 22.2,
+            "order": 55,
+            "slide": "slides_lesson4/slide9.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "само правило понятно"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Можно перебрать."
+            ],
+            "next": "step33",
+            "name": "step32",
+            "show": [{
+                    "name": "professor",
+                    "state": "surprice_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step33",
+            "timeTransition": 3,
+            "order": 56,
+            "sound_labels": [
+                "можно перебрать"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Не торопись. Перебирать пришлось бы долго, да и ошибиться при этом легко. Подойдём к этой задаче математически. Все поля будут биты, если выполняется хотя бы одно из двух условий: "
+            ],
+            "next": "step34",
+            "name": "step33",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step34",
+            "timeTransition": 11.99,
+            "order": 57,
+            "slide": "slides_lesson4/slide10.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "не торопись"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Первое: на каждой горизонтали\nстоит по ладье, \nи второе: на каждой вертикали стоит по ладье.\n"
+            ],
+            "next": "step34.1",
+            "name": "step34",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "agree"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step34.1",
+            "timeTransition": 6.99,
+            "order": 58,
+            "slide": "slides_lesson4/slide10.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "первое - на каждой"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Действительно, если на горизонтали нет ладьи и на какой-то вертикали нет ладьи, то клетка, находящаяся на их пересечении, не побита ни по горизонтали, ни по вертикали, и значит нарушены условия задачи.\n"
+            ],
+            "next": "step34.2",
+            "name": "step34.1",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step34.2",
+            "timeTransition": 13.99,
+            "order": 59,
+            "slide": "slides_lesson4/slide11.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "действительно, если"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                ""
+            ],
+            "next": "step35",
+            "name": "step34.2",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "slide": "Сколькими способами можно поставить 3 ладьи на каждую горизонталь?",
+            "lesson": "lesson4",
+            "instantTransitionStep": "step35",
+            "timeTransition": 13.99,
+            "order": 59
+
+
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Я могу это сделать. Для этого можно применить правило произведения.\nНа первую горизонталь – 3 способа, на вторую – тоже 3, и на третью – 3. Значит, всего 3×3×3=27.\n"
+            ],
+            "next": "step36",
+            "name": "step35",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_palm_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step36",
+            "timeTransition": 13.99,
+            "order": 60,
+            "sound_labels": [
+                "я могу это сделать"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Правильно. А сколькими способами можно поставить 3 ладьи на каждую вертикаль?"
+            ],
+            "next": "step37",
+            "name": "step36",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step37",
+            "timeTransition": 14.2,
+            "order": 61,
+            "slide": "slides_lesson4/slide13.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "правильно а сколькими"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Тоже 27."
+            ],
+            "next": "step38",
+            "name": "step37",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step38",
+            "timeTransition": 2.7,
+            "order": 62,
+            "slide": "slides_lesson4/slide14.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "тоже 27"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "А сколько всего?"
+            ],
+            "next": "step39",
+            "name": "step38",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step39",
+            "timeTransition": 6.99,
+            "order": 63,
+            "sound_labels": [
+                "а сколько всего?"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "27+27=54"
+            ],
+            "next": "step40",
+            "name": "step39",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step40",
+            "timeTransition": 4.99,
+            "order": 64,
+            "sound_labels": [
+                "27+27 ="
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "А какой ответ на нашу задачу?"
+            ],
+            "next": "step41",
+            "name": "step40",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step41",
+            "timeTransition": 1.99,
+            "order": 65,
+            "sound_labels": [
+                "а какой ответ на нашу задачу"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "54? Что-то мне подсказывает, что это не так…"
+            ],
+            "next": "step42",
+            "name": "step41",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step42",
+            "timeTransition": 3.99,
+            "order": 66,
+            "slide": "slides_lesson4/slide14.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "54 что то мне подсказывает"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Ты прав. Если мы просто сложим эти варианты, то некоторые из них подсчитаем два раза. Например, вариант с тремя ладьями, стоящими по диагонали. В этом варианте ладьи стоят по одной и в каждой горизонтали, и в каждой вертикали.\nПоэтому, правило суммы здесь не применимо. А что надо сделать, чтобы получить правильный ответ?\n"
+            ],
+            "next": "step43",
+            "name": "step42",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step43",
+            "timeTransition": 22.99,
+            "order": 67,
+            "slide": "slides_lesson4/slide15.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "ты прав если мы просто"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Надо вычесть те варианты, которые мы подсчитали дважды."
+            ],
+            "next": "step44",
+            "name": "step43",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step44",
+            "timeTransition": 4.99,
+            "order": 68,
+            "slide": "slides_lesson4/slide16.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "надо вычесть те варианты"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Да, и этих вариантов всего 6. Это можно подсчитать так. На первой вертикали ладья может стоять на одной из трёх клеток. На второй – на одной из двух (на любой горизонтали, кроме той, что занята первой ладьёй. А на третьей для ладьи осталась всего одна клетка.\n3 умножить на 2 равно 6.  \nОкончательный ответ: 54-6=48.\n"
+            ],
+            "next": "step45",
+            "name": "step44",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson4",
+            "actions": {
+                "Непонятно": "step31",
+                "Понятно": "step45"
+            },
+            "order": 69,
+            "slide": "slides_lesson4/slide17.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "да и этих вариантов 6"
+            ],
+            "instantTransitionStep": "step45"
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Правило суммы можно сформулировать так:\nЕсли все варианты разбиты на группы, и в группах нет общих вариантов, то общее число вариантов равно сумме вариантов во всех группах.\n"
+            ],
+            "next": "step46",
+            "name": "step45",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step46",
+            "timeTransition": 13.99,
+            "order": 70,
+            "slide": "\nЕсли все варианты разбиты на группы, и в группах нет общих вариантов, то общее число вариантов равно сумме вариантов во всех группах.\n",
+            "sound_labels": [
+                "правило суммы можно сформулировать так"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Понятно. Мы ведь это уже делали, когда считали, сколько разных обедов Вовочка может заказать в столовой. Все варианты мы разбили на две группы: когда на первое он заказал уху и когда не заказал уху, а взял что-то другое."
+            ],
+            "next": "step47",
+            "name": "step46",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step47",
+            "timeTransition": 13.99,
+            "order": 71,
+            "sound_labels": [
+                "Понятно. Мы ведь это"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Правильно. Ты верно это отметил.\nА теперь, если ты ещё не устал, порешаем задачи.\n"
+            ],
+            "next": "step48",
+            "name": "step47",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step48",
+            "slide": "",
+            "timeTransition": 6.99,
+            "order": 72,
+            "sound_labels": [
+                "правильно, ты верно это ометил"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Давай скорее решать. Я совсем не устал."
+            ],
+            "next": "step49",
+            "name": "step48",
+            "show": [{
+                    "name": "professor",
+                    "state": "surprice_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step49",
+            "timeTransition": 3.99,
+            "order": 73,
+            "sound_labels": [
+                "давай скорее решать"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Задача 1. Сколько существует четырёхзначных чисел?"
+            ],
+            "next": "step50",
+            "name": "step49",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step50",
+            "timeTransition": 6,
+            "order": 74,
+            "slide": "Сколько существует четырехзначных чисел?",
+            "sound_labels": [
+                "задача 1"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Это простая задача. Я могу их пересчитать: 1000 – раз, 1001 – два, 1002 – три и так далее. "
+            ],
+            "next": "step51",
+            "name": "step50",
+            "show": [{
+                    "name": "professor",
+                    "state": "false_answer_animation_cris_cros"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step51",
+            "timeTransition": 5.99,
+            "order": 75,
+            "sound_labels": [
+                "это простая задача"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Долго тебе придётся считать. Лучше сделать так. \nПредставим четырёхзначное число в виде схемы. На первое место в качестве первой цифры можно поставить любую цифру, кроме нуля. Сколько вариантов?\n"
+            ],
+            "next": "step52",
+            "name": "step51",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step52",
+            "timeTransition": 13.99,
+            "order": 76,
+            "slide": "slides_lesson4/slide20.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "долго тебе придется"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "9"
+            ],
+            "next": "step53",
+            "name": "step52",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step53",
+            "timeTransition": 0.99,
+            "order": 77,
+            "slide": "slides_lesson4/slide21.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "9"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "А на второе  и остальные места?"
+            ],
+            "next": "step54",
+            "name": "step53",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step54",
+            "timeTransition": 2.99,
+            "order": 78,
+            "slide": "",
+            "sound_labels": [
+                "а на второе и остальные"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "По 10."
+            ],
+            "next": "step55",
+            "name": "step54",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step55",
+            "timeTransition": 2.2,
+            "order": 79,
+            "slide": "slides_lesson4/slide22.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "по 10"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "По правилу умножения всего вариантов: 9·10·10·10=9000"
+            ],
+            "next": "step56",
+            "name": "step55",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step56",
+            "timeTransition": 7.99,
+            "order": 80,
+            "sound_labels": [
+                "по правилу"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Задача 2. Сколько существует четырехзначных чисел, у которых нет двух одинаковых цифр?"
+            ],
+            "next": "step57",
+            "name": "step56",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step57",
+            "timeTransition": 14,
+            "order": 81,
+            "slide": "",
+            "sound_labels": [
+                "задача 2"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Давай, я сам попробую решить. Рисуем схему, как в предыдущей задаче. На первое место – 9 вариантов. А, на следующее – постой, чтобы знать, какие цифры можно ставить на следующие места, надо знать, какие цифры мы поставили сначала.   "
+            ],
+            "next": "step58",
+            "name": "step57",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step58",
+            "timeTransition": 16,
+            "order": 82,
+            "slide": "slides_lesson4/slide23.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "давай я сам попробую решить - постой"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Ты правильно это заметил. Чтобы применить правило произведения, нужна независимость вариантов. В нашем случае зависимость есть, но количество вариантов не зависит, от того, какие цифры поставлены вначале. \nНа второе место можно поставить любую цифру, кроме той, что поставлена на первое место. На третье – любую, кроме двух, стоящих ранее, и на четвёртое – любую из семи оставшихся.\n"
+            ],
+            "next": "step59",
+            "name": "step58",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson4",
+            "actions": {
+                "Непонятно": "step56",
+                "Понятно": "step59"
+            },
+            "order": 83,
+            "slide": "slides_lesson4/slide25.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "ты правильно заметил"
+            ],
+            "instantTransitionStep": "step59"
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Сейчас я перемножу эти числа. Уж, калькулятором-то я научился пользоваться."
+            ],
+            "next": "step60",
+            "name": "step59",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step60",
+            "timeTransition": 4.99,
+            "order": 84,
+            "sound_labels": [
+                "сейчас я перемножу эти числа"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Не спеши, иногда в комбинаторике ответ лучше записать, не доводя до окончательного результата. Так даже лучше. Сразу видно, как ты решал задачу."
+            ],
+            "next": "step61",
+            "name": "step60",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "confusion"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step61",
+            "timeTransition": 8.99,
+            "order": 85,
+            "sound_labels": [
+                "не спеши, иногда в"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Клёво!"
+            ],
+            "next": "step62",
+            "name": "step61",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step62",
+            "timeTransition": 1.8,
+            "order": 86,
+            "sound_labels": [
+                "клево"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Задача 3. Сколькими способами на шахматную доску можно поставить 8 ладей так, чтобы никакие ладьи не били друг друга?"
+            ],
+            "next": "step63",
+            "name": "step62",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step63",
+            "order": 87,
+            "slide": "slides_lesson4/slide26.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "задача 3"
+            ],
+            "timeTransition": "14"
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Задача 5. игральный кубик бросают 5 раз, и после каждого броска записывают результат. Сколько пятизначных чисел при этом можно получить?"
+            ],
+            "next": "step64",
+            "name": "step63",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step64",
+            "timeTransition": "13",
+            "order": 88,
+            "slide": "slides_lesson4/slide27.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "задача 5"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Это простая задача. Рисуем схему, соответствующую пяти бросаниям, и в каждую клетку пишем число 6. Ответ: 6 на 6 на 6 на 6 на 6. Можно не считать. Ты меня научил."
+            ],
+            "next": "step65",
+            "name": "step64",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step65",
+            "timeTransition": 13.99,
+            "order": 89,
+            "slide": "slides_lesson4/slide28.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "это простая задача. Рисеуем схему"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "А в таких случаях, чтобы не писать длинный ряд умножений, принято применять степени. Ответ: шесть в пятой степени."
+            ],
+            "next": "step66",
+            "name": "step65",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step66",
+            "timeTransition": "10",
+            "order": 90,
+            "slide": "slides_lesson4/slide30.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "а в таких случаях"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Такое сокращение мне тоже нравится."
+            ],
+            "next": "step67",
+            "name": "step66",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step67",
+            "timeTransition": "5",
+            "order": 91,
+            "sound_labels": [
+                "такое сокращение мне тоже нравиться"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Рассмотрим еще один пример, где тоже используются степени. \nВовочка сидит на трибуне стадиона и следит за игрой Шинник – Барселона. Известно что в этой игре было забита не более 4 голов. После каждого гола Вовочка записывает на бумажке либо букву Ш если забил Шинник и букву Б, если забила Барселона. В результате после игры у него оказалось записано слово из букв Ш и Б."
+            ],
+            "next": "step68",
+            "name": "step67",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step68",
+            "timeTransition": "32",
+            "order": 92,
+            "slide": {
+                "type": "html",
+                "text": "<div> ШШШШ </br>ШБШШ </br> ШШБШ </br>... </br></div>"
+            },
+            "sound_labels": [
+                "рассмотрим еще один приме р Ш Б"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Ну, например, ШШШШ – это значит, что Шинник забил 4 гола. Спрашивается, сколько различных слов может получить Вовочка? "
+            ],
+            "next": "step69",
+            "name": "step68",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step69",
+            "timeTransition": "10",
+            "order": 93,
+            "sound_labels": [
+                "ну напрмер шшш"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Давая я решу.\nПрименяем правило суммы. \nРазбиваем все возможности на следующие: когда в игре забита четыре гола, когда забито 3 гола, когда 2, когда один гол и, когда не забито вообще.\nКаждой буквой может быть Ш или Б – два варианта, по правилу произведения, в первом случае, ответ: 2 x 2 x 2 x 2 = 24. Во втором -  2&<sup>3</sup> В третьем -  2&<sup>2</sup>. В четвётром -  2&<sup>1</sup>. И в последнем, самом неинтересном, всего один вариант – нулевая ничья.\n"
+            ],
+            "next": "step71",
+            "name": "step69",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step71",
+            "timeTransition": 25,
+            "order": 94,
+            "slide": "slides_lesson4/slide32.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "давай я решу"
+            ]
+        },
+
+        {
+            "active": "professor",
+            "text": [
+                "Всё правильно. Я только отмечу, что 1 – это тоже степень двойки – нулевая."
+            ],
+            "next": "step72",
+            "name": "step71",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step72",
+            "timeTransition": 6.99,
+            "order": 96,
+            "slide": "slides_lesson4/slide33.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "все правильно, я только"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [],
+            "next": "step73",
+            "name": "step72",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "greeting"
+                }
+            ],
+            "lesson": "lesson4",
+            "instantTransitionStep": "step73",
+            "timeTransition": "10",
+            "order": 97,
+            "slide": "Конец"
+        }
+    ]
+}

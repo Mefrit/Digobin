@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "module": "amd",
+        "target": "es6",
+        "jsx": "react",
+        "noImplicitAny": false,
+        "noImplicitReturns": false,
+        "removeComments": true,
+        "outDir": "./build",
+        "outFile": "./build/lesson.js",
+    },
+    "include": [ // Секция "include" позволяет скомпилировать все файлы, находящиеся в заданных папках.
+        // Если секция "files" и секция "include" заданы вместе, то будут скомпилированы только файлы, перечисленные в обеих секциях.
+        // Все файлы, на которые есть ссылки во включенных файлах из секции "files" и секции "include", также скомпилируются.
+        "src/js/lib/**/*",
+        "src/js/lesson.tsx",
+        //   // build/index.js lover
+        // "src/js/lib/resize.ts",
+        // "src/js/lib/loader.ts",
+        // "src/js/lib/scene.ts",
+        // "src/js/lib/url.ts",
+        // "src/js/story.tsx",
+        // "src/js/lib/menu",
+        // "src/js/index.tsx"
+    ]
+}

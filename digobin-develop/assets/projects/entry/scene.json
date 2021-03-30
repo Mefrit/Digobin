@@ -1,0 +1,206 @@
+﻿[{
+        "name": "background",
+        "left": 0,
+        "top": 0
+    },
+    {
+        "name": "professor",
+        "left": 0,
+        "top": 0,
+        "children": [{
+                "name": "default",
+                "type": "canvas",
+                "left": 80,
+                "top": 92,
+                "hidden": true,
+                "scale": 0.8,
+                "file": "library/animate/tree.json"
+            },
+
+            {
+                "name": "cris_cros",
+                "left": 0,
+                "top": 10,
+                "hidden": true,
+                "scale": 0.8,
+                "type": "dragon",
+                "file": "library/dragon/cris_cros6_ske.json"
+            },
+            {
+                "name": "yawn",
+                "left": 50,
+                "top": 35,
+                "hidden": true,
+                "scale": 0.8,
+                "type": "dragon",
+                "file": "library/dragon/yawn_v2_ske.json"
+            },
+            {
+                "name": "step_one_hand",
+                "left": 20,
+                "top": -5,
+                "hidden": true,
+                "scale": 0.8,
+                "type": "dragon",
+                "file": "library/dragon/step_one_handv2_ske.json"
+            },
+            {
+                "name": "surprice_face_SG",
+                "left": 47,
+                "top": -3,
+                "hidden": true,
+                "scale": 0.8,
+                "type": "dragon",
+                "file": "library/dragon/surprice_face_SG_ske.json"
+            },
+            {
+                "name": "agree_face_SG",
+                "left": 35,
+                "top": 15,
+                "hidden": true,
+                "scale": 0.8,
+                "type": "dragon",
+                "file": "library/dragon/agree_face_SG_ske.json"
+            },
+            {
+                "name": "false_answer_animation",
+                "left": 60,
+                "top": -8,
+                "hidden": true,
+                "scale": 0.8,
+                "type": "dragon",
+                "file": "library/dragon/false_answer_animation_ske.json"
+            },
+            {
+                "name": "false_answer_animation_cris_cros",
+                "left": 0,
+                "top": 10,
+                "hidden": true,
+                "scale": 0.8,
+                "type": "dragon",
+                "file": "library/dragon/false_answer_a_cris_cros_ske.json"
+            },
+            {
+                "name": "agree_palm_SG",
+                "left": 35,
+                "top": 12,
+                "hidden": true,
+                "scale": 0.8,
+                "type": "dragon",
+                "file": "library/dragon/agree_with_palm_SG_ske.json"
+            },
+            {
+                "name": "none",
+                "left": -85,
+                "top": -15,
+                "hidden": true,
+                "scale": 0.8,
+                "file": "library/animate/none.json"
+            }
+        ]
+    },
+    {
+        "name": "digobin",
+        "left": 0,
+        "top": 0,
+        "children": [{
+                "name": "agree",
+                "left": 760,
+                "top": 80,
+                "hidden": true,
+                "scale": 0.7,
+                "type": "dragon",
+                "file": "library/dragon/agree_digobin_ske.json"
+            },
+            {
+                "name": "speak",
+                "type": "canvas",
+                "left": 710,
+                "top": 20,
+                "hidden": true,
+                "scale": 0.7,
+                "file": "library/speak/tree.json"
+            },
+            {
+                "name": "greeting",
+                "left": 700,
+                "top": 70,
+                "hidden": true,
+                "scale": 0.8,
+                "type": "dragon",
+                "file": "library/dragon/greeting_ske.json"
+            },
+            {
+                "name": "confusion",
+                "left": 705,
+                "top": 50,
+                "hidden": true,
+                "scale": 0.7,
+                "type": "dragon",
+                "file": "library/dragon/confusion_ske.json"
+            },
+            {
+                "name": "default",
+                "left": 790,
+                "top": 160,
+                "hidden": true,
+                "scale": 0.7,
+                "file": "library/data/digobin.json"
+            },
+            {
+                "name": "thinking",
+                "left": 715,
+                "top": 50,
+                "hidden": true,
+                "scale": 0.7,
+                "type": "dragon",
+                "file": "library/dragon/thinking_ske.json"
+            },
+
+            {
+                "name": "village",
+                "left": 215,
+                "top": -10,
+                "hidden": true,
+                "scale": 0.8,
+                "type": "dragon",
+                "file": "library/dragon/last_digobin_ske.json"
+            },
+            {
+                "name": "village_left",
+                "left": -15,
+                "top": -20,
+                "hidden": true,
+                "scale": 0.8,
+                "type": "dragon",
+                "file": "library/dragon/last_digobin_ske.json"
+            },
+            {
+                "name": "modern",
+                "left": 455,
+                "top": 0,
+                "hidden": true,
+                "scale": 0.8,
+                "type": "dragon",
+                "file": "library/dragon/modern_ske.json"
+            },
+            {
+                "name": "walking",
+                "left": -85,
+                "top": -15,
+                "hidden": true,
+                "scale": 0.8,
+                "type": "dragon",
+                "file": "library/dragon/walkingDigobin_ske.json"
+            },
+            {
+                "name": "none",
+                "left": -85,
+                "top": -15,
+                "hidden": true,
+                "scale": 0.8,
+                "file": "library/animate/none.json"
+            }
+        ]
+    }
+]

@@ -1,0 +1,312 @@
+{
+    "frameRate": 24,
+    "isGlobal": 0,
+    "armature": [
+        {
+            "animation": [
+                {
+                    "duration": 10,
+                    "frame": [],
+                    "ik": [],
+                    "bone": [
+                        {
+                            "frame": [
+                                {
+                                    "duration": 10,
+                                    "transform": {}
+                                }
+                            ],
+                            "name": "root"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "duration": 10,
+                                    "transform": {}
+                                }
+                            ],
+                            "name": "2"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "duration": 10,
+                                    "transform": {}
+                                }
+                            ],
+                            "name": "bone"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "duration": 5,
+                                    "transform": {
+                                        "skX": 0.2054,
+                                        "skY": 0.2054
+                                    },
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 5,
+                                    "transform": {
+                                        "skX": 7.8559,
+                                        "skY": 7.8559
+                                    },
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 0,
+                                    "transform": {
+                                        "skX": 0.2054,
+                                        "skY": 0.2054
+                                    }
+                                }
+                            ],
+                            "name": "0"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "duration": 10,
+                                    "transform": {}
+                                }
+                            ],
+                            "name": "3"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "duration": 10,
+                                    "transform": {}
+                                }
+                            ],
+                            "name": "01"
+                        }
+                    ],
+                    "slot": [],
+                    "ffd": [],
+                    "playTimes": 0,
+                    "name": "animtion0"
+                }
+            ],
+            "ik": [],
+            "type": "Armature",
+            "bone": [
+                {
+                    "name": "root",
+                    "transform": {}
+                },
+                {
+                    "length": 160,
+                    "transform": {
+                        "y": -0.65,
+                        "skX": -88.4615,
+                        "skY": -88.4615,
+                        "x": 1.95
+                    },
+                    "parent": "root",
+                    "name": "2"
+                },
+                {
+                    "length": 120,
+                    "transform": {
+                        "y": 1.0335,
+                        "skX": -1.5385,
+                        "skY": -1.5385,
+                        "x": 160.7857
+                    },
+                    "parent": "2",
+                    "name": "bone"
+                },
+                {
+                    "length": 78,
+                    "transform": {
+                        "y": -70.0069,
+                        "skX": -37.7885,
+                        "skY": -37.7885,
+                        "x": 96.1551
+                    },
+                    "parent": "2",
+                    "name": "0"
+                },
+                {
+                    "length": 61,
+                    "transform": {
+                        "skX": 140.7106,
+                        "skY": 140.7106,
+                        "x": 120.35
+                    },
+                    "parent": "bone",
+                    "name": "3"
+                },
+                {
+                    "length": 99,
+                    "transform": {
+                        "y": -0.9675,
+                        "skX": 77.4479,
+                        "skY": 77.4479,
+                        "x": 75.8501
+                    },
+                    "parent": "0",
+                    "name": "01"
+                }
+            ],
+            "aabb": {
+                "width": 275.1174920514404,
+                "y": -385.44397085068306,
+                "height": 711.2168093680114,
+                "x": -141.0727409820611
+            },
+            "slot": [
+                {
+                    "z": 0,
+                    "color": {},
+                    "name": "0",
+                    "parent": "01"
+                },
+                {
+                    "z": 1,
+                    "color": {},
+                    "name": "1",
+                    "parent": "0"
+                },
+                {
+                    "z": 2,
+                    "color": {},
+                    "name": "2",
+                    "parent": "2"
+                },
+                {
+                    "z": 3,
+                    "color": {},
+                    "name": "3",
+                    "parent": "bone"
+                },
+                {
+                    "z": 4,
+                    "color": {},
+                    "name": "4",
+                    "parent": "3"
+                },
+                {
+                    "z": 5,
+                    "color": {},
+                    "name": "5",
+                    "parent": "3"
+                }
+            ],
+            "defaultActions": [
+                {
+                    "gotoAndPlay": "animtion0"
+                }
+            ],
+            "name": "Armature",
+            "frameRate": 24,
+            "skin": [
+                {
+                    "name": "",
+                    "slot": [
+                        {
+                            "display": [
+                                {
+                                    "path": "0",
+                                    "type": "image",
+                                    "name": "0",
+                                    "transform": {
+                                        "y": 13.2543,
+                                        "skX": 53.3903,
+                                        "skY": 53.3903,
+                                        "x": 21.3088
+                                    }
+                                }
+                            ],
+                            "name": "0"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "2",
+                                    "type": "image",
+                                    "name": "2",
+                                    "transform": {
+                                        "y": 4.0519,
+                                        "skX": 88.4615,
+                                        "skY": 88.4615,
+                                        "x": -72.8403
+                                    }
+                                }
+                            ],
+                            "name": "2"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "5",
+                                    "type": "image",
+                                    "name": "5",
+                                    "transform": {
+                                        "y": 25.6995,
+                                        "skX": -50.7106,
+                                        "skY": -50.7106,
+                                        "x": 30.7978
+                                    }
+                                }
+                            ],
+                            "name": "5"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "4",
+                                    "type": "image",
+                                    "name": "4",
+                                    "transform": {
+                                        "y": 13.6948,
+                                        "skX": -50.7106,
+                                        "skY": -50.7106,
+                                        "x": 6.8853
+                                    }
+                                }
+                            ],
+                            "name": "4"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "3",
+                                    "type": "image",
+                                    "name": "3",
+                                    "transform": {
+                                        "y": -0.3698,
+                                        "skX": 88.9571,
+                                        "skY": 88.9571,
+                                        "x": 112.094
+                                    }
+                                }
+                            ],
+                            "name": "3"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "1",
+                                    "type": "image",
+                                    "name": "1",
+                                    "transform": {
+                                        "y": -8.1052,
+                                        "skX": 127.8144,
+                                        "skY": 127.8144,
+                                        "x": 16.282
+                                    }
+                                }
+                            ],
+                            "name": "1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "name": "thinking",
+    "version": "5.0"
+}

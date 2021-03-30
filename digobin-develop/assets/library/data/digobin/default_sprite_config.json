@@ -1,0 +1,67 @@
+[{
+    "name": "3",
+    "width": 66,
+    "height": 99,
+    "x": 0,
+    "y": 0
+}, {
+    "name": "1",
+    "width": 69,
+    "height": 90,
+    "x": 0,
+    "y": 99
+}, {
+    "name": "4",
+    "width": 73,
+    "height": 81,
+    "x": 0,
+    "y": 189
+}, {
+    "name": "5",
+    "width": 75,
+    "height": 84,
+    "x": 0,
+    "y": 270
+}, {
+    "name": "0",
+    "width": 106,
+    "height": 82,
+    "x": 0,
+    "y": 354
+}, {
+    "name": "9",
+    "width": 108,
+    "height": 23,
+    "x": 0,
+    "y": 436
+}, {
+    "name": "Open",
+    "width": 121,
+    "height": 36,
+    "x": 121,
+    "y": 0
+}, {
+    "name": "Close",
+    "width": 121,
+    "height": 36,
+    "x": 121,
+    "y": 36
+}, {
+    "name": "6",
+    "width": 123,
+    "height": 90,
+    "x": 121,
+    "y": 72
+}, {
+    "name": "7",
+    "width": 214,
+    "height": 220,
+    "x": 121,
+    "y": 162
+}, {
+    "name": "2",
+    "width": 232,
+    "height": 473,
+    "x": 353,
+    "y": 0
+}]

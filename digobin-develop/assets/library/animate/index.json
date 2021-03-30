@@ -1,0 +1,193 @@
+[{
+        "name": "body.png",
+        "path": "images/body.png",
+        "id": 1567080864468,
+        "left": 705,
+        "top": 169,
+        "width": 291,
+        "height": 280,
+        "hidden": false
+
+    },
+    {
+        "name": "eyebrows.png",
+        "path": "images/eyebrows.png",
+        "id": 1567080865308,
+        "left": 818,
+        "top": 99,
+        "width": 82,
+        "height": 12,
+        "hidden": false,
+        "zIndex": 3
+
+    },
+    {
+        "name": "left_a1.png",
+        "path": "images/left_a1.png",
+        "id": 1567080866108,
+        "left": 978,
+        "top": 204,
+        "width": 144,
+        "height": 225,
+        "hidden": false
+
+    },
+    {
+        "name": "left_a2.png",
+        "path": "images/left_a2.png",
+        "id": 1567080866565,
+        "left": 941,
+        "top": 348,
+        "width": 186,
+        "height": 115,
+        "hidden": false,
+        "zIndex": 2
+
+    },
+    {
+        "name": "left_palm.png",
+        "path": "images/left_palm.png",
+        "id": 1567080866940,
+        "left": 836,
+        "top": 386,
+        "width": 135,
+        "height": 79,
+        "hidden": false,
+        "zIndex": 1
+
+    },
+    {
+        "name": "right_a1.png",
+        "path": "images/right_a1.png",
+        "id": 1567080868229,
+        "left": 608,
+        "top": 236,
+        "width": 136,
+        "height": 176,
+        "hidden": false
+
+    },
+    {
+        "name": "right_a2.png",
+        "path": "images/right_a2.png",
+        "id": 1567080868732,
+        "left": 599,
+        "top": 345,
+        "width": 211,
+        "height": 125,
+        "hidden": false,
+        "zIndex": 1
+
+    },
+    {
+        "name": "right_palm.png",
+        "path": "images/right_palm.png",
+        "id": 1567080869125,
+        "left": 782,
+        "top": 389,
+        "width": 131,
+        "height": 80,
+        "hidden": false
+
+    },
+    {
+        "name": "AI.png",
+        "path": "images/AI.png",
+        "id": 1567080869135,
+        "left": 784,
+        "top": 29,
+        "width": 159,
+        "height": 190,
+        "hidden": true
+    },
+    {
+        "name": "E.png",
+        "path": "images/E.png",
+        "id": 1567093440292,
+        "left": 784,
+        "top": 29,
+        "width": 159,
+        "height": 190,
+        "hidden": true
+    },
+    {
+        "name": "FV.png",
+        "path": "images/FV.png",
+        "id": 1567093828776,
+        "left": 784,
+        "top": 29,
+        "width": 159,
+        "height": 184,
+        "hidden": true
+    },
+    {
+        "name": "L.png",
+        "path": "images/L.png",
+        "id": 1567094206082,
+        "left": 784,
+        "top": 29,
+        "width": 159,
+        "height": 188,
+        "hidden": true
+    },
+    {
+        "name": "MBP.png",
+        "path": "images/MBP.png",
+        "id": 1567094224547,
+        "left": 784,
+        "top": 29,
+        "width": 159,
+        "height": 184,
+        "hidden": true
+    },
+    {
+        "name": "O.png",
+        "path": "images/O.png",
+        "id": 1567094237650,
+        "left": 784,
+        "top": 29,
+        "width": 159,
+        "height": 192,
+        "hidden": true
+    },
+    {
+        "name": "rest.png",
+        "path": "images/rest.png",
+        "id": 1567094268387,
+        "left": 784,
+        "top": 29,
+        "width": 159,
+        "height": 188,
+        "hidden": true
+    },
+    {
+        "name": "U.png",
+        "path": "images/U.png",
+        "id": 1567094291586,
+        "left": 784,
+        "top": 29,
+        "width": 159,
+        "height": 188,
+        "hidden": true
+    },
+    {
+        "name": "WQ.png",
+        "path": "images/WQ.png",
+        "id": 1567094310121,
+        "left": 784,
+        "top": 29,
+        "width": 159,
+        "height": 191,
+        "hidden": true
+    },
+    {
+        "name": "etc.png",
+        "path": "images/etc.png",
+        "id": 1567159235809,
+        "left": 784,
+        "top": 29,
+        "width": 159,
+        "height": 189,
+        "hidden": false
+    }
+]

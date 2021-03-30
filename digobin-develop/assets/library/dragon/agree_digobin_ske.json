@@ -1,0 +1,546 @@
+{
+    "frameRate": 24,
+    "isGlobal": 0,
+    "armature": [{
+        "bone": [{
+                "name": "root",
+                "transform": {
+                    "y": 15.2
+                }
+            },
+            {
+                "length": 169,
+                "transform": {
+                    "y": -213.2,
+                    "skX": -90,
+                    "skY": -90,
+                    "x": -78.2
+                },
+                "parent": "root",
+                "name": "7"
+            },
+            {
+                "length": 293,
+                "transform": {
+                    "y": -84.55,
+                    "skX": 91.942,
+                    "skY": 91.942,
+                    "x": -87.85
+                },
+                "parent": "root",
+                "name": "2"
+            },
+            {
+                "length": 87,
+                "transform": {
+                    "y": -36.6,
+                    "skX": 89.1773,
+                    "skY": 89.1773,
+                    "x": 66.9
+                },
+                "parent": "7",
+                "name": "8"
+            },
+            {
+                "length": 77,
+                "transform": {
+                    "y": -39.1,
+                    "skX": 87.1729,
+                    "skY": 87.1729,
+                    "x": 99.7
+                },
+                "parent": "7",
+                "name": "9"
+            },
+            {
+                "transform": {
+                    "x": 293.6186
+                },
+                "name": "0",
+                "parent": "2"
+            },
+            {
+                "length": 65,
+                "transform": {
+                    "y": 1.699,
+                    "skX": 57.5525,
+                    "skY": 57.5525,
+                    "x": 0.0576
+                },
+                "parent": "0",
+                "name": "01"
+            }
+        ],
+        "ik": [],
+        "type": "Armature",
+        "frameRate": 24,
+        "aabb": {
+            "width": 265.5,
+            "y": -416.5,
+            "height": 690.9999999999999,
+            "x": -196.5
+        },
+        "skin": [{
+            "slot": [{
+                    "display": [{
+                        "path": "6",
+                        "type": "image",
+                        "name": "6",
+                        "transform": {
+                            "y": -179.5,
+                            "x": -76
+                        }
+                    }],
+                    "name": "6"
+                },
+                {
+                    "display": [{
+                        "path": "7",
+                        "type": "image",
+                        "name": "7",
+                        "transform": {
+                            "y": 0.2,
+                            "skX": 90,
+                            "skY": 90,
+                            "x": 93.3
+                        }
+                    }],
+                    "name": "7"
+                },
+                {
+                    "display": [{
+                        "path": "5",
+                        "type": "image",
+                        "name": "5",
+                        "transform": {
+                            "y": -150.35,
+                            "x": 18.1
+                        }
+                    }],
+                    "name": "5"
+                },
+                {
+                    "display": [{
+                        "path": "3",
+                        "type": "image",
+                        "name": "3",
+                        "transform": {
+                            "y": -89.25,
+                            "x": 23.85
+                        }
+                    }],
+                    "name": "3"
+                },
+                {
+                    "display": [{
+                        "path": "9",
+                        "type": "image",
+                        "name": "9",
+                        "transform": {
+                            "y": 0.3403,
+                            "skX": 2.8271,
+                            "skY": 2.8271,
+                            "x": 39.3311
+                        }
+                    }],
+                    "name": "9"
+                },
+                {
+                    "display": [{
+                        "path": "2",
+                        "type": "image",
+                        "name": "2",
+                        "transform": {
+                            "y": -44.8947,
+                            "skX": -91.942,
+                            "skY": -91.942,
+                            "x": 118.5967
+                        }
+                    }],
+                    "name": "2"
+                },
+                {
+                    "display": [{
+                        "path": "0",
+                        "type": "image",
+                        "name": "0",
+                        "transform": {
+                            "y": -3.6819,
+                            "skX": -149.4945,
+                            "skY": -149.4945,
+                            "x": 42.212
+                        }
+                    }],
+                    "name": "0"
+                },
+                {
+                    "display": [{
+                        "path": "1",
+                        "type": "image",
+                        "name": "1",
+                        "transform": {
+                            "y": -87.5,
+                            "x": -162
+                        }
+                    }],
+                    "name": "1"
+                },
+                {
+                    "display": [{
+                        "path": "4",
+                        "type": "image",
+                        "name": "4",
+                        "transform": {
+                            "y": -150.5,
+                            "x": -159
+                        }
+                    }],
+                    "name": "4"
+                },
+                {
+                    "display": [{
+                        "path": "8",
+                        "type": "image",
+                        "name": "8",
+                        "transform": {
+                            "y": -3.9075,
+                            "skX": 0.8227,
+                            "skY": 0.8227,
+                            "x": 37.81
+                        }
+                    }],
+                    "name": "8"
+                }
+            ],
+            "name": ""
+        }],
+        "animation": [{
+            "playTimes": 0,
+            "bone": [{
+                    "frame": [{
+                        "transform": {},
+                        "duration": 49
+                    }],
+                    "name": "root"
+                },
+                {
+                    "frame": [{
+                            "transform": {},
+                            "duration": 3
+                        },
+                        {
+                            "tweenEasing": 0,
+                            "transform": {
+                                "y": 0.6254
+                            },
+                            "duration": 2
+                        },
+                        {
+                            "tweenEasing": 0,
+                            "transform": {
+                                "y": 2.5015
+                            },
+                            "duration": 3
+                        },
+                        {
+                            "tweenEasing": 0,
+                            "transform": {
+                                "y": 3.9566
+                            },
+                            "duration": 6
+                        },
+                        {
+                            "tweenEasing": 0,
+                            "transform": {
+                                "y": 2.2741
+                            },
+                            "duration": 9
+                        },
+                        {
+                            "transform": {
+                                "y": -3.7523
+                            },
+                            "duration": 26
+                        }
+                    ],
+                    "name": "7"
+                },
+                {
+                    "frame": [{
+                            "transform": {},
+                            "duration": 3
+                        },
+                        {
+                            "tweenEasing": 0,
+                            "transform": {
+                                "x": -1.8761
+                            },
+                            "duration": 2
+                        },
+                        {
+                            "tweenEasing": 0,
+                            "transform": {
+                                "x": -3.7523
+                            },
+                            "duration": 3
+                        },
+                        {
+                            "tweenEasing": 0,
+                            "transform": {
+                                "x": -3.1269
+                            },
+                            "duration": 6
+                        },
+                        {
+                            "tweenEasing": 0,
+                            "transform": {
+                                "x": -2.5015
+                            },
+                            "duration": 4
+                        },
+                        {
+                            "transform": {
+                                "x": 1.8761
+                            },
+                            "duration": 31
+                        }
+                    ],
+                    "name": "9"
+                },
+                {
+                    "frame": [{
+                            "transform": {},
+                            "duration": 3
+                        },
+                        {
+                            "tweenEasing": 0,
+                            "transform": {
+                                "x": -0.6254
+                            },
+                            "duration": 2
+                        },
+                        {
+                            "tweenEasing": 0,
+                            "transform": {
+                                "x": -1.8761
+                            },
+                            "duration": 3
+                        },
+                        {
+                            "tweenEasing": 0,
+                            "transform": {
+                                "x": -2.5015
+                            },
+                            "duration": 6
+                        },
+                        {
+                            "tweenEasing": 0,
+                            "transform": {
+                                "x": -3.1269
+                            },
+                            "duration": 4
+                        },
+                        {
+                            "transform": {
+                                "x": 0.6254
+                            },
+                            "duration": 31
+                        }
+                    ],
+                    "name": "8"
+                },
+                {
+                    "frame": [{
+                        "transform": {},
+                        "duration": 49
+                    }],
+                    "name": "2"
+                },
+                {
+                    "frame": [{
+                        "transform": {},
+                        "duration": 49
+                    }],
+                    "name": "0"
+                },
+                {
+                    "frame": [{
+                            "tweenEasing": 0,
+                            "transform": {},
+                            "duration": 3
+                        },
+                        {
+                            "tweenEasing": 0,
+                            "transform": {
+                                "skX": 5.6862,
+                                "skY": 5.6862
+                            },
+                            "duration": 2
+                        },
+                        {
+                            "tweenEasing": 0,
+                            "transform": {
+                                "skX": 9.691,
+                                "skY": 9.691
+                            },
+                            "duration": 6
+                        },
+                        {
+                            "tweenEasing": 0,
+                            "transform": {
+                                "skX": 4.6968,
+                                "skY": 4.6968
+                            },
+                            "duration": 3
+                        },
+                        {
+                            "tweenEasing": 0,
+                            "transform": {
+                                "skX": -0.1612,
+                                "skY": -0.1612
+                            },
+                            "duration": 4
+                        },
+                        {
+                            "tweenEasing": 0,
+                            "transform": {
+                                "skX": 5.8917,
+                                "skY": 5.8917
+                            },
+                            "duration": 5
+                        },
+                        {
+                            "tweenEasing": 0,
+                            "transform": {
+                                "skX": 6.4306,
+                                "skY": 6.4306
+                            },
+                            "duration": 5
+                        },
+                        {
+                            "tweenEasing": 0,
+                            "transform": {
+                                "skX": 8.7767,
+                                "skY": 8.7767
+                            },
+                            "duration": 4
+                        },
+                        {
+                            "tweenEasing": 0,
+                            "transform": {
+                                "skX": 2.6876,
+                                "skY": 2.6876
+                            },
+                            "duration": 4
+                        },
+                        {
+                            "tweenEasing": 0,
+                            "transform": {
+                                "skX": 10.3752,
+                                "skY": 10.3752
+                            },
+                            "duration": 5
+                        },
+                        {
+                            "tweenEasing": 0,
+                            "transform": {
+                                "skX": 9.5384,
+                                "skY": 9.5384
+                            },
+                            "duration": 3
+                        },
+                        {
+                            "tweenEasing": 0,
+                            "transform": {
+                                "skX": 5.0716,
+                                "skY": 5.0716
+                            },
+                            "duration": 5
+                        },
+                        {
+                            "transform": {
+                                "skX": 2.6876,
+                                "skY": 2.6876
+                            },
+                            "duration": 0
+                        }
+                    ],
+                    "name": "01"
+                }
+            ],
+            "slot": [],
+            "ffd": [],
+            "frame": [],
+            "ik": [],
+            "name": "animtion0",
+            "duration": 49
+        }],
+        "defaultActions": [{
+            "gotoAndPlay": "animtion0"
+        }],
+        "name": "Armature",
+        "slot": [{
+                "z": 0,
+                "name": "0",
+                "parent": "01",
+                "color": {}
+            },
+            {
+                "z": 1,
+                "name": "1",
+                "parent": "root",
+                "color": {}
+            },
+            {
+                "z": 2,
+                "name": "2",
+                "parent": "2",
+                "color": {}
+            },
+            {
+                "z": 3,
+                "name": "3",
+                "parent": "root",
+                "color": {}
+            },
+            {
+                "z": 4,
+                "name": "4",
+                "parent": "root",
+                "color": {}
+            },
+            {
+                "z": 5,
+                "name": "5",
+                "parent": "root",
+                "color": {}
+            },
+            {
+                "z": 6,
+                "name": "6",
+                "parent": "root",
+                "color": {}
+            },
+            {
+                "z": 7,
+                "name": "7",
+                "parent": "7",
+                "color": {}
+            },
+            {
+                "z": 8,
+                "name": "8",
+                "parent": "8",
+                "color": {}
+            },
+            {
+                "z": 9,
+                "name": "9",
+                "parent": "9",
+                "color": {}
+            }
+        ]
+    }],
+    "name": "agree_digobin",
+    "version": "5.0"
+}

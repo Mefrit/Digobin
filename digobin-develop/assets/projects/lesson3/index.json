@@ -1,0 +1,3960 @@
+{
+
+    "steps": [{
+            "active": "digobin",
+            "lesson": "lesson3",
+            "text": [
+                ""
+            ],
+            "actions": {
+                "Начать": "beginEntry"
+            },
+            "show": [{
+                "name": "professor",
+                "state": "none"
+            }],
+            "slide": "./menu/urok3.jpg",
+            "interactive": "createImgIntro",
+            "name": "intro",
+            "order": 1
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Привет! Рад тебя видеть! Меня зовут домовенок, точнее уже цифровенок Нейроська. Давай я все расскажу по порядку."
+            ],
+            "sound_labels": [
+                "привет! рад тебя видеть"
+            ],
+            "slide": "",
+            "show": [{
+                    "name": "digobin",
+                    "state": "none"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "interactive": "showTextBlock",
+            "instantTransitionStep": "step2Entry",
+            "timeTransition": "8",
+            "lesson": "lesson3",
+            "name": "beginEntry",
+            "order": 4,  
+            "actions": {
+                "Пропустить заставку": "step1"
+            }
+        },
+        {
+            "active": "digobin",
+            "sound_labels": [
+                " я родился"
+            ],
+            "text": [
+                "Я родился в старом деревянном доме, там всю жизнь и проработал  домовым. Но недавно мой дом снесли, и на  его месте началась грандиозная стройка. Пришлось переехать в многоэтажку и сменить род деятельности."
+            ],
+            "show": [{
+                "name": "digobin",
+                "state": "village"
+            }],
+            "instantTransitionStep": "step3Entry",
+            "timeTransition": "13.9",
+            "interactive": "backgroundEntry",
+            "lesson": "lesson3",
+            "name": "step2Entry",
+            "order": 5
+        },
+        {
+            "active": "digobin",
+            "sound_labels": [
+                "теперь я цифровенок"
+            ],
+            "text": [
+                "Теперь я цифровенок, живу в просторной современной  квартире. Но как же трудно освоиться в мире  высоких технологий."
+            ],
+            "show": [{
+                "name": "digobin",
+                "state": "walking"
+            }],
+            "instantTransitionStep": "step4Entry",
+            "timeTransition": "9",
+            "interactive": "showModernDigobin",
+            "lesson": "lesson3",
+            "name": "step3Entry",
+            "order": 6
+        },
+        {
+            "active": "digobin",
+            "sound_labels": [
+                "в школу я"
+            ],
+            "text": [
+                "В школу я, к сожалению, не ходил, и теперь осваивать все приходится с самых азов."
+            ],
+            "show": [{
+                "name": "digobin",
+                "state": "speak"
+            }],
+            "instantTransitionStep": "step5Entry",
+            "timeTransition": "6.1",
+            "interactive": "backgroundDefault",
+            "lesson": "lesson3",
+            "name": "step4Entry",
+            "order": 7
+        },
+        {
+            "active": "digobin",
+            "sound_labels": [
+                "часто слышал"
+            ],
+            "text": [
+                "Часто слышал такое выражение: 'Математика - царица всех наук.' И так оно меня зацепило, что решил начать обучение именно с математики."
+            ],
+            "show": [{
+                "name": "digobin",
+                "state": "speak"
+            }],
+            "instantTransitionStep": "step6Entry",
+            "timeTransition": "10.1",
+            "lesson": "lesson3",
+            "name": "step5Entry",
+
+            "order": 8
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "А помочь мне в этом любезно согласился Сергей Геннадьевич."
+            ],
+            "sound_labels": [
+                "а помочь мне в этом"
+            ],
+            "show": [{
+                "name": "digobin",
+                "state": "speak"
+            }],
+            "interactive": "showSGentry",
+            "lesson": "lesson3",
+            "name": "step6Entry",
+            "instantTransitionStep": "step1",
+            "timeTransition": "5.5",
+            "next": "step1",
+            "order": 9
+        },
+        {
+            "active": "professor",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "Сегодня я расскажу тебе о множествах."
+            ],
+            "slide": "",
+            "next": "step1.1",
+            "interactive": "showTextBlock",
+            "instantTransitionStep": "step1.1",
+            "timeTransition": "3",
+            "sound_labels": [
+                "раскажу о множествах"
+            ],
+            "name": "step1",
+            "order": 11
+        },
+        {
+            "active": "professor",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "Ты слышал, например, такую фразу: "
+            ],
+            "next": "step1.2",
+            "instantTransitionStep": "step1.2",
+            "timeTransition": "3",
+            "sound_labels": [
+                "слышал фразу"
+            ],
+            "name": "step1.1",
+            "order": 12
+        },
+        {
+            "active": "professor",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "Множество – это важное понятие математики, оно лежит в основе почти всех её разделов."
+            ],
+            "next": "step2.1",
+            "instantTransitionStep": "step2.1",
+            "timeTransition": "8",
+            "slide": "",
+            "sound_labels": [
+                "важное понятие"
+            ],
+            "name": "step1.2",
+            "order": 13
+        },
+        {
+            "active": "professor",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "На стадионе присутствовало множество болельщиков или у соседей в квартире множество тараканов."
+            ],
+            "slide": "slides_lesson3/slide3.1.png",
+            "interactive": "createImg",
+            "next": "step2.1",
+            "instantTransitionStep": "step2.1",
+            "timeTransition": "7.5",
+            "sound_labels": [
+                "множество болельщиков"
+            ],
+            "name": "step1.2",
+            "order": 14
+        },
+        {
+            "active": "professor",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "text": [
+                "Как ты думаешь, что эти фразы означают?"
+            ],
+            "instantTransitionStep": "step2.2",
+            "timeTransition": "14.5",
+            "next": "step2.2",
+            "sound_labels": [
+                "как ты думаешь?"
+            ],
+            "name": "step2.1",
+            "order": 15
+        },
+        {
+            "active": "digobin",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "Понятно. На стадион пришло много людей. И про тараканов смысл такой же."
+            ],
+            "next": "step3",
+            "instantTransitionStep": "step3",
+            "timeTransition": "7",
+            "sound_labels": [
+                "понятно на стадион пришло"
+            ],
+            "name": "step2.2",
+            "order": 16
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Да, в русском языке под словом множество часто понимают просто слово много."
+            ],
+            "next": "step3.1",
+            "name": "step3",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step3.1",
+            "timeTransition": "6.2",
+            "sound_labels": [
+                "в русском языке"
+            ],
+            "order": 17
+        },
+        {
+            "active": "professor",
+            "text": [
+                "В математике слово множество имеет несколько другой смысл."
+            ],
+            "name": "step3.1",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "next": "step4",
+            "instantTransitionStep": "step4",
+            "timeTransition": "4",
+            "sound_labels": [
+                "в математике"
+            ],
+            "order": 18
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Под словом множество в математике понимают некоторые набор или группу предметов, объектов, объединённых каким-то общим свойством."
+            ],
+            "name": "step4",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "slide": "Под словом множество в математике понимают некоторые набор или группу предметов, объектов, объединённых каким-то общим свойством.",
+            "next": "step4.1",
+            "instantTransitionStep": "step4.1",
+            "timeTransition": "9.1",
+            "sound_labels": [
+                "группа обьектов"
+            ],
+            "order": 19
+        },
+        {
+            "active": "professor",
+            "text": [
+                "И это свойство должно однозначно определять все элементы. Если мы просто скажем: рассмотрим множество болельщиков, присутствовавших на стадионе, то множество мы не определим. "
+            ],
+            "name": "step4.1",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "next": "step4.2",
+            "instantTransitionStep": "step4.2",
+            "timeTransition": "12",
+            "sound_labels": [
+                "и это свойство"
+            ],
+            "order": 110
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Требуется уточнение: а, когда именно они присутствовали, иначе один и тот же болельщик может когда-то входить в это множество, а когда-то в другой момент не входить."
+            ],
+            "name": "step4.2",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "next": "step4.3",
+            "instantTransitionStep": "step4.3",
+            "timeTransition": "11",
+            "sound_labels": [
+                "трубуется уточнение"
+            ],
+            "order": 111
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Поэтому в математике требуется чтобы свойство, определяющее принадлежность тех или иных элементов тому или иному  множества, было чётко определено."
+            ],
+            "name": "step4.3",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "next": "step5",
+            "instantTransitionStep": "step5",
+            "timeTransition": "10",
+            "sound_labels": [
+                "поэтому в математике"
+            ],
+            "order": 112
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Например, если я скажу, «множество болельщиков которые присутствовали на таком-то матче такого-то числа, то это вполне определенное множество. "
+            ],
+            "name": "step5",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "slide": "slides_lesson3/slide3.3.png",
+            "interactive": "createImg",
+            "next": "step5.1",
+            "instantTransitionStep": "step5.1",
+            "timeTransition": "10.1",
+            "sound_labels": [
+                "например скажу"
+            ],
+            "order": 113
+        },
+        {
+            "active": "professor",
+            "text": [
+                "О каждом человеке можно однозначно сказать, был он на стадионе во время этой игры или нет."
+            ],
+            "name": "step5.1",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "next": "step6",
+            "instantTransitionStep": "step6",
+            "timeTransition": "6.3",
+            "sound_labels": [
+                "о каждом"
+            ],
+            "order": 114
+        },
+        {
+            "active": "digobin",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "Понятно. Я тоже хотел бы попасть на эту игру, т.е. быть элементом этого множества."
+            ],
+            "next": "step7",
+            "instantTransitionStep": "step7",
+            "timeTransition": "6",
+            "sound_labels": [
+                "понятно я тоже хотел"
+            ],
+            "name": "step6",
+            "order": 115,
+            "slide": "slides_lesson3/slide3.3.png",
+            "interactive": "createImg"
+        },
+        {
+            "active": "professor",
+            "text": [
+                "В множестве может быть разное количество элементов. "
+            ],
+            "name": "step7",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "slide": "",
+            "lesson": "lesson3",
+            "next": "step7.1",
+            "instantTransitionStep": "step7.1",
+            "timeTransition": "3.8",
+            "sound_labels": [
+                "в множестве может быть"
+            ],
+            "order": 116
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Например, множество натуральных чисел. Сюда входят все натуральные числа, а их бесконечно много: 1,2, 3… до бесконечности"
+            ],
+            "name": "step7.1",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson3",
+            "next": "step8",
+            "instantTransitionStep": "step8",
+            "timeTransition": "10",
+            "sound_labels": [
+                "например множество натуральных чисел"
+            ],
+            "order": 117
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Некоторыми свойствами могут обладать только немного элементов, например, множество цифр."
+            ],
+            "name": "step8",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "next": "step8.1",
+            "instantTransitionStep": "step8.1",
+            "timeTransition": "6.5",
+            "sound_labels": [
+                "некоторыми свойствами могут обладать"
+            ],
+            "order": 118
+        },
+        {
+            "active": "professor",
+            "text": [
+                " Перечисли элементы этого множества."
+            ],
+            "name": "step8.1",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step9",
+            "timeTransition": "3",
+            "next": "step9",
+            "sound_labels": [
+                "перечисли элементы"
+            ],
+            "order": 119
+        },
+        {
+            "active": "digobin",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "Легко: 1, 2, 3, 4, 5, 6, 7, 8, 9"
+            ],
+            "interactive": "showAfterTimeConsistently",
+            "timeout": {
+                "total": "0.8",
+                "interval": "0.26"
+            },
+            "slide": {
+                "type": "html",
+                "text": "<div ><div style='float:left'  class='hideContent'>  1 , </div><div  style='float:left' class='hideContent'>  2 , </div><div  style='float:left' class='hideContent'>3 ,</div><div  class='hideContent' style='float:left'> 4 ,</div><div  class='hideContent' style='float:left'> 5 ,</div><div  style='float:left' class='hideContent'> 6 ,</div><div  style='float:left' class='hideContent'> 7 ,</div><div style='float:left'  class='hideContent'>8 ,</div><div  style='float:left' class='hideContent'> 9 </div></div>"
+            },
+            "next": "step10",
+            "instantTransitionStep": "step10",
+            "timeTransition": "9.5",
+            "sound_labels": [
+                "легко 1 2 3"
+            ],
+            "name": "step9",
+            "order": 120
+        },
+        {
+            "active": "professor",
+            "text": [
+                "А какую цифру ты забыл? "
+            ],
+            "next": "step11",
+            "instantTransitionStep": "step11",
+            "timeTransition": "3.5",
+            "name": "step10",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson3",
+            "sound_labels": [
+                "а какую цифру"
+            ],
+            "order": 121
+        },
+        {
+            "active": "professor",
+            "text": [
+                "А, вы ребята, помогайте Цифровёнку."
+            ],
+            "name": "step10.1",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson3",
+            "next": "step11",
+            "sound_labels": [
+                "а вы ребята"
+            ],
+            "order": 122,
+            "instantTransitionStep": "step11"
+        },
+        {
+            "active": "digobin",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "А-а, ноль"
+            ],
+            "interactive": "showAfterTime",
+            "timeout": "1",
+            "slide": {
+                "type": "html",
+                "text": "<span style='float:left;margin-left:0px;font-size:36.5px'><div style='float:left;margin-right:2px;font-size:36.5px' class='hideContent'>0 ,</div>1 ,2 ,3 ,4 ,5 ,6 ,7 ,8 ,9 <span>"
+            },
+            "next": "step12",
+            "instantTransitionStep": "step12",
+            "timeTransition": "4",
+            "sound_labels": [
+                "а ноль"
+            ],
+            "name": "step11",
+            "order": 123
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Я могу ещё назвать какие-то свойства элементов множеств, которыми вообще никто не обладает."
+            ],
+            "next": "step12.1",
+            "name": "step12",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "slide": "slides_lesson3/slide3.5.png",
+            "instantTransitionStep": "step12.1",
+            "timeTransition": "6.5",
+            "interactive": "createImg",
+            "sound_labels": [
+                "я могу еще назвать"
+            ],
+            "order": 124
+        },
+        {
+            "active": "professor",
+            "text": [
+                "В таком случае в множестве не будет содержаться ни одного элемента. "
+            ],
+            "next": "step12.2",
+            "name": "step12.1",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "slide": "slides_lesson3/slide3.5.png",
+            "instantTransitionStep": "step12.2",
+            "timeTransition": "4.8",
+            "interactive": "createImg",
+            "sound_labels": [
+                "в таком случае"
+            ],
+            "order": 125
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Такие множества называются пустыми и их принято обозначать перечёркнутым кружочком."
+            ],
+            "next": "step12.3",
+            "name": "step12.2",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "slide": "slides_lesson3/slide3.5.png",
+            "instantTransitionStep": "step12.3",
+            "timeTransition": "6.7",
+            "interactive": "createImg",
+            "sound_labels": [
+                "такие множетсва называются"
+            ],
+            "order": 126
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Приведи пример пустого множества."
+            ],
+            "name": "step12.3",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson3",
+            "slide": "slides_lesson3/slide3.5.png",
+            "interactive": "createImg",
+            "instantTransitionStep": "step13",
+            "timeTransition": "5",
+            "next": "step13",
+            "sound_labels": [
+                "приведи пример"
+            ],
+            "order": 127
+        },
+        {
+            "active": "digobin",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "surprice_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "Множество белых ворон"
+            ],
+            "next": "step14",
+            "slide": "",
+            "instantTransitionStep": "step14",
+            "timeTransition": "3",
+            "sound_labels": [
+                "множество белых ворон"
+            ],
+            "name": "step13",
+            "order": 128
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Неверно. "
+            ],
+            "next": "step14.0",
+            "name": "step14",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step14.0",
+            "timeTransition": "1.5",
+            "sound_labels": [
+                "неверно"
+            ],
+            "order": 129
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Ты не видел ни одной белой вороны, но учёные утверждают, что они есть."
+            ],
+            "next": "step14.1",
+            "name": "step14.0",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "confusion"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step14.1",
+            "timeTransition": "5",
+            "sound_labels": [
+                "ты не видел ни одной"
+            ],
+            "order": 130
+        },
+        {
+            "active": "professor",
+            "text": [
+                "А вот множество красных крокодилов – действительно пустое."
+            ],
+            "next": "step14.2",
+            "name": "step14.1",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step14.2",
+            "timeTransition": "4.5",
+            "sound_labels": [
+                "множетство красных крокодилов"
+            ],
+            "order": 131
+        },
+        {
+            "active": "professor",
+            "text": [
+                "А сколько элементов в множестве Цифровят?"
+            ],
+            "name": "step14.2",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step15",
+            "timeTransition": "5",
+            "next": "step15",
+            "sound_labels": [
+                "а сколько элементов в множестве"
+            ],
+            "order": 132
+        },
+        {
+            "active": "digobin",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "Один. Это Я!"
+            ],
+            "next": "step16",
+            "instantTransitionStep": "step16",
+            "timeTransition": "3",
+            "sound_labels": [
+                "один это я"
+            ],
+            "name": "step15",
+            "order": 133
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Чтобы указать что какой-то элемент входит в множество используется специальный символ."
+            ],
+            "next": "step16.1",
+            "name": "step16",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "slide": "slides_lesson3/slide3.6.png",
+            "instantTransitionStep": "step16.1",
+            "timeTransition": "6.5",
+            "interactive": "createImg",
+            "sound_labels": [
+                "чтобы указать"
+            ],
+            "order": 134
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Ты сейчас видишь его на экране. "
+            ],
+            "next": "step16.1.1",
+            "name": "step16.1",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "slide": "slides_lesson3/slide3.6.png",
+            "instantTransitionStep": "step16.1.1",
+            "timeTransition": "3",
+            "interactive": "createImg",
+            "sound_labels": [
+                "ты сейчас видишь его на экране"
+            ],
+            "order": 135
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Он немножко похож на символ Евро и говорит о том, что элемент а входят в множество B"
+            ],
+            "name": "step16.1.1",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "slide": "slides_lesson3/slide3.6.png",
+            "next": "step16.2",
+            "instantTransitionStep": "step16.2",
+            "timeTransition": "6",
+            "interactive": "createImg",
+            "sound_labels": [
+                "он немного похож"
+            ],
+            "order": 136
+        },
+        {
+            "active": "professor",
+            "text": [
+                "А вот, если элемент b не входит в множество, этот символ перечеркивают."
+            ],
+            "next": "step16.3",
+            "name": "step16.2",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "slide": "slides_lesson3/slide3.7.png",
+            "instantTransitionStep": "step16.3",
+            "timeTransition": "6.5",
+            "interactive": "createImg",
+            "sound_labels": [
+                "а вот если"
+            ],
+            "order": 137
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Для перечисления элементов часто используют фигурные скобки."
+            ],
+            "next": "step16.4",
+            "name": "step16.3",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "slide": "М={Дни недели}={понедельник, вторникбсреда, четверг, пятница, суббота, воскресение} ",
+            "instantTransitionStep": "step16.4",
+            "timeTransition": "5.9",
+            "sound_labels": [
+                "для перечесления элементов"
+            ],
+            "order": 138
+        },
+        {
+            "active": "professor",
+            "text": [
+                "А вот, является ли крокодил днём недели?"
+            ],
+            "name": "step16.4",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson3",
+            "next": "step17",
+            "instantTransitionStep": "step17",
+            "timeTransition": "5",
+            "slide": "А вот, является ли крокодил днём недели?",
+            "sound_labels": [
+                "а вот является"
+            ],
+            "order": 139
+        },
+        {
+            "active": "digobin",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "Конечно, нет."
+            ],
+            "next": "step18",
+            "instantTransitionStep": "step18",
+            "timeTransition": "2",
+            "sound_labels": [
+                "конечно нет"
+            ],
+            "name": "step17",
+            "order": 140,
+            "slide": "Крокодил  ∉ В"
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Правильно."
+            ],
+            "name": "step18",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "agree"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step18.1",
+            "timeTransition": "2.3",
+            "sound_labels": [
+                "правильно"
+            ],
+            "next": "step18.1",
+            "order": 141
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Давай приведем другие примеры множеств, а заодно и посмотрим систему обозначений, которые приняты в теории множеств."
+            ],
+            "next": "step18.2",
+            "name": "step18.1",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "slide": "",
+            "lesson": "lesson3",
+            "instantTransitionStep": "step18.2",
+            "timeTransition": "7.3",
+            "sound_labels": [
+                "давай приведем другие примеры"
+            ],
+            "order": 142
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Множество четных натуральных чисел. Оно содержит бесконечное количество элементов. "
+            ],
+            "next": "step18.3",
+            "name": "step18.2",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step18.3",
+            "timeTransition": "7",
+            "sound_labels": [
+                "множество четных натуральных"
+            ],
+            "order": 143
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Ты, наверное, их знаешь."
+            ],
+            "name": "step18.3",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "agree"
+                }
+            ],
+            "lesson": "lesson3",
+            "next": "step19",
+            "instantTransitionStep": "step19",
+            "timeTransition": "2.5",
+            "sound_labels": [
+                "ты наверное их знаешь"
+            ],
+            "order": 144
+        },
+        {
+            "active": "digobin",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "Конечно. 2, 4, 6, …"
+            ],
+            "next": "step59",
+            "instantTransitionStep": "step59",
+            "timeTransition": "4",
+            "sound_labels": [
+                "конечно 2 4 6"
+            ],
+            "name": "step19",
+            "order": 145
+        },
+        {
+            "active": "digobin",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "Ой, как сложно!"
+            ],
+            "next": "step43",
+            "instantTransitionStep": "step43",
+            "timeTransition": "2",
+            "sound_labels": [
+                "ой как сложно"
+            ],
+            "name": "step20",
+            "order": 146
+        },
+        {
+            "active": "digobin",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "Что-то я не припомню такой группы."
+            ],
+            "next": "step46",
+            "instantTransitionStep": "step46",
+            "timeTransition": "3",
+            "sound_labels": [
+                "что то я не припомню"
+            ],
+            "name": "step21",
+            "order": 147
+        },
+        {
+            "active": "digobin",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "Как же так? Чётные – это те, что на 2 делятся."
+            ],
+            "next": "step47",
+            "instantTransitionStep": "step47",
+            "timeTransition": "4",
+            "sound_labels": [
+                "как же так"
+            ],
+            "name": "step22",
+            "order": 148
+        },
+        {
+            "active": "digobin",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "Я видел несколько иероглифов на бирке от футболки."
+            ],
+            "next": "step49",
+            "instantTransitionStep": "step49",
+            "timeTransition": "4",
+            "sound_labels": [
+                "я видел несколько"
+            ],
+            "name": "step23",
+            "order": 149
+        },
+        {
+            "active": "digobin",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "Пушкин не писал симфоний."
+            ],
+            "next": "step51",
+            "instantTransitionStep": "step51",
+            "timeTransition": "3",
+            "sound_labels": [
+                "пушкин не писал"
+            ],
+            "name": "step24",
+            "order": 150
+        },
+        {
+            "active": "digobin",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "Я знаю несколько геометрических фигур, но, наверное, не все."
+            ],
+            "next": "step53",
+            "instantTransitionStep": "step53",
+            "timeTransition": "4",
+            "sound_labels": [
+                "я знаю несколько"
+            ],
+            "name": "step25",
+            "order": 151
+        },
+        {
+            "active": "digobin",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "О, я знаю очень высокого дядю Стёпу из дома восемь дробь один."
+            ],
+            "interactive": "createImg",
+            "slide": "slides_lesson3/slide3.16.png",
+            "next": "step55",
+            "instantTransitionStep": "step55",
+            "timeTransition": "5",
+            "sound_labels": [
+                "о я знаю очень"
+            ],
+            "name": "step26",
+            "order": 152
+        },
+        {
+            "active": "digobin",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "surprice_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "text": [
+                "Круг"
+            ],
+            "next": "step57",
+            "instantTransitionStep": "step57",
+            "timeTransition": "2.4",
+            "sound_labels": [
+                "круг"
+            ],
+            "name": "step27",
+            "order": 153
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Понятно, что все числа выписать невозможно, но математики применяют для этого специальные приёмы."
+            ],
+            "slide": "slides_lesson3/slide3.11.png",
+            "interactive": "createImg",
+            "next": "step42.1",
+            "name": "step42",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step42.1",
+            "timeTransition": "7",
+            "sound_labels": [
+                "понятно что все числа"
+            ],
+            "order": 154
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Посмотри на слайд. Он означает, что мы рассматриваем те натуральные числа, которые делятся на 2."
+            ],
+            "name": "step42.1",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "slide": "Чётные натуральные числа: {2, 4, 6, 8, 10 …}",
+            "lesson": "lesson3",
+            "next": "step20",
+            "instantTransitionStep": "step20",
+            "timeTransition": "7",
+            "sound_labels": [
+                "посмотри на слайд"
+            ],
+            "order": 155
+        },
+        {
+            "active": "professor",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "Пока этого можно не запоминать."
+            ],
+            "interactive": "cleanSlide",
+            "next": "step44",
+            "name": "step43",
+            "instantTransitionStep": "step44",
+            "timeTransition": "3",
+            "sound_labels": [
+                "пока этого можно не"
+            ],
+            "order": 156
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Сейчас я дам несколько заданий, на которые надо ответить."
+            ],
+            "next": "step44.1",
+            "name": "step44",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "slide": "",
+            "lesson": "lesson3",
+            "instantTransitionStep": "step44.1",
+            "timeTransition": "4.4",
+            "sound_labels": [
+                "сейчас я дам несколько заданий"
+            ],
+            "order": 157
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Во-первых, надо ответить, является ли множеством то, о чём я говорю."
+            ],
+            "next": "step44.2",
+            "name": "step44.1",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step44.2",
+            "timeTransition": "5",
+            "sound_labels": [
+                "во первых надо"
+            ],
+            "order": 158
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Во-вторых, сколько элементов в этом множестве."
+            ],
+            "next": "step44.3",
+            "name": "step44.2",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step44.3",
+            "timeTransition": "3",
+            "sound_labels": [
+                "во вторых"
+            ],
+            "order": 159
+        },
+        {
+            "active": "professor",
+            "text": [
+                "И в-третьих, надо привести пример или несколько примеров элементов этих множеств."
+            ],
+            "next": "step44.4",
+            "name": "step44.3",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step44.4",
+            "timeTransition": "6",
+            "sound_labels": [
+                "надо привести пример"
+            ],
+            "order": 160
+        },
+        {
+            "active": "professor",
+            "text": [
+                "А вы, ребята помогайте Цифровёнку. Нажимайте кнопки."
+            ],
+            "name": "step44.4",
+            "next": "step45",
+            "instantTransitionStep": "step45",
+            "timeTransition": "5",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "sound_labels": [
+                "а вы ребята помогайте"
+            ],
+            "order": 161
+        },
+        {
+            "active": "professor",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "text": [
+                "Итак. Множество музыкантов группы Beatles."
+            ],
+            "slide": "slides_lesson3/slide3.12.png",
+            "interactive": "createImg",
+            "actions": {
+                "Это множество": "step45.1",
+                "Это не множество": {
+                    "nextStep": "step45",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                }
+            },
+            "name": "step45",
+            "sound_labels": [
+                "множество музыкантов группы"
+            ],
+            "order": 162
+        },
+        {
+            "active": "professor",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "text": [
+                ""
+            ],
+            "slide": "Сколько элементов в этом множестве?",
+            "actions": {
+                "0": {
+                    "nextStep": "step45.1",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                },
+                "1": {
+                    "nextStep": "step45.1",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                },
+                "2": {
+                    "nextStep": "step45.1",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                },
+                "3": {
+                    "nextStep": "step45.1",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                },
+                "4": "step46",
+                "Очень много": {
+                    "nextStep": "step45.1",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                }
+            },
+            "name": "step45.1",
+            "order": 162
+        },
+        {
+            "active": "professor",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "agree"
+                }
+            ],
+            "text": [
+                "Это очень знаменитая в своё время рок-группа из Ливерпуля."
+            ],
+            "slide": "slides_lesson3/slide3.12.png",
+            "interactive": "createImg",
+            "next": "step46.1",
+            "name": "step46",
+            "instantTransitionStep": "step46.1",
+            "timeTransition": "4",
+            "sound_labels": [
+                "очень знаменитая группа"
+            ],
+            "order": 163
+        },
+        {
+            "active": "professor",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "В неё входило четыре музыканта: Джон Леннон, Пол Маккарти, Ринго Старр и Джордж Харрисон."
+            ],
+            "next": "step46.2",
+            "name": "step46.1",
+            "instantTransitionStep": "step46.2",
+            "timeTransition": "6",
+            "sound_labels": [
+                "в нее входило"
+            ],
+            "order": 164
+        },
+        {
+            "active": "professor",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "Следующий пример: множество чётных чисел, которые не делятся на два."
+            ],
+            "slide": "",
+            "actions": {
+                "Это множество": "step46.3",
+                "Это не множество": {
+                    "nextStep": "step46.2",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                }
+            },
+            "name": "step46.2",
+            "sound_labels": [
+                "следующий пример"
+            ],
+            "order": 165
+        },
+        {
+            "active": "professor",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "text": [
+                ""
+            ],
+            "slide": "Сколько элементов в этом множестве?",
+            "actions": {
+                "0": "step22",
+                "1": {
+                    "nextStep": "step46.3",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                },
+                "2": {
+                    "nextStep": "step46.3",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                },
+                "3": {
+                    "nextStep": "step46.3",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                },
+                "4": {
+                    "nextStep": "step46.3",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                },
+                "Очень много": {
+                    "nextStep": "step46.3",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                }
+            },
+            "name": "step46.3",
+            "order": 162
+        },
+        {
+            "active": "professor",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "agree"
+                }
+            ],
+            "text": [
+                "Правильно, поэтому я дал пример множества без элементов, т.е. пустое множество."
+            ],
+            "interactive": "createImg",
+            "slide": "slides_lesson3/slide3.13.png",
+            "next": "step48",
+            "name": "step47",
+            "instantTransitionStep": "step48",
+            "timeTransition": "6",
+            "sound_labels": [
+                "правильно поэтому я дал"
+            ],
+            "order": 166
+        },
+        {
+            "active": "professor",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "Множество китайских иероглифов"
+            ],
+            "interactive": "createImg",
+            "slide": "slides_lesson3/slide3.14.png",
+            "actions": {
+                "Это множество": "step48.1",
+                "Это не множество": {
+                    "nextStep": "step48",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                }
+            },
+            "name": "step48",
+            "sound_labels": [
+                "множество китайских"
+            ],
+            "order": 167
+        },
+        {
+            "active": "professor",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "text": [
+                ""
+            ],
+            "slide": "Сколько элементов в этом множестве?",
+            "actions": {
+                "0": {
+                    "nextStep": "step48.13",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                },
+                "1": {
+                    "nextStep": "step48.13",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                },
+                "2": {
+                    "nextStep": "step48.1",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                },
+                "3": {
+                    "nextStep": "step48.1",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                },
+                "4": {
+                    "nextStep": "step48.1",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                },
+                "Очень много": "step23"
+            },
+            "name": "step48.1",
+            "order": 162
+        },
+        {
+            "active": "professor",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "agree"
+                }
+            ],
+            "text": [
+                "В этом множестве несколько тысяч элементов."
+            ],
+            "next": "step50",
+            "name": "step49",
+            "instantTransitionStep": "step50",
+            "timeTransition": "3",
+            "sound_labels": [
+                "в этом множестве"
+            ],
+            "order": 168
+        },
+        {
+            "active": "professor",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "Множество симфоний, которые написал Пушкин."
+            ],
+            "slide": "",
+            "actions": {
+                "Это множество": "step50.1",
+                "Это не множество": {
+                    "nextStep": "step50",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                }
+            },
+            "name": "step50",
+            "sound_labels": [
+                "множество симфоний"
+            ],
+            "order": 169
+        },
+        {
+            "active": "professor",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "text": [
+                ""
+            ],
+            "slide": "Сколько элементов в этом множестве?",
+            "actions": {
+                "0": "step24",
+                "1": {
+                    "nextStep": "step50.13",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                },
+                "2": {
+                    "nextStep": "step50.1",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                },
+                "3": {
+                    "nextStep": "step50.1",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                },
+                "4": {
+                    "nextStep": "step50.1",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                },
+                "Очень много": {
+                    "nextStep": "step50.13",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                }
+            },
+            "name": "step50.1",
+            "order": 162
+        },
+        {
+            "active": "professor",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "agree"
+                }
+            ],
+            "text": [
+                "Поэтому это множество пустое."
+            ],
+            "interactive": "createImg",
+            "slide": "slides_lesson3/slide3.13.png",
+            "next": "step52",
+            "name": "step51",
+            "instantTransitionStep": "step52",
+            "timeTransition": "3",
+            "sound_labels": [
+                "поэтому это множество"
+            ],
+            "order": 170
+        },
+        {
+            "active": "professor",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "Множество геометрических фигур."
+            ],
+            "interactive": "createImg",
+            "slide": "slides_lesson3/slide3.15.png",
+            "actions": {
+                "Это множество": "step52.1",
+                "Это не множество": {
+                    "nextStep": "step52",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                }
+            },
+            "name": "step52",
+            "sound_labels": [
+                "множество геометрических фигур"
+            ],
+            "order": 171
+        },
+        {
+            "active": "professor",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "text": [
+                ""
+            ],
+            "slide": "Сколько элементов в этом множестве?",
+            "actions": {
+                "0": {
+                    "nextStep": "step52.1",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                },
+                "1": {
+                    "nextStep": "step52.1",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                },
+                "2": {
+                    "nextStep": "step52.1",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                },
+                "3": {
+                    "nextStep": "step52.1",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                },
+                "4": {
+                    "nextStep": "step52.1",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                },
+                "Очень много": "step25"
+            },
+            "name": "step52.1",
+            "order": 162
+        },
+        {
+            "active": "professor",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "agree"
+                }
+            ],
+            "text": [
+                "Конечно, не все. Множество геометрических фигур бесконечно, хотя названия имеются не у всех."
+            ],
+            "next": "step54",
+            "name": "step53",
+            "instantTransitionStep": "step54",
+            "timeTransition": "7.5",
+            "sound_labels": [
+                "конечно не все"
+            ],
+            "order": 172
+        },
+        {
+            "active": "professor",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "Множество высоких жителей в вашем доме."
+            ],
+            "slide": "",
+            "actions": {
+                "Это  множество": {
+                    "nextStep": "step54",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                },
+                "Это не множество": "step26"
+            },
+            "name": "step54",
+            "sound_labels": [
+                "множество высоких жителей"
+            ],
+            "order": 173
+        },
+        {
+            "active": "professor",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "agree"
+                }
+            ],
+            "text": [
+                "К сожалению, о высоких людях нельзя сказать, что они составляют множество."
+            ],
+            "next": "step55.0",
+            "name": "step55",
+            "instantTransitionStep": "step55.0",
+            "timeTransition": "6.5",
+            "sound_labels": [
+                "к сожалению о высоких людях"
+            ],
+            "order": 174
+        },
+        {
+            "active": "professor",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "Свойство ВЫСОКИЙ не чётко определено. "
+            ],
+            "next": "step55.1",
+            "name": "step55.0",
+            "instantTransitionStep": "step55.1",
+            "timeTransition": "3",
+            "sound_labels": [
+                "свойство высокий не четко"
+            ],
+            "order": 175
+        },
+        {
+            "active": "professor",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "Для кого-то высокий дядя Стёпа, а для кого-то второгодник Вовка из параллельного класса."
+            ],
+            "next": "step56",
+            "name": "step55.1",
+            "instantTransitionStep": "step56",
+            "timeTransition": "6",
+            "sound_labels": [
+                "для кого-то высокий"
+            ],
+            "order": 176
+        },
+        {
+            "active": "professor",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "Множество точек, лежащих внутри окружности."
+            ],
+            "interactive": "createImg",
+            "slide": "slides_lesson3/slide3.17.png",
+            "actions": {
+                "Это множество": "step56.1",
+                "Это не множество": {
+                    "nextStep": "step56",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                }
+            },
+            "name": "step56",
+            "sound_labels": [
+                "множество точек"
+            ],
+            "order": 177
+        },
+        {
+            "active": "professor",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "text": [
+                ""
+            ],
+            "slide": "Сколько элементов в этом множестве?",
+            "actions": {
+                "0": {
+                    "nextStep": "step56.1",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                },
+                "1": {
+                    "nextStep": "step56.1",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                },
+                "2": {
+                    "nextStep": "step56.1",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                },
+                "3": {
+                    "nextStep": "step56.1",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                },
+                "4": {
+                    "nextStep": "step56.1",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                },
+                "Очень много": "step27"
+            },
+            "name": "step56.1",
+            "order": 162
+        },
+        {
+            "active": "professor",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "agree"
+                }
+            ],
+            "text": [
+                "Правильно."
+            ],
+            "next": "step58",
+            "name": "step57",
+            "instantTransitionStep": "step58",
+            "timeTransition": "2.4",
+            "sound_labels": [
+                "правильно 2"
+            ],
+            "order": 178
+        },
+        {
+            "active": "professor",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "text": [
+                "Часто из элементов множества мы выбираем только часть элементов."
+            ],
+            "interactive": "createImg",
+            "slide": "slides_lesson3/slide3.18.png",
+            "next": "step75.1",
+            "name": "step58",
+            "instantTransitionStep": "step75.1",
+            "timeTransition": "4.3",
+            "sound_labels": [
+                "часто из элементов множетсва"
+            ],
+            "order": 179
+        },
+        {
+            "active": "professor",
+            "lesson": "lesson3",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "agree"
+                }
+            ],
+            "text": [
+                "Правильно. "
+            ],
+            "next": "step42",
+            "name": "step59",
+            "instantTransitionStep": "step42",
+            "timeTransition": "2",
+            "sound_labels": [
+                "правильно"
+            ],
+            "order": 180
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Часто из элементов множества мы выбираем только часть\nэлементов. "
+            ],
+            "next": "step75.1",
+            "name": "step75111111",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step75.1",
+            "timeTransition": "7",
+            "sound_labels": [
+                "часто из элементов множетсва"
+            ],
+            "order": 181
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Так, мы уже рассматривали часть\nнатуральных чисел – чётные числа."
+            ],
+            "next": "step75.2",
+            "name": "step75.1",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step75.2",
+            "timeTransition": "5",
+            "sound_labels": [
+                "так мы уже"
+            ],
+            "order": 182
+        },
+        {
+            "active": "professor",
+            "text": [
+                "В таких случаях\nговорят, что мы рассматриваем подмножество данного\nмножества."
+            ],
+            "next": "step78",
+            "name": "step75.2",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step78",
+            "timeTransition": "6",
+            "sound_labels": [
+                "в таких случаях"
+            ],
+            "order": 183
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Чтобы указать, что множество состоит из элементов\nдругого множества, используется обозначение, похожее\nна обозначение принадлежности элемента, но без средней\nчёрточки."
+            ],
+            "next": "step78.1",
+            "name": "step78",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step78.1",
+            "timeTransition": "11.2",
+            "sound_labels": [
+                "чтобы указать что множество"
+            ],
+            "order": 184,
+            "slide": "slides_lesson3/slide3.19.png",
+            "interactive": "createImg"
+        },
+        {
+            "active": "professor",
+            "text": [
+                "На слайде указано, что множество A является\nподмножеством множества B."
+            ],
+            "next": "step78.2",
+            "name": "step78.1",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step78.2",
+            "timeTransition": "5",
+            "sound_labels": [
+                "на слайде указано"
+            ],
+            "order": 185
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Если же мы хотим сказать,\nчто множество не является подмножеством другого, то\nзначок перечёркивается. "
+            ],
+            "next": "step81",
+            "name": "step78.2",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step81",
+            "timeTransition": "6.7",
+            "sound_labels": [
+                "если же мы хотим скахать"
+            ],
+            "order": 186
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Среди всех подмножеств данного множества есть два\nособых. Одно из них - пустое подмножество и второе -\nсамо множество. "
+            ],
+            "interactive": "createImg",
+            "slide": "slides_lesson3/slide3.20.png",
+            "next": "step81.1",
+            "name": "step81",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step81.1",
+            "timeTransition": "10.2",
+            "sound_labels": [
+                "среди всех подмножеств 2"
+            ],
+            "order": 187
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Если мы не выберем ни одного\nэлемента из множества, то получится что мы выбрали\nпустое подмножество. Если же выбрали все элементы,\nто значит, выбрали всё множество."
+            ],
+            "name": "step81.1",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "next": "step83",
+            "instantTransitionStep": "step83",
+            "timeTransition": "12",
+            "interactive": "createImg",
+            "sound_labels": [
+                "420-tail"
+            ],
+            "order": 188
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Рассмотрим, какие операции можно производить над\nмножествами."
+            ],
+            "next": "step83.1",
+            "name": "step83",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "slide": "",
+            "instantTransitionStep": "step83.1",
+            "timeTransition": "5",
+            "sound_labels": [
+                "430 - рассмотрим какие операции"
+            ],
+            "order": 189
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Приведём такой пример. Мастера пригласили для\nремонта в твоей квартире. Он должен, во-первых,\nпочинить проводку в этой квартире и, во-вторых,\nпочинить сантехнику."
+            ],
+            "next": "step83.2",
+            "name": "step83.1",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "slide": "",
+            "instantTransitionStep": "step83.2",
+            "timeTransition": "13.3",
+            "sound_labels": [
+                "440 - приведем такой пример"
+            ],
+            "order": 190
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Как ты думаешь, какие инструменты он должен взять с\nсобой?\n"
+            ],
+            "next": "step86",
+            "instantTransitionStep": "step86",
+            "timeTransition": "7",
+            "name": "step83.2",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson3",
+            "slide": "",
+            "sound_labels": [
+                "440 - как ты думаешь"
+            ],
+            "order": 191
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Недавно к нам приходил\nэлектрик. Он принёс с собой\nпассатижи, отвертку, изоленту,\nи дрель."
+            ],
+            "interactive": "createImg",
+            "slide": "slides_lesson3/slide3.21.png",
+            "next": "step87",
+            "name": "step86",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step87",
+            "timeTransition": "6",
+            "order": 192,
+            "sound_labels": [
+                "к нам приходил электрик"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "А что ему понадобится, чтобы установить кран на\nкухне?\n"
+            ],
+            "next": "step88",
+            "name": "step87",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step88",
+            "timeTransition": "4.6",
+            "order": 193,
+            "slide": "",
+            "sound_labels": [
+                "460"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Я думаю, что разводной ключ,\nпассатижи и дрель."
+            ],
+            "next": "step89",
+            "name": "step88",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step89",
+            "timeTransition": "4",
+            "order": 194,
+            "sound_labels": [
+                "я думаю что"
+            ],
+            "slide": "slides_lesson3/slide3.22.png",
+            "interactive": "createImg"
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Ясно что для успешной работы он должен взять с\nсобой все перечисленные инструменты. Говорят, что\nон должен взять объединение этих множеств."
+            ],
+            "next": "step90",
+            "name": "step89",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step90",
+            "timeTransition": "9.5",
+            "order": 195,
+            "slide": "slides_lesson3/slide3.23.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "480"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "А зачем ему брать две дрели?"
+            ],
+            "next": "step91",
+            "name": "step90",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step91",
+            "timeTransition": "2",
+            "order": 196,
+            "sound_labels": [
+                "а зачем ему брать две"
+            ],
+            "slide": "slides_lesson3/slide3.24.png",
+            "interactive": "createImg"
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Конечно, он должен взять только один экземпляр."
+            ],
+            "interactive": "createImg",
+            "slide": "slides_lesson3/slide3.24.png",
+            "next": "step92",
+            "name": "step91",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step92",
+            "timeTransition": "3",
+            "order": 197,
+            "sound_labels": [
+                "490"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Объединением двух множеств называется\nмножество, составленное из таких элементов, которые\nвходят хотя бы в одно из исходных множеств (могут,\nконечно, и в оба, но берутся элементы один раз).\n"
+            ],
+            "next": "step92.1",
+            "name": "step92",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "slide": "slides_lesson3/slide3.25.png",
+            "instantTransitionStep": "step92.1",
+            "timeTransition": "16",
+            "interactive": "createImg",
+            "sound_labels": [
+                "500 - объединением"
+            ],
+            "order": 198
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Для обозначения объединения используется значок,\nкоторый напоминает латинскую букву U. Можно\nзапомнить это как первая буква слова Union то есть\nобъединение –cоюз."
+            ],
+            "name": "step92.1",
+            "actions": {
+                "Непонятно": "step83.1",
+                "Понятно": "step93"
+            },
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "slide": "slides_lesson3/slide3.25.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "500 - для обозначения"
+            ],
+            "order": 199
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Другой пример.\nДва ученика 1 класса Вова и Дима обратились с\nжалобами на расстройство желудка. Школьный врач\nспросил у каждого, что он ел в школьной столовой. Вот\nкакие множество блюд перечислили мальчики. Вова -\nвинегрет борщ котлеты компот пирожное. Дима -\nгороховый суп котлеты сок пирожное. Врач,\nестественно, выбрал те блюда которые\nприсутствовали в меню у каждого мальчика."
+            ],
+            "next": "step95",
+            "name": "step93",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step95",
+            "timeTransition": "35",
+            "order": 1100,
+            "sound_labels": [
+                "510"
+            ],
+            "slide": "slides_lesson3/slide3.26.png",
+            "interactive": "createImg"
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Они образовали пересечение множеств. То есть,\nмножество, состоящее из элементов, входящих в оба\nисходных множества."
+            ],
+            "next": "step96",
+            "name": "step95",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step96",
+            "timeTransition": "11",
+            "order": 1101,
+            "sound_labels": [
+                "510 - они образовали"
+            ],
+            "slide": "slides_lesson3/slide3.27.png",
+            "interactive": "createImg"
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Пересечение множеств обозначается специальным\nсимволом, который похож на такую закругленную сверху\nарку или букву П, закругленную сверху. Это хорошо для\nзапоминания. Буква П - это как раз та, с которой\nначинается слово пересечение. Итак, под пересечением\nмножеств понимается множество элементов каждый из\nкоторых входит во все исходные множества"
+            ],
+            "actions": {
+                "Непонятно": "step93",
+                "Понятно": "step97"
+            },
+            "name": "step96",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "order": 1102,
+            "sound_labels": [
+                "510 - пересечение"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Часто в математике приходится рассматривать\nмножество, которые не обладают каким-то свойствам."
+            ],
+            "next": "step98",
+            "name": "step97",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step98",
+            "timeTransition": "7",
+            "order": 1103,
+            "slide": "",
+            "sound_labels": [
+                "510 - часто в математике"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Например, мы можем рассматривать множество\nучеников, которые пришли на уборку территории школы.\nДаже можем обозначить это множество – P. Вова и Дима\nпрогуляли эту уборку, не захотели участвовать в общем\nмероприятии. "
+            ],
+            "next": "step99",
+            "name": "step98",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step99",
+            "timeTransition": "16.2",
+            "order": 1104,
+            "sound_labels": [
+                "530"
+            ],
+            "slide": "slides_lesson3/slide3.28.png",
+            "interactive": "createImg"
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Какие ленивые!\n"
+            ],
+            "next": "step100",
+            "name": "step99",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step100",
+            "timeTransition": 2.3,
+            "order": 1105,
+            "sound_labels": [
+                "какие ленивые"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Когда из всех элементов какого-то общего множества,\nнапример, из всех учеников школы образуется какое-то\nподмножества P, а некоторые элементы в это\nподмножество не входят, то эти элементы образуют\nдополнение множества P и для обозначения множества\nэтих элементов использует черту сверху. В данном\nслучае - это множество, состоящее из двух элементов\nВова и Дима."
+            ],
+            "actions": {
+                "Непонятно": "step97",
+                "Понятно": "step101"
+            },
+            "name": "step100",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "order": 1106,
+            "sound_labels": [
+                "540"
+            ],
+            "interactive": "createImg",
+            "slide": "slides_lesson3/slide3.29.png"
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Один из великих математиков прошлого, живший в XVIII\nвеке в России, Леонард Эйлер очень активно работал в\nобласти теории множеств Он предложил для обозначения\nмножеств использовать символические круги. "
+            ],
+            "next": "step102",
+            "name": "step101",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step102",
+            "timeTransition": 16.3,
+            "order": 1107,
+            "slide": "slides_lesson3/slide3.30.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "550"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Интересно, зачем?"
+            ],
+            "next": "step103",
+            "name": "step102",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step103",
+            "timeTransition": 2.4,
+            "order": 1108,
+            "slide": "",
+            "sound_labels": [
+                "интересно зачем"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Когда мы рисуем какой-то круг, мы можем условно\nсчитать, что все элементы данного множества попали в\nэтот круг. Они, как бы сидят в этом круге."
+            ],
+            "next": "step104",
+            "name": "step103",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step104",
+            "timeTransition": 11.2,
+            "order": 1109,
+            "slide": "slides_lesson3/slide3.31.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "560"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Если мы рассматриваем какое-то другое множество, мы\nрисуем другой круг. Ну, например, множество Е и\nмножество S, которые были в примере про электрика и\nсантехника - это два круга. У них есть общие элементы и\nэти общие элементы помещаются в область, которая\nявляется пересечением этих кругов.\n"
+            ],
+            "next": "step105",
+            "name": "step104",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step105",
+            "timeTransition": 21.5,
+            "order": 1110,
+            "interactive": "createImg",
+            "slide": "slides_lesson3/slide3.32.png",
+            "sound_labels": [
+                "570 - если мы"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "А, вот подумайте, каким образом будет представляться\nобъединение двух множеств? Давай нарисуем круги\nЭйлера и посмотрим на все элементы, которые\nприсутствуют в этих кругах. Если мы обведём эти круги\nобщий границей она будет не совсем круглая, но всё\nравно она будет ограничивать некоторую часть\nплоскости. Так вот, всё что туда попало - это и есть\nобъединение множеств. Это значит, что круги Эйлера\nдают очень наглядное представление не только понятию\nсамих множеств, но и понятию объединения и\nпересечения этих множеств. Это позволяет легко решать\nочень многие математические задачи."
+            ],
+            "next": "step106",
+            "name": "step105",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step106",
+            "timeTransition": 44.5,
+            "order": 1111,
+            "slide": "slides_lesson3/slide3.32.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "570 - а вот подумайте"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Приведём примеры. Итак, задача номер один."
+            ],
+            "next": "step107",
+            "name": "step106",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step107",
+            "timeTransition": 3.4,
+            "order": 1112,
+            "slide": "",
+            "sound_labels": [
+                "580 - приведем примеры"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "В классе 30 учеников. 12 из них болеют за футбольный\nклуб Шинник, 14 болеют за хоккейный клуб Локомотив,\nа 10 вообще не интересуется спортом. Сколько\nучеников болеют одновременно и за Шинник и за\nЛокомотив?"
+            ],
+            "next": "step108",
+            "name": "step107",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step108",
+            "timeTransition": 20.2,
+            "order": 1113,
+            "sound_labels": [
+                "580 - в классе 30"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Как же так? Полчается, что в\nклассе 12+14+10 учеников. Это\nбольше, чем 30."
+            ],
+            "next": "step109",
+            "name": "step108",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step109",
+            "timeTransition": 8.5,
+            "order": 1114,
+            "sound_labels": [
+                "как же так получается"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Не торопись. Сейчас разберёмся. И для этого\nиспользуем круги Эйлера.\n"
+            ],
+            "next": "step110",
+            "name": "step109",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step110",
+            "timeTransition": 7.4,
+            "order": 1115,
+            "sound_labels": [
+                "600 - не торопись"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Их принято помещать в некоторой прямоугольник,\nкоторый обозначает множество элементов, из которого \nвыбраны наши множества. В данном случае – это все\nученики класса. "
+            ],
+            "next": "step111",
+            "name": "step110",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step111",
+            "timeTransition": 12.4,
+            "order": 1116,
+            "sound_labels": [
+                "600 - их принято помещать"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Как ты думаешь, что будут означать два круга?"
+            ],
+            "next": "step112",
+            "instantTransitionStep": "step112",
+            "timeTransition": "7",
+            "name": "step111",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson3",
+            "order": 1117,
+            "sound_labels": [
+                "610"
+            ],
+            "slide": "slides_lesson3/slide3.33.png",
+            "interactive": "createImg"
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Наверное, болельщиков\nШинника и Локомотива"
+            ],
+            "next": "step113",
+            "name": "step112",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step113",
+            "timeTransition": 3.8,
+            "order": 1118,
+            "sound_labels": [
+                "наверное болельщиков"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Правильно. Поэтому круги и подписаны буквами Ш и Л.\nА куда надо поместить тех, кто не интересуется\nспортом?\n"
+            ],
+            "next": "step114",
+            "instantTransitionStep": "step114",
+            "timeTransition": "9",
+            "name": "step113",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson3",
+            "order": 1119,
+            "sound_labels": [
+                "620"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Они не должны входить в круги,\nзначит, должны остаться в\nрозовой части."
+            ],
+            "next": "step115",
+            "name": "step114",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step115",
+            "timeTransition": 6.2,
+            "interactive": "createImg",
+            "slide": "slides_lesson3/slide3.34.png",
+            "order": 1120,
+            "sound_labels": [
+                "они не должны входить"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "А что является пересечением этих кругов?"
+            ],
+            "next": "step116",
+            "instantTransitionStep": "step116",
+            "timeTransition": "5",
+            "name": "step115",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson3",
+            "order": 1121,
+            "sound_labels": [
+                "640"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Это те, кто более и за Шинник,\nи за Локомотив."
+            ],
+            "next": "step117",
+            "name": "step116",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step117",
+            "timeTransition": 3.5,
+            "order": 1122,
+            "sound_labels": [
+                "это те кто болеет"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Да. И эти ученики помещены в зелёную область.\nА теперь посмотрим, в какой области сколько\nэлементов.\n"
+            ],
+            "next": "step118",
+            "name": "step117",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step118",
+            "timeTransition": 9.5,
+            "order": 1123,
+            "sound_labels": [
+                "660"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Легко: в синей – 12, в желтой\n14, в розовой – 10."
+            ],
+            "next": "step119",
+            "name": "step118",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step119",
+            "timeTransition": 5.8,
+            "order": 1124,
+            "sound_labels": [
+                "легко в синей 14"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Правильно. А теперь внимательно посмотри на\nкартинку. Как ты уже заметил, болельщиков оказалось\nбольше, чем учеников в классе."
+            ],
+            "next": "step120",
+            "name": "step119",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "agree"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step120",
+            "timeTransition": 9.2,
+            "order": 1125,
+            "sound_labels": [
+                "680"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Я понял, футбольных и\nхоккейных болельщиков мы\nучли два раза!\n"
+            ],
+            "next": "step121",
+            "name": "step120",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_palm_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step121",
+            "timeTransition": 5.7,
+            "order": 1126,
+            "sound_labels": [
+                "я понял футбольных"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "И сколько же их должно быть, чтобы всё сошлось?"
+            ],
+            "next": "step122",
+            "instantTransitionStep": "step122",
+            "timeTransition": "5",
+            "name": "step121",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "slide": "slides_lesson3/slide3.34.png",
+            "interactive": "createImg",
+            "lesson": "lesson3",
+            "order": 1127,
+            "sound_labels": [
+                "700"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Их должно быть 6."
+            ],
+            "next": "step123",
+            "name": "step122",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "interactive": "createImg",
+            "slide": "slides_lesson3/slide3.35.png",
+            "lesson": "lesson3",
+            "instantTransitionStep": "step123",
+            "timeTransition": 3.5,
+            "order": 1128,
+            "sound_labels": [
+                "их должно быть 6"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "А в синей части должно остаться не 12, а только 6,\nчтобы вместе в шестью зелёными составить 12 \nболельщиков Шинника. Соответственно, в жёлтой\nчасти всего 8. Теперь все числа расставлены и нам\nвсё ясно – сколько школьников за кого болеет. А ответ\nна вопрос задачи ты уже дал – шесть. "
+            ],
+            "actions": {
+                "Непонятно": "step107",
+                "Понятно": "step124"
+            },
+            "name": "step123",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "slide": "slides_lesson3/slide3.35.png",
+            "interactive": "createImg",
+            "lesson": "lesson3",
+            "order": 1129,
+            "sound_labels": [
+                "720"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Пример номер два. Среди людей, имеющих телевизоры,\nесть такие которые не являются малярами. Люди, каждый\nдень купающиеся в бассейне, но не являющиеся\nмалярами, не имеют телевизоров. Докажите, что не все\nвладельцы телевизоров каждый день купаются в\nбассейне. "
+            ],
+            "next": "step126",
+            "instantTransitionStep": "step126",
+            "timeTransition": "30",
+            "name": "step124",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "order": 1130,
+            "sound_labels": [
+                "730"
+            ],
+            "slide": "slides_lesson3/slide3.36.png",
+            "interactive": "createImg"
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Казалось бы, очень запутанные условия, однако применяя\nкруги Эйлера Мы очень легко решим эту задачу.\nО скольких множествах в задаче говориться?"
+            ],
+            "next": "step127",
+            "instantTransitionStep": "step127",
+            "timeTransition": "20",
+            "name": "step126",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson3",
+            "order": 1131,
+            "sound_labels": [
+                "740"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Я пока даже с этим не\nразобрался.\n"
+            ],
+            "next": "step128",
+            "name": "step127",
+            "show": [{
+                    "name": "professor",
+                    "state": "surprice_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step128",
+            "timeTransition": 3.5,
+            "order": 1132,
+            "sound_labels": [
+                "я пока даже с этим"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Не так и много. Всего три множества. Первое -\nмножество людей, имеющих телевизоры. Второе будет\nобозначать маляров и третье – множество людей,\nкупающихся в бассейне. Помещать эти три круга в какойто прямоугольник в данной задаче не обязательно"
+            ],
+            "next": "step129",
+            "name": "step128",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step129",
+            "timeTransition": 21.5,
+            "order": 1133,
+            "slide": "slides_lesson3/slide3.37.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "760"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "В предыдущей задаче нам достаточно было двух кругов\nЭйлера. Теперь мы рисуем три круга.\nМаляры, телевизоры, бассейн."
+            ],
+            "next": "step130",
+            "name": "step129",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "agree"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step130",
+            "timeTransition": 11.5,
+            "order": 1134,
+            "sound_labels": [
+                "770"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Первое условие говорит нам, что в области закрашенный\nзелёный цвет есть хотя бы один человек."
+            ],
+            "next": "step130.1",
+            "name": "step130",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "slide": "slides_lesson3/slide3.38.png",
+            "instantTransitionStep": "step130.1",
+            "timeTransition": 7.2,
+            "interactive": "createImg",
+            "sound_labels": [
+                "780 - первое условие"
+            ],
+            "order": 1134
+        },
+        {
+            "active": "professor",
+            "text": [
+                " Эта область\nсоответствует людям с телевизорами, но не малярам. Там\nесть хотя бы один человек. Мы его отметили точкой."
+            ],
+            "next": "step131",
+            "name": "step130.1",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "slide": "slides_lesson3/slide3.38.png",
+            "instantTransitionStep": "step131",
+            "timeTransition": 10,
+            "interactive": "createImg",
+            "sound_labels": [
+                "780 - эта область"
+            ],
+            "order": 1134
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Второе условия означает что красной части нет ни одного\nчеловека. Красная часть – это купающиеся в бассейне, не\nмаляры и не владельцы телевизоров. "
+            ],
+            "next": "step132",
+            "name": "step131",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson3",
+            "instantTransitionStep": "step132",
+            "timeTransition": "14",
+            "order": 1135,
+            "slide": "slides_lesson3/slide3.39.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "790 - второе условие"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Так, где же\nнаходится человек, которого мы отметили точкой?\nОн, с одной стороны, владелец телевизоров, а с другой\nстороны\n– не тот, кто купается в бассейне каждый день.\nТо, что такой человек существует, и требовалось\nдоказать."
+            ],
+            "actions": {
+                "Непонятно": "step124",
+                "Понятно": "step133"
+            },
+            "instantTransitionStep": "step133",
+            "timeTransition": "15.55",
+            "name": "step132",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson3",
+            "order": 1136,
+            "sound_labels": [
+                "790 - так где же"
+            ],
+            "slide": "slides_lesson3/slide3.39.png",
+            "interactive": "createImg"
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Всё понятно, а как в начале всё\nбыло запутано."
+            ],
+            "name": "step133",
+            "show": [{
+                    "name": "professor",
+                    "state": "surprice_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson3",
+            "order": 1137,
+            "sound_labels": [
+                "все понятно а как"
+            ],
+            "next": "finish",
+            "instantTransitionStep": "finish",
+            "timeTransition": "5.1"
+        },
+        {
+            "active": "professor",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "greeting"
+                }
+            ],
+            "slide": "",
+            "text": [
+                "Конец."
+            ],
+            "name": "finish",
+            "order": 1238
+        }
+    ]
+}

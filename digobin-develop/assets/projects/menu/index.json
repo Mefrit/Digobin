@@ -1,0 +1,55 @@
+{
+    "status": "development",
+    "img": [{
+            "name": "background",
+            "left": 0,
+            "top": 0
+        },
+        {
+            "name": "lessonContainer",
+            "left": 0,
+            "top": 0
+        }
+    ],
+
+    "steps": [{
+        "active": "menu",
+        "text": [
+            "Меню"
+        ],
+        "interactive": "intro",
+        "list": [{
+                "lesson": "lesson1",
+                "name": "Урок 1",
+                "path": "assets/library/interactive/menu/urok1.jpg"
+            },
+            {
+                "lesson": "lesson2",
+                "name": "Урок 2",
+                "path": "assets/library/interactive/menu/urok2.jpg"
+            },
+            {
+                "lesson": "lesson3",
+                "name": "Урок 3",
+                "path": "assets/library/interactive/menu/urok3.jpg"
+            },
+            {
+                "lesson": "lesson4",
+                "name": "Урок 4",
+                "path": "assets/library/interactive/menu/urok4.jpg"
+            },
+            {
+                "lesson": "lesson5",
+                "name": "Урок 5",
+                "path": "assets/library/interactive/menu/urok5.jpg"
+            }, {
+                "lesson": "lesson6",
+                "name": "Урок 6",
+                "path": "assets/library/interactive/menu/urok6.jpg"
+            }
+        ],
+        "lesson": "menu",
+        "name": "intro",
+        "order": 0
+    }]
+}

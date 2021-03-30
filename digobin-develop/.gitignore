@@ -1,0 +1,8 @@
+/node_modules
+*_data
+*.aup
+/temp
+/dist
+.cache
+*.bak
+log.txt

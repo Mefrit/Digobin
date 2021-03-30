@@ -1,0 +1,172 @@
+{
+    "frameRate": 24,
+    "isGlobal": 0,
+    "armature": [
+        {
+            "bone": [
+                {
+                    "name": "root",
+                    "transform": {}
+                },
+                {
+                    "length": 133,
+                    "transform": {
+                        "y": -179.15,
+                        "skX": -67.8293,
+                        "skY": -67.8293,
+                        "x": -9.2
+                    },
+                    "parent": "root",
+                    "name": "head"
+                }
+            ],
+            "type": "Armature",
+            "frameRate": 24,
+            "animation": [
+                {
+                    "playTimes": 0,
+                    "bone": [
+                        {
+                            "frame": [
+                                {
+                                    "transform": {},
+                                    "duration": 47
+                                }
+                            ],
+                            "name": "root"
+                        },
+                        {
+                            "frame": [
+                                {
+                                    "tweenEasing": 0,
+                                    "transform": {},
+                                    "duration": 6
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "transform": {
+                                        "skX": 4.4176,
+                                        "skY": 4.4176
+                                    },
+                                    "duration": 5
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "transform": {
+                                        "skX": 7.1833,
+                                        "skY": 7.1833
+                                    },
+                                    "duration": 18
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "transform": {
+                                        "skX": 7.3307,
+                                        "skY": 7.3307
+                                    },
+                                    "duration": 7
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "transform": {
+                                        "skX": 5.1115,
+                                        "skY": 5.1115
+                                    },
+                                    "duration": 6
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "transform": {
+                                        "skX": 2.8088,
+                                        "skY": 2.8088
+                                    },
+                                    "duration": 5
+                                },
+                                {
+                                    "transform": {
+                                        "skX": -1.462,
+                                        "skY": -1.462
+                                    },
+                                    "duration": 0
+                                }
+                            ],
+                            "name": "head"
+                        }
+                    ],
+                    "slot": [],
+                    "ffd": [],
+                    "ik": [],
+                    "frame": [],
+                    "name": "animtion0",
+                    "duration": 47
+                }
+            ],
+            "skin": [
+                {
+                    "slot": [
+                        {
+                            "display": [
+                                {
+                                    "path": "head",
+                                    "type": "image",
+                                    "name": "head",
+                                    "transform": {
+                                        "y": -37.7947,
+                                        "skX": 67.8293,
+                                        "skY": 67.8293,
+                                        "x": 84.6143
+                                    }
+                                }
+                            ],
+                            "name": "head"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "path": "body",
+                                    "type": "image",
+                                    "name": "body",
+                                    "transform": {
+                                        "y": 74.3198,
+                                        "x": -21.5039
+                                    }
+                                }
+                            ],
+                            "name": "body"
+                        }
+                    ],
+                    "name": ""
+                }
+            ],
+            "defaultActions": [
+                {
+                    "gotoAndPlay": "animtion0"
+                }
+            ],
+            "ik": [],
+            "aabb": {
+                "width": 332,
+                "y": -392.2707548402552,
+                "height": 740.090538362698,
+                "x": -187.50392828364227
+            },
+            "slot": [
+                {
+                    "z": 0,
+                    "name": "body",
+                    "parent": "root",
+                    "color": {}
+                },
+                {
+                    "z": 1,
+                    "name": "head",
+                    "parent": "head",
+                    "color": {}
+                }
+            ],
+            "name": "Armature"
+        }
+    ],
+    "name": "modern",
+    "version": "5.0"
+}

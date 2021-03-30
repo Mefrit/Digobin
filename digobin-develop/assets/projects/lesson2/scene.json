@@ -1,0 +1,221 @@
+﻿[{
+        "name": "background_entry",
+        "left": 0,
+        "top": 0
+    },
+    {
+        "name": "background",
+        "left": 0,
+        "top": 0
+    },
+    {
+        "name": "professor",
+        "left": 0,
+        "optimizeLoad": "image_manager",
+        "cacheImage": "../../assets/library/cacheImage/",
+        "top": 0,
+        "children": [{
+                "name": "default",
+                "type": "canvas",
+                "setBlink": true,
+                "optimizeLoad": "image_manager",
+                "left": 80,
+                "top": 92,
+                "hidden": true,
+                "scale": 0.8,
+                "file": "../../assets/library/animate/tree.json"
+            },
+            {
+                "name": "cris_cros",
+                "left": 0,
+                "top": 10,
+                "hidden": true,
+                "scale": 0.8,
+                "type": "dragon",
+                "file": "../assets/library/dragon/cris_cros6_ske.json"
+            },
+            {
+                "name": "yawn",
+                "left": 10,
+                "top": 25,
+                "hidden": true,
+                "scale": 0.8,
+                "type": "dragon",
+                "file": "../assets/library/dragon/yawn_SG_ske.json"
+            },
+            {
+                "name": "step_one_hand",
+                "left": 20,
+                "top": -5,
+                "hidden": true,
+                "scale": 0.8,
+                "type": "dragon",
+                "file": "../assets/library/dragon/step_one_handv2_ske.json"
+            },
+            {
+                "name": "surprice_face_SG",
+                "left": 17,
+                "top": -3,
+                "hidden": true,
+                "scale": 0.8,
+                "type": "dragon",
+                "file": "../assets/library/dragon/surprice_face_SG_ske.json"
+            },
+            {
+                "name": "agree_face_SG",
+                "left": 5,
+                "top": 10,
+                "hidden": true,
+                "scale": 0.8,
+                "type": "dragon",
+                "file": "../assets/library/dragon/agree_face_SG_ske.json"
+            },
+            {
+                "name": "false_answer_animation",
+                "left": 25,
+                "top": -8,
+                "hidden": true,
+                "scale": 0.8,
+                "type": "dragon",
+                "file": "../assets/library/dragon/false_answer_animation_ske.json"
+            },
+            {
+                "name": "false_answer_animation_cris_cros",
+                "left": 0,
+                "top": 10,
+                "hidden": true,
+                "scale": 0.8,
+                "type": "dragon",
+                "file": "../assets/library/dragon/false_answer_a_cris_cros_ske.json"
+            },
+            {
+                "name": "agree_palm_SG",
+                "left": 5,
+                "top": 12,
+                "hidden": true,
+                "scale": 0.8,
+                "type": "dragon",
+                "file": "../assets/library/dragon/agree_with_palm_SG_ske.json"
+            },
+            {
+                "name": "none",
+                "left": -85,
+                "top": -15,
+                "hidden": true,
+                "scale": 0.8,
+                "file": "../assets/library/animate/none.json"
+            }
+        ]
+    },
+    {
+        "name": "digobin",
+        "left": 0,
+        "top": 0,
+        "optimizeLoad": "sprite_manager",
+        "children": [{
+                "name": "agree",
+                "left": 690,
+                "top": 70,
+                "hidden": true,
+
+                "scale": 0.7,
+                "type": "dragon",
+                "file": "../assets/library/dragon/agree_digobin_ske.json"
+            },
+            {
+                "name": "speak",
+                "type": "canvas",
+
+                "left": 710,
+                "top": 20,
+                "optimizeLoad": "sprite_manager",
+                "path2sprite": "../assets/library/speak/images/",
+                "hidden": true,
+                "scale": 0.7,
+                "file": "../assets/library/speak/tree.json"
+            },
+            {
+                "name": "thinking",
+                "left": 655,
+                "top": 50,
+                "hidden": true,
+                "scale": 0.7,
+                "type": "dragon",
+                "file": "../assets/library/dragon/thinking_ske.json"
+            },
+            {
+                "name": "confusion",
+                "left": 665,
+                "top": 50,
+                "hidden": true,
+                "scale": 0.7,
+                "type": "dragon",
+                "file": "../assets/library/dragon/confusion_ske.json"
+            },
+            {
+                "name": "greeting",
+                "left": 700,
+                "top": 70,
+                "hidden": true,
+                "scale": 0.8,
+                "type": "dragon",
+                "file": "../assets/library/dragon/greeting_ske.json"
+            },
+            {
+                "name": "walking",
+                "left": -27,
+                "top": -57,
+                "hidden": true,
+                "scale": 0.6,
+                "type": "dragon",
+                "file": "../assets/library/dragon/walking_ske.json"
+            },
+            {
+                "name": "village",
+                "left": 200,
+                "top": -57,
+                "hidden": true,
+                "scale": 0.6,
+                "type": "dragon",
+                "file": "../assets/library/dragon/village_ske.json"
+            },
+            {
+                "name": "village_left",
+                "left": 10,
+                "top": -57,
+                "hidden": true,
+                "scale": 0.6,
+                "type": "dragon",
+                "file": "../assets/library/dragon/village_ske.json"
+            },
+            {
+                "name": "modern",
+                "left": 455,
+                "top": -47,
+                "hidden": true,
+                "scale": 0.6,
+                "type": "dragon",
+                "file": "../assets/library/dragon/modern_ske.json"
+            },
+            {
+                "name": "default",
+                "type": "canvas",
+                "optimizeLoad": "sprite_manager",
+                "path2sprite": "../assets/library/data/digobin/",
+                "left": 735,
+                "top": 63,
+                "hidden": true,
+                "scale": 0.7,
+                "file": "../assets/library/data/digobin.json"
+            },
+            {
+                "name": "none",
+                "left": -85,
+                "top": -15,
+                "hidden": true,
+                "scale": 0.8,
+                "file": "../assets/library/animate/none.json"
+            }
+        ]
+    }
+]

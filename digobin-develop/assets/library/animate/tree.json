@@ -1,0 +1,275 @@
+[{
+        "name": "body",
+        "type": "visible",
+        "path": "images/body.png",
+        "id": 1567080864468,
+        "left": 355,
+        "top": 280,
+        "width": 291,
+        "height": 280,
+        "hidden": false,
+        "zIndex": 1
+
+    },
+    {
+        "name": "eyebrows",
+        "type": "visible",
+        "path": "images/eyebrows.png",
+        "id": 1567080865308,
+        "left": 368,
+        "top": 80,
+        "width": 82,
+        "height": 12,
+        "hidden": false,
+        "zIndex": 7
+    },
+    {
+        "name": "left_a1",
+        "type": "visible",
+        "path": "images/left_a1.png",
+        "id": 1567080866108,
+        "left": 550,
+        "top": 290,
+        "width": 144,
+        "height": 225,
+        "hidden": false,
+        "zIndex": 2
+
+    },
+    {
+        "name": "left_a2",
+        "type": "visible",
+        "path": "images/left_a2.png",
+        "id": 1567080866565,
+        "left": 540,
+        "top": 388,
+        "width": 186,
+        "height": 115,
+        "hidden": false,
+        "zIndex": 6
+    },
+    {
+        "name": "left_palm",
+        "type": "visible",
+        "path": "images/left_palm.png",
+        "id": 1567080866940,
+        "left": 415,
+        "top": 408,
+        "width": 135,
+        "height": 79,
+        "hidden": false,
+        "zIndex": 5
+
+    },
+    {
+        "name": "right_a1",
+        "type": "visible",
+        "path": "images/right_a1.png",
+        "id": 1567080868229,
+        "left": 180,
+        "top": 303,
+        "width": 136,
+        "height": 176,
+        "hidden": false,
+        "zIndex": 2
+
+    },
+    {
+        "name": "right_a2",
+        "type": "visible",
+        "path": "images/right_a2.png",
+        "id": 1567080868732,
+        "left": 215,
+        "top": 385,
+        "width": 211,
+        "height": 125,
+        "hidden": false,
+        "zIndex": 3
+
+    },
+    {
+        "name": "right_palm",
+        "type": "visible",
+        "path": "images/right_palm.png",
+        "id": 1567080869125,
+        "left": 360,
+        "top": 410,
+        "width": 131,
+        "height": 80,
+        "hidden": false,
+        "zIndex": 2
+
+    },
+    {
+        "name": "AI",
+        "type": "mount",
+        "path": "images/AI.png",
+        "id": 1567080869135,
+        "left": 370,
+        "top": 100.5,
+        "width": 159,
+        "height": 190,
+        "hidden": true,
+        "zIndex": 2
+    },
+    {
+        "name": "E",
+        "type": "mount",
+        "path": "images/E.png",
+        "id": 1567093440292,
+        "left": 370,
+        "top": 100.5,
+        "width": 159,
+        "height": 190,
+        "hidden": true,
+        "zIndex": 2
+    },
+    {
+        "name": "FV",
+        "type": "mount",
+        "path": "images/FV.png",
+        "id": 1567093828776,
+        "left": 370,
+        "top": 97.5,
+        "width": 159,
+        "height": 184,
+        "hidden": true,
+        "zIndex": 2
+    },
+    {
+        "name": "L",
+        "type": "mount",
+        "path": "images/L.png",
+        "id": 1567094206082,
+        "left": 370,
+        "top": 100,
+        "width": 159,
+        "height": 188,
+        "hidden": true,
+        "zIndex": 2
+    },
+    {
+        "name": "MBP",
+        "type": "mount",
+        "path": "images/MBP.png",
+        "id": 1567094224547,
+        "left": 370,
+        "top": 97.7,
+        "width": 159,
+        "height": 184,
+        "hidden": true,
+        "zIndex": 2
+    },
+    {
+        "name": "O",
+        "type": "mount",
+        "path": "images/O.png",
+        "id": 1567094237650,
+        "left": 370,
+        "top": 101.7,
+        "width": 159,
+        "height": 192,
+        "hidden": true,
+        "zIndex": 2
+    },
+    {
+        "name": "rest",
+        "type": "mount",
+        "path": "images/rest.png",
+        "id": 1567094268387,
+        "left": 370,
+        "top": 99.5,
+        "width": 159,
+        "height": 188,
+        "hidden": true,
+        "zIndex": 2
+    },
+    {
+        "name": "U",
+        "type": "mount",
+        "path": "images/U.png",
+        "id": 1567094291586,
+        "left": 370,
+        "top": 100,
+        "width": 159,
+        "height": 188,
+        "hidden": true,
+        "zIndex": 2
+    },
+    {
+        "name": "WQ",
+        "type": "mount",
+        "path": "images/WQ.png",
+        "id": 1567094310021,
+        "left": 370,
+        "top": 101,
+        "width": 159,
+        "height": 191,
+        "hidden": true,
+        "zIndex": 2
+    },
+    {
+        "name": "etc",
+        "type": "mount",
+        "path": "images/etc.png",
+        "id": 1567159235809,
+        "left": 370,
+        "top": 100,
+        "width": 159,
+        "height": 189,
+        "hidden": false,
+        "zIndex": 2
+    },
+    {
+        "name": "Close",
+        "type": "eyes",
+        "path": "images/closed.png",
+        "id": 1567093516956,
+        "left": 367,
+        "top": 100,
+        "width": 78,
+        "height": 23,
+        "hidden": true,
+        "zIndex": 8
+    },
+    {
+        "name": "Open",
+        "type": "eyes",
+        "path": "images/open.png",
+        "id": 1567080867821,
+        "left": 367,
+        "top": 100,
+        "width": 78,
+        "height": 23,
+        "hidden": false,
+        "zIndex": 8
+    },
+    {
+        "name": "Eyes",
+        "children": [{
+                "name": "Close",
+                "type": "eyes",
+                "path": "images/closed.png",
+                "id": 1567093516956,
+                "left": 401,
+                "top": 113,
+                "width": 78,
+                "height": 23,
+                "hidden": true,
+                "zIndex": 1
+            },
+            {
+                "name": "Open",
+                "type": "eyes",
+                "path": "images/open.png",
+                "id": 1567080867821,
+                "left": 821,
+                "top": 113,
+                "width": 78,
+                "height": 23,
+                "hidden": false,
+                "zIndex": 1
+            }
+        ]
+    }
+]

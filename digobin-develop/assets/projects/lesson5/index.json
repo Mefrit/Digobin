@@ -1,0 +1,2606 @@
+{
+    "steps": [{
+            "active": "digobin",
+            "lesson": "lesson5",
+            "text": [
+                ""
+            ],
+            "actions": {
+                "Начать": "beginEntry"
+            },
+            "show": [{
+                "name": "professor",
+                "state": "none"
+            }],
+            "slide": "./menu/urok5.jpg",
+            "interactive": "createImgIntro",
+            "name": "intro",
+            "order": 0
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Привет! Рад тебя видеть! Меня зовут домовенок, точнее уже цифровенок Нейроська. Давай я все расскажу по порядку."
+            ],
+            "sound_labels": [
+                "привет! рад тебя видеть"
+            ],
+            "slide": "",
+            "show": [{
+                    "name": "digobin",
+                    "state": "none"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "interactive": "showTextBlock",
+            "instantTransitionStep": "step2Entry",
+            "timeTransition": "8",
+            "lesson": "lesson3",
+            "name": "beginEntry",
+            "order": 4,  
+            "actions": {
+                "Пропустить заставку": "step0"
+            }
+        },
+        {
+            "active": "digobin",
+            "sound_labels": [
+                "я родился"
+            ],
+            "text": [
+                "Я родился в старом деревянном доме, там всю жизнь и проработал  домовым. Но недавно мой дом снесли, и на  его месте началась грандиозная стройка. Пришлось переехать в многоэтажку и сменить род деятельности"
+            ],
+            "show": [{
+                "name": "digobin",
+                "state": "village"
+            }],
+            "instantTransitionStep": "step3Entry",
+            "timeTransition": "13.9",
+            "interactive": "backgroundEntry",
+            "lesson": "lesson3",
+            "name": "step2Entry",
+            "order": 5
+        },
+        {
+            "active": "digobin",
+            "sound_labels": [
+                "теперь я цифровенок"
+            ],
+            "text": [
+                "Теперь я цифровенок, живу в просторной современной  квартире. Но как же трудно освоиться в мире  высоких технологий"
+            ],
+            "show": [{
+                "name": "digobin",
+                "state": "walking"
+            }],
+            "instantTransitionStep": "step4Entry",
+            "timeTransition": "9",
+            "interactive": "showModernDigobin",
+            "lesson": "lesson3",
+            "name": "step3Entry",
+            "order": 6
+        },
+        {
+            "active": "digobin",
+            "sound_labels": [
+                "в школу я"
+            ],
+            "text": [
+                "В школу я, к сожалению, не ходил, и теперь осваивать все приходится с самых азов."
+            ],
+            "show": [{
+                "name": "digobin",
+                "state": "speak"
+            }],
+            "instantTransitionStep": "step6Entry",
+            "timeTransition": "6.1",
+            "interactive": "backgroundDefault",
+            "lesson": "lesson5",
+            "name": "step4Entry",
+            "order": 4
+        },
+        {
+            "active": "digobin",
+            "sound_labels": [
+                "часто слышал"
+            ],
+            "text": [
+                "Часто слышал такое выражение: 'Математика - царица всех наук.' И так оно меня зацепило, что решил начать обучение именно с математики."
+            ],
+            "show": [{
+                "name": "digobin",
+                "state": "speak"
+            }],
+            "instantTransitionStep": "step6Entry",
+            "timeTransition": "10.1",
+            "lesson": "lesson5",
+            "name": "step5Entry",
+            "next": "step6Entry",
+            "order": 5
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "А помочь мне в этом любезно согласился Сергей Геннадьевич."
+            ],
+            "sound_labels": [
+                "а помочь мне в этом"
+            ],
+            "show": [{
+                "name": "digobin",
+                "state": "speak"
+            }],
+            "interactive": "showSGentry",
+            "lesson": "lesson5",
+            "name": "step6Entry",
+            "instantTransitionStep": "step0",
+            "timeTransition": "5.5",
+            "next": "step0",
+            "order": 6
+        }, {
+            "active": "professor",
+            "text": [
+                "Темой сегодняшнего занятия будет «Делимость». Ты, наверное, знаешь, что некоторые числа могут делиться на другие числа."
+            ],
+            "next": "step1",
+            "name": "step0",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step1",
+            "timeTransition": "9",
+            "order": 0,
+            "sound_labels": [
+                "тема сегодняшнего занятия1"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Конечно. Я помню, что чётные числа – это те, которые делятся на 2."
+            ],
+            "next": "step2",
+            "name": "step1",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step2",
+            "timeTransition": "5.6",
+            "order": 1,
+            "sound_labels": [
+                "конечно, я помню что четные"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Верно. Можно ещё такой пример привести. Мама испекла 10 пирожков. Сколько гостей она может ими угостить, если каждому должно достаться поровну?"
+            ],
+            "next": "step3",
+            "name": "step2",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step3",
+            "timeTransition": "12",
+            "order": 2,
+            "sound_labels": [
+                "верно можно еще пример2"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Ясно. Пятерых или двоих. Тогда им достанется по 2 или по 5 пирожков каждому."
+            ],
+            "next": "step4",
+            "name": "step3",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step4",
+            "timeTransition": "5.7",
+            "order": 3,
+            "sound_labels": [
+                "ясно пятерых или двоих"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Не совсем правильно. Гостей может быть и 10, и каждому достанется 1 пирожок, а может быть один – он съест все 10."
+            ],
+            "next": "step5",
+            "name": "step4",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "confusion"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step5",
+            "timeTransition": "9",
+            "order": 4,
+            "sound_labels": [
+                "не совсем правильно4"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Это неинтересно. Тут и делить не надо."
+            ],
+            "next": "step6",
+            "name": "step5",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step6",
+            "timeTransition": "3",
+            "order": 5,
+            "sound_labels": [
+                "это интересно, тут и делить не надо"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Ты прав. И сегодня мы будем, почти всегда делить числа на меньшие, но отличные от единицы. Если число допускает такое деление, оно называется составным. "
+            ],
+            "next": "step7",
+            "name": "step6",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step7",
+            "timeTransition": "12",
+            "order": 6,
+            "slide": "Если число допускает деление на меньшее, но отличное от 1, то оно называется составным. Если же у числа только 2 делителя: 1 и само это число, то оно называется простым. 1 не является ни простым, ни составным.",
+            "sound_labels": [
+                "ты прав и сегодня3"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Нажми на простые числа"
+            ],
+            "next": "step8",
+            "name": "step7",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "interactive": "chosePrimeNumber",
+            "lesson": "lesson5",
+
+            "order": 7,
+            "sound_labels": [
+                "нажми на простые числа"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Понятно. Значит все чётные числа не простые, ведь они делятся на 2."
+            ],
+            "next": "step9",
+            "name": "step8",
+            "show": [{
+                    "name": "professor",
+                    "state": "surprice_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "slide": "",
+            "lesson": "lesson5",
+            "instantTransitionStep": "step9",
+            "timeTransition": "5",
+            "order": 8,
+            "sound_labels": [
+                "понятно значит все четные числа не простые"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Нет, среди них есть одно простое – это сама двойка."
+            ],
+            "next": "step10",
+            "name": "step9",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step10",
+            "timeTransition": "5",
+            "order": 9,
+            "sound_labels": [
+                " нет среди них есть"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Давай немного поупражняемся. Будем делить числа на меньшие. Например, число 240. "
+            ],
+            "next": "step11",
+            "name": "step10",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "agree"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step11",
+            "timeTransition": "6",
+            "order": 10,
+            "sound_labels": [
+                "давай немного поупражняемся"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Его можно разделить на 10.\nПолучится 24\n"
+            ],
+            "next": "step12",
+            "name": "step11",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step12",
+            "timeTransition": "4",
+            "order": 11,
+            "slide": "240 = 10×24",
+            "sound_labels": [
+                "его можно разделить"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "А получившиеся числа можно на что-то поделить?"
+            ],
+            "next": "step13",
+            "name": "step12",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step13",
+            "timeTransition": "5",
+            "order": 12,
+            "sound_labels": [
+                "а получившиеся числа можно на что то поделить6"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Да, например, на 2. 10 делить на 2, будет 5, а 24 делить на 2, будет 12."
+            ],
+            "next": "step14",
+            "name": "step13",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step14",
+            "timeTransition": "7",
+            "order": 13,
+
+            "slide": {
+                "type": "html",
+                "text": "<div> 240 = 10×24     </br> 240 = 2×5×2×12 </br></div>"
+            },
+            "sound_labels": [
+                "да напрмиер на 2"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "А дальше?"
+            ],
+            "next": "step15",
+            "name": "step14",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step15",
+            "timeTransition": "3",
+            "order": 14,
+            "sound_labels": [
+                "а дальше1"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "12 – это 2 на 6. А 6 – это 2 на 3."
+            ],
+            "next": "step16",
+            "name": "step15",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step16",
+            "timeTransition": "5",
+            "order": 15,
+            "slide": "240 = 2×5×2×2×6=2×5×2×2×2×3",
+            "slide": {
+                "type": "html",
+                "text": "<div> 240 = 2×5×2×2×6 </br> =2×5×2×2×2×3</br></div>"
+            },
+
+            "sound_labels": [
+                "12 это 2 *6"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Все сомножители простые, значит, дальше делить нельзя. "
+            ],
+            "next": "step17",
+            "name": "step16",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step17",
+            "timeTransition": "4",
+            "order": 16,
+            "sound_labels": [
+                "все сомножители простые"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "А ты мог бы делить 240 каким-то другим способом, на какие-то другие делители?"
+            ],
+            "next": "step18",
+            "name": "step17",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step18",
+            "timeTransition": "6",
+            "order": 17,
+            "sound_labels": [
+                "а ты мог бы делить 240"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Да, например, 240=8×30"
+            ],
+            "next": "step19",
+            "name": "step18",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson5",
+            "slide": " 240=8×30",
+            "instantTransitionStep": "step19",
+            "timeTransition": "5",
+            "order": 18,
+            "sound_labels": [
+                "да напрмер 240 ="
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "А дальше?"
+            ],
+            "next": "step20",
+            "name": "step19",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step20",
+            "timeTransition": "14",
+            "order": 19,
+            "sound_labels": [
+                "а дальше2"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Легко. 8 – это 2×2×2, а 30 –это 3×2×5"
+            ],
+            "next": "step21",
+            "name": "step20",
+            "show": [{
+                    "name": "professor",
+                    "state": "surprice_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step21",
+            "timeTransition": "8",
+            "order": 20,
+            "slide": {
+                "type": "html",
+                "text": "<span class='lesson5__string'>240=8×30=2×2×2×3×2×5</span>"
+            },
+            "sound_labels": [
+                "Легко 8 - это 2х2х2"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Правильно. Делил ты другим способом, но в обоих случаях результаты оказались чем-то похожи. "
+            ],
+            "next": "step22",
+            "name": "step21",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step22",
+            "timeTransition": "8",
+            "order": 21,
+            "sound_labels": [
+                "правильно делил ты"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Да, получились одни и те же простые числа, правда, в другом порядке."
+            ],
+            "next": "step23",
+            "name": "step22",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step23",
+            "timeTransition": "5",
+            "order": 22,
+            "sound_labels": [
+                "да получились"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Не только. Их количество в обоих случаях тоже одинаково. Четыре двойки, одна тройка и одна пятёрка. Как ты думаешь, это случайное совпадение?"
+            ],
+            "next": "step24",
+            "name": "step23",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step24",
+            "timeTransition": "12",
+            "order": 23,
+            "sound_labels": [
+                "не только их коли"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Раз ты это спрашиваешь, наверное, нет."
+            ],
+            "next": "step25",
+            "name": "step24",
+            "show": [{
+                    "name": "professor",
+                    "state": "surprice_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step25",
+            "timeTransition": "4",
+            "order": 24,
+            "sound_labels": [
+                "раз ты это спрашиваешь"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Ты догадлив. В этом состоит Основная Теорема Арифметики: \nКаждое натуральное число единственным образом представляется в виде произведения простых чисел. Под словами единственным образом понимается, что при любом разложении будут присутствовать одни и те же простые числа, причём, в одинаковом количестве. \n"
+            ],
+            "next": "step26",
+            "name": "step25",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step26",
+            "timeTransition": "21",
+            "order": 25,
+            "slide": "Основная Теорема Арифметики\n \nКаждое натуральное число единственным образом представляется в виде произведения простых чисел.\n",
+            "sound_labels": [
+                "ты догадлив"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Основная теорема арифметики устанавливают связь между каждым натуральным числом и набором его простых делителей. И часто вместо самого числа можно рассматривать этот набор и делать разные выводы относительно делимости этого числа на другие числа."
+            ],
+
+            "name": "step26",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson5",
+            "actions": {
+                "Непонятно": "step25",
+                "Понятно": "step27"
+            },
+            "order": 26,
+            "slide": "240 – {2×2×2×3×2×5}\n74 – {2, 37}\n41 – {41}\n",
+            "sound_labels": [
+                "основная теорема арифметики"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Ответь, например, на такой вопрос: делится 240 на 7? "
+            ],
+            "next": "step28",
+            "name": "step27",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step28",
+            "timeTransition": "8",
+            "slide": "Делится ли 240 на 7?",
+            "order": 27,
+            "sound_labels": [
+                "ответь например на такой вопрос"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Сейчас поделю и узнаю."
+            ],
+            "next": "step29",
+            "name": "step28",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step29",
+            "timeTransition": "3",
+            "slide": "Делится ли 240 на 7?",
+            "order": 28,
+            "sound_labels": [
+                "сейчас поделю и узнаю"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Оказывается, и делить не надо, если нам известно его разложение.\nСреди простых в разложении нет 7, а если бы число делилось на 7, то она бы была. Итак, сразу отвечаем: 240 не делится на 7, т.к. в разложении числа 240 на простые множители семёрка отсутствует. \n"
+            ],
+            "next": "step30",
+            "name": "step29",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step30",
+            "timeTransition": "19",
+            "slide": {
+                "type": "html",
+                "text": "<div> 240 = 2×5×2×2×6 </br> =2×5×2×2×2×3</br></div>"
+            },
+            "order": 29,
+            "sound_labels": [
+                "оказывается и делить"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Здорово!"
+            ],
+            "next": "step31",
+            "name": "step30",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson5",
+            "actions": {
+                "Непонятно": "step28",
+                "Понятно": "step31"
+            },
+            "order": 30,
+            "sound_labels": [
+                "здорово"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "А делится ли 240 на 8?"
+            ],
+            "actions": {
+                "Да": "step32",
+                "Нет": {
+                    "nextStep": "step31",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                }
+            },
+
+            "name": "step31",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson5",
+
+            "order": 31,
+            "slide": "",
+            "sound_labels": [
+                "а делиться ли 240 на 8"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Да, т.к. в разложении есть три двойки, что в произведении даёт 8, и это означает, что 8 – делитель числа 240."
+            ],
+            "next": "step33",
+            "name": "step32",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step33",
+            "timeTransition": "8",
+            "order": 32,
+            "sound_labels": [
+                "да так как в разложении есть"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Кажется, ты всё понял. Действительно, если число A делится на число B, то при разложении числа A было бы A=B×K, а при дальнейшем разложении B получили бы, что все делители B входят в разложение числа A. Очевидно и обратное: если какой-то набор делителей числа A в произведении даёт число B, то это значит, что A равно B, умноженному на остальные делители, т.е. делится на B."
+            ],
+            "next": "step34",
+            "name": "step33",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson5",
+            "actions": {
+                "Непонятно": "step27",
+                "Понятно": "step34"
+            },
+            "order": 33,
+            "sound_labels": [
+                "кажется ты все понял"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Давай ещё поупражняемся на эту тему."
+            ],
+            "next": "step35",
+            "name": "step34",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "agree"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step35",
+            "timeTransition": "3",
+            "order": 34,
+            "sound_labels": [
+                " давай еще поупрожняемся"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Делится ли число 603 на 27?"
+            ],
+            "actions": {
+                "Да": {
+                    "nextStep": "step35",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                },
+                "Нет": "step36"
+            },
+
+            "name": "step35",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson5",
+
+            "order": 35,
+            "slide": "Делится ли число 603 на 27?",
+            "sound_labels": [
+                "делиться ли число 603"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Так, разложим и то и другое число на простые множители. 27 раскладывается просто. Это три на три на 3. Когда я был маленький, меня как-то спросили: сколько будет три да три да три. Я долго считал, а мне сказали, что будет дырка. Теперь-то я понимаю, что это была шутка.\nТеперь остаётся разложить 603.\n"
+            ],
+            "next": "step37",
+            "name": "step36",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step37",
+            "timeTransition": "21",
+            "order": 36,
+            "slide": "27=3×3×3\n603= ?\n",
+            "sound_labels": [
+                "так разложим и то"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "А вот тут можно ускорить работу. Ведь нам надо только убедиться, что в разложении есть три тройки. "
+            ],
+            "next": "step38",
+            "name": "step37",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step38",
+            "timeTransition": "7",
+            "order": 37,
+            "sound_labels": [
+                "а вот тут можно ускорить"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Одна точно есть, т.к. 603 делится на 3 (сумма цифр делится на 3). При делении получается число 201. Оно тоже делится на 3, значит, и вторая тройка есть. Поделим. Получается 67. Увы, третьей тройки в разложении нет"
+            ],
+            "next": "step39",
+            "name": "step38",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step39",
+            "timeTransition": "16",
+            "order": 38,
+            "sound_labels": [
+                "Одна точно есть"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Значит, 603 на 27 не делится. "
+            ],
+
+            "name": "step39",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "agree"
+                }
+            ],
+            "lesson": "lesson5",
+            "actions": {
+                "Непонятно": "step36",
+                "Понятно": "step40"
+            },
+            "order": 39,
+            "sound_labels": [
+                "значит 603 на 27 не"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "А в следующем вопросе я не буду явно называть число.\nДелится ли число 2&<sup>10</sup> * 3&<sup>6</sup> на 96?\n"
+            ],
+
+            "name": "step40",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "actions": {
+                "Да": "step41",
+                "Нет": {
+                    "nextStep": "step40",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                }
+            },
+            "lesson": "lesson5",
+
+            "order": 40,
+            "slide": "slides_lesson5/slide5.13.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "а в следующем вопросе"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Ой, так сразу не скажешь"
+            ],
+            "next": "step42",
+            "name": "step41",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step42",
+            "timeTransition": "2",
+            "order": 41,
+            "sound_labels": [
+                "ой, так сразу не скажешь"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Число у нас уже представлено в виде произведения простых. Представим и число 96."
+            ],
+            "next": "step43",
+            "name": "step42",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step43",
+            "timeTransition": "6",
+            "order": 42,
+
+            "sound_labels": [
+                "число у нас уже представлено"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "96 – это 3 на 32, а 32 – это 2 на 2 на 2 на 2 на 2, т.е. 2 в 5 степени."
+            ],
+            "next": "step44",
+            "name": "step43",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step44",
+            "timeTransition": "11",
+            "order": 43,
+            "sound_labels": [
+                "96 - это 3 на 32"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Итак, все простые делители числа 96 входят в разложение нашего числа в нужном количестве. Значит, делится."
+            ],
+
+            "name": "step44",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson5",
+            "actions": {
+                "Непонятно": "step41",
+                "Понятно": "step45"
+            },
+            "order": 44,
+            "slide": "slides_lesson5/slide5.14.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "Итак все простые"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Вот ещё несколько вопросов."
+            ],
+            "next": "step46",
+            "name": "step45",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "slide": "",
+            "lesson": "lesson5",
+            "instantTransitionStep": "step46",
+            "timeTransition": "2",
+            "order": 45,
+            "sound_labels": [
+                "вот еще несколько вопросов"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Число А делиться на 3. Верно ли, что число 4A делиться на 6?"
+            ],
+            "actions": {
+                "Да": "step47",
+                "Нет": {
+                    "nextStep": "step46",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                }
+            },
+
+            "name": "step46",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+
+
+            "lesson": "lesson5",
+
+            "order": 46,
+            "sound_labels": [
+                "число а делиться на 3"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Надо подумать"
+            ],
+            "next": "step48",
+            "name": "step47",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "slide": "Число А делиться на 3. Верно ли, что число 4A делиться на 6?",
+            "lesson": "lesson5",
+            "instantTransitionStep": "step48",
+            "timeTransition": "6",
+            "order": 47,
+            "sound_labels": [
+                "надо подумать"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Давай рассуждать. В разложении числа A есть 3, а в разложении числа 4 --- двойка (даже две). А число 6 --- это двойка и тройка."
+            ],
+            "next": "step49",
+            "name": "step48",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step49",
+            "timeTransition": "11",
+            "order": 48,
+            "sound_labels": [
+                "давай рассуждать в разложении"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Значит, делится."
+            ],
+            "actions": {
+                "Непонятно": "step48",
+                "Понятно": "step50"
+            },
+            "name": "step49",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson5",
+            "slide": "",
+            "order": 49,
+            "sound_labels": [
+                "значит делиться"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Число A не делится на 5. Может ли на 5 делиться число 12A?"
+            ],
+            "actions": {
+                "Да": {
+                    "nextStep": "step50",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                },
+                "Нет": "step51"
+            },
+
+            "name": "step50",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson5",
+
+            "order": 50,
+            "slide": {
+                "type": "html",
+                "text": "<span class='lesson5__string'>Число A не делится на 5. Может ли на 5 делиться число 12A?</span>"
+            },
+            "sound_labels": [
+                "число а не делиться"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Чтобы число делилось на 5, надо, чтобы 5 входило в его разложение на простые множители. Но, пятёрки нет ни в разложении числа A (по условию), ни в разложении числа 12."
+            ],
+            "next": "step52",
+            "name": "step51",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step52",
+            "timeTransition": "12",
+            "order": 51,
+            "slide": "slides_lesson5/slide5.17.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "что бы число"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Значит, не может"
+            ],
+
+            "name": "step52",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson5",
+            "actions": {
+                "Непонятно": "step51",
+                "Понятно": "step53"
+            },
+            "order": 52,
+            "sound_labels": [
+                "значит не может"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Число 10A делится на 3. Верно ли, что число A делится на 3?"
+            ],
+            "actions": {
+                "Да": "step54",
+                "Нет": {
+                    "nextStep": "step53",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                }
+            },
+
+            "name": "step53",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson5",
+
+            "order": 53,
+            "slide": "Число 10A делится на 3. Верно ли, что число A делится на 3?",
+            "sound_labels": [
+                "xbckj 10 f ltkbnmcz"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "В числе 10A есть множитель 3, в числе 10 его нет, значит, он есть в числе A."
+            ],
+            "next": "step55",
+            "name": "step54",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step55",
+            "timeTransition": "7",
+            "order": 54,
+            "slide": "slides_lesson5/slide5.19.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "в числе 10 а есть множитель"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Значит, делится."
+            ],
+
+            "name": "step55",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson5",
+            "actions": {
+                "Непонятно": "step54",
+                "Понятно": "step56"
+            },
+            "order": 55,
+            "sound_labels": [
+                "значит делиться"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Число 15A делится на 6. Верно ли, что число A делится на 6?"
+            ],
+            "next": "step57",
+            "name": "step56",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson5",
+            "actions": {
+
+                "Нет": {
+                    "nextStep": "step56",
+                    "animationSG": "false_answer_animation",
+                    "timeAnimation": "2"
+                },
+                "Да": "step57"
+
+            },
+            "order": 56,
+            "slide": "Число 15A делится на 6. Верно ли, что число A делится на 6?",
+            "sound_labels": [
+                "число 15 а делиться на 6"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "О чём говорит делимость на 6?"
+            ],
+            "next": "step58",
+            "name": "step57",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step58",
+            "timeTransition": "3.1",
+            "order": 57,
+            "sound_labels": [
+                "о чем говорит делимость на 6"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "О том, что в разложении числа 15A есть 2 и 3."
+            ],
+            "next": "step59",
+            "name": "step58",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step59",
+            "timeTransition": "5",
+            "order": 58,
+            "sound_labels": [
+                "о том что в разложении числа"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Тройка есть в числе 15, значит, двойка должна быть в числе A. Больше от числа A ничего не требуется. И в самом деле, если число A равно 2, то 15A делится на 6, а A – нет."
+            ],
+
+            "name": "step59",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson5",
+            "actions": {
+                "Непонятно": "step57",
+                "Понятно": "step60"
+            },
+            "order": 59,
+            "slide": "slides_lesson5/slide5.21.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "тройка есть в числе 15"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "А сейчас я задам два очень похожих друг на друга вопроса."
+            ],
+            "next": "step61",
+            "name": "step60",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "agree"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step61",
+            "timeTransition": "4",
+            "order": 60,
+            "slide": "",
+            "sound_labels": [
+                "а сейчас я задам"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Первый вопрос.\nЧисло A делится на 3 и на 2.\nДелится ли оно на 6?\n"
+            ],
+            "next": "step62",
+            "name": "step61",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step62",
+            "timeTransition": "11",
+            "order": 61,
+            "sound_labels": [
+                "первый вопрос"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Да, похожий вопрос у нас уже был. Ответ ДА, так как в разложении числа А должна быть и двойка, и тройка. "
+            ],
+            "next": "step63",
+            "name": "step62",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "slide": "Ответ ДА, так как в разложении числа А должна быть и двойка, и тройка",
+            "lesson": "lesson5",
+            "instantTransitionStep": "step63",
+            "timeTransition": "3",
+            "order": 62,
+            "sound_labels": [
+                "да похожий вопрос уже был"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Второй вопрос.\nЧисло A делится на 6 и на 2.\nДелится ли оно на 12?\n"
+            ],
+            "next": "step64",
+            "name": "step63",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step64",
+            "timeTransition": "12",
+            "order": 63,
+            "sound_labels": [
+                "второй вопрос"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Так это точно такой же вопрос."
+            ],
+            "next": "step65",
+            "name": "step64",
+            "show": [{
+                    "name": "professor",
+                    "state": "surprice_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step65",
+            "timeTransition": "3",
+            "order": 64,
+            "sound_labels": [
+                "так это точно такойже вопрос"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Не торопись. В первом вопросе из делимости на 3 и на 2 следует, что среди простых множителей в числе A есть тройка (для делимости на 3) и двойка (для делимости на 2). Этого достаточно для делимости на 6.\n"
+            ],
+
+            "name": "step65",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "actions": {
+                "Непонятно": "step65",
+                "Понятно": "step66"
+            },
+            "lesson": "lesson5",
+
+            "order": 65,
+            "sound_labels": [
+                "не торопись в первом"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "А во втором, из делимости на 6 и на 2 следует, что среди простых множителей в числе A тоже есть тройка и двойка (для делимости на 6) и двойка (для делимости на 2). Но, двойку мы уже отметили. Второй двойки может и не быть, а для делимости на 12 она должна быть. Т.е. делимость на 12 не обязательна.\n"
+            ],
+            "next": "step68",
+            "name": "step66",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step68",
+            "timeTransition": "10",
+            "sound_labels": [
+                "а во втором из делимости"
+            ],
+            "order": 92
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Отличие двух задач в том, что у чисел 6 и 2 есть общий простой делитель, а у чисел 3 и 2 – нет."
+            ],
+            "next": "step67",
+            "instantTransitionStep": "step68",
+            "timeTransition": "4",
+            "name": "step66.1",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson5",
+            "actions": {
+                "Непонятно": "step65",
+                "Понятно": "step67"
+            },
+            "sound_labels": [
+                "отличие этих 2"
+            ],
+            "order": 93
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Мы пришли к важному определению.\nЕсли в разложении двух чисел нет общих простых делителей, то числа называются взаимно простыми.\n"
+            ],
+            "next": "step68",
+            "name": "step67",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step68",
+            "timeTransition": "10",
+            "order": 66,
+            "slide": "Если в разложении чисел p и q нет общих простых делителей, то эти числа называются взаимно простыми.\n",
+            "sound_labels": [
+                "Мы пришли к важному определению"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "У взаимно простых чисел есть несколько важных свойств."
+            ],
+            "next": "step69",
+            "name": "step68",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step69",
+            "timeTransition": "4",
+            "order": 67,
+            "sound_labels": [
+                "у взаимно простых чисел есть"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Первое мы уже отметили. Если число делиться на два взаимно простых числа, то оно делиться и на их произведение"
+            ],
+            "next": "step70",
+            "name": "step69",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson5",
+            "slide": " Если число делиться на два взаимно простых числа, то оно делиться и на их произведение",
+            "instantTransitionStep": "step70",
+            "timeTransition": "8.5",
+            "sound_labels": [
+                "первое мы уже отметили"
+            ],
+            "order": 94
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "А какое второе свойство?"
+            ],
+            "next": "step71",
+            "name": "step70",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step71",
+            "timeTransition": "3",
+            "order": 68,
+            "sound_labels": [
+                "а какое второе свойство"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Второе свойство такое.\nПусть произведение двух чисел A и B делится на третье число X. И числа A и X – взаимно простые. Значит, второе число B делится на X.\n"
+            ],
+            "next": "step72",
+            "name": "step71",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "slide": "",
+            "lesson": "lesson5",
+            "instantTransitionStep": "step72",
+            "timeTransition": "13",
+            "order": 69,
+            "sound_labels": [
+                "второе свойство такое"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Например,\n24B делится на 35\nТ.к. 24 и 35 – взаимно просты, то B делится на 35\n"
+            ],
+            "next": "step73",
+            "name": "step72",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step73",
+            "timeTransition": "10",
+            "order": 70,
+            "slide": "Если произведение двух чисел A и B делится на третье число X, а числа A и X – взаимно простые, значит, второе число B делится на X.\nПример:\n24·B делится на 35\nТ.к. 24 и 35 – взаимно просты, то B делится на 35\n",
+            "sound_labels": [
+                "напрмер 24В делиться на 35"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Это свойство нетрудно доказать. Делимость произведения AB означает, что все простые делители числа X в этом произведении присутствуют, но в A их нет, значит, все они – в B."
+            ],
+
+            "name": "step73",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson5",
+            "actions": {
+                "Непонятно": "step67",
+                "Понятно": "step74"
+            },
+            "order": 71,
+            "sound_labels": [
+                "этосвойство нетрудно доказать"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Важными понятиями, связанными с разложением чисел на простые сомножители, являются понятия наибольшего общего делителя (НОД) и наименьшего общего кратного (НОК) двух чисел. Возможно, ты даже знаешь, что это такое."
+            ],
+            "next": "step75",
+            "name": "step74",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson5",
+            "slide": "",
+            "instantTransitionStep": "step75",
+            "timeTransition": "15",
+            "order": 72,
+            "sound_labels": [
+                "важными понятиями"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Да, слышал, но помню плохо."
+            ],
+            "next": "step76",
+            "name": "step75",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step76",
+            "timeTransition": "3",
+            "order": 73,
+            "sound_labels": [
+                "да слышал но помню плохо"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Наибольшим общим делителем двух натуральных чисел a и b называется наибольшее число, на которое оба эти числа делятся. Обозначается: НОД(a,b)  "
+            ],
+            "next": "step77",
+            "name": "step76",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step77",
+            "timeTransition": "12",
+            "order": 74,
+            "slide": "Наибольшим общим делителем двух натуральных чисел a и b называется наибольшее число, на которое эти числа делятся.\nОбозначается: НОД(a,b) ",
+            "sound_labels": [
+                "наибольшим общим"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Например, чему равен НОД(30, 12)?"
+            ],
+            "next": "step78",
+            "name": "step77",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step78",
+            "timeTransition": "4",
+            "order": 75,
+            "sound_labels": [
+                "например! чему равен НОД 30 и 12"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Попробую ответить.\nДелителями числа 30 являются: 1, 2, 3, 4, 5, 6, 10 и 15.\nА, делителями числа 12 являются: 1, 2, 3, 4, 6, и 12.\nНаибольший общий делитель: 6\n"
+            ],
+            "next": "step79",
+            "name": "step78",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step79",
+            "timeTransition": "18",
+            "order": 76,
+            "slide": "Делители числа 30: 1, 2, 3, 4, 5, 6, 10 и 15.\nДелители числа 12: 1, 2, 3, 4, 6 и 12.\nНОД(30, 12)=6\n",
+            "sound_labels": [
+                "попробую ответить"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Наименьшим общим кратным двух натуральных чисел a и b называется наименьшее число, которое на оба эти числа делится. Обозначается: НОК(a,b)"
+            ],
+            "next": "step80",
+            "name": "step79",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step80",
+            "timeTransition": "13",
+            "order": 77,
+            "slide": "Наименьшим общим кратным двух натуральных чисел a и b называется наименьшее число, которое на эти числа делится. \nОбозначается: НОК(a,b)  \n",
+            "sound_labels": [
+                "Наименьшим общим кратным 2 чисел"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "А чему равен НОК(30, 12)?"
+            ],
+            "next": "step81",
+            "name": "step80",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "slide": "",
+            "lesson": "lesson5",
+            "instantTransitionStep": "step81",
+            "timeTransition": "3",
+            "order": 78,
+            "sound_labels": [
+                "например! чему равен НОД 30 и 12"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Чтобы число делилось и на 30 и на 12, в его разложении должны быть все простые, которые есть в числах 30 и 12, т.е. две двойки, тройка и пятёрка."
+            ],
+
+            "name": "step81",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson5",
+            "actions": {
+                "Непонятно": "step74",
+                "Понятно": "step82"
+            },
+            "order": 79,
+            "slide": "Простые делители числа 30:  2, 3 и 5.\nПростые делители числа 12: 2, 2 и 3.\nНОК(30, 12)=2·2·3·5=60\n",
+            "sound_labels": [
+                "что бычисло делилось"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "И, напоследок, решим такую задачу. Докажите, что произведение НОД на НОК двух чисел равно произведению самих этих чисел. \n\n"
+
+            ],
+            "next": "step82.1",
+            "name": "step82",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step83",
+            "timeTransition": "10",
+            "order": 80,
+            "slide": {
+                "type": "html",
+                "text": "<span class='lesson5__string'>НОД(a,b)·НОК(a,b)=a·b</span>"
+            },
+            "sound_labels": [
+                "и напоследок решим"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+
+                "Для доказательства воспользуемся кругами Эйлера, если ты не забыл, что это такое."
+            ],
+            "next": "step83",
+            "name": "step82.1",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step83",
+            "timeTransition": "7",
+            "order": 80,
+            "slide": {
+                "type": "html",
+                "text": "<span class='lesson5__string'>НОД(a,b)·НОК(a,b)=a·b</span>"
+            },
+            "sound_labels": [
+                "для доказательства"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Помню. Круги Эйлера используются для обозначения множеств."
+            ],
+            "next": "step84",
+            "name": "step83",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step84",
+            "timeTransition": "4",
+            "order": 81,
+            "sound_labels": [
+                "помню, круги эйлера"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Правильно. Рассмотрим круг A и поместим в него все простые делители числа А, даже если некоторые из них одинаковые. Потом возьмём круг B и поместим в него все простые делители числа B.\nЧто при этом попадёт в пересечение этих кругов?\n"
+            ],
+            "next": "step85",
+            "name": "step84",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step85",
+            "timeTransition": "10",
+            "order": 82,
+            "slide": "slides_lesson5/slide5.30.png",
+            "interactive": "createImg",
+            "sound_labels": [
+                "правильно2 рассмотрим круг"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Это делители и A и B, причём все. Это их НОД !"
+            ],
+            "next": "step86",
+            "name": "step85",
+            "show": [{
+                    "name": "professor",
+                    "state": "agree_face_SG"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "slide": "slides_lesson5/slide5.31.png",
+            "interactive": "createImg",
+            "lesson": "lesson5",
+            "instantTransitionStep": "step86",
+            "timeTransition": "5",
+            "order": 83,
+            "sound_labels": [
+                "это делители"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Правильно, а чем является объединение кругов?"
+            ],
+            "next": "step87",
+            "name": "step86",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step87",
+            "timeTransition": "4",
+            "order": 84,
+            "sound_labels": [
+                "правильно1 а чем является"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Так, круги – это часть объединения, значит A и B – делители. И ничего лишнего на картинке нет. Значит, это НОК !"
+            ],
+            "next": "step88",
+            "name": "step87",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step88",
+            "timeTransition": "9",
+            "order": 85,
+            "sound_labels": [
+                "так круги это часть"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "А что будет при перемножении НОК на НОД?"
+            ],
+            "next": "step89",
+            "name": "step88",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step89",
+            "timeTransition": "4",
+            "order": 86,
+            "sound_labels": [
+                "а2 что будет при пермножении  НОК НОД"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Все числа со всей картинки (из НОК) перемножатся, а числа из пересечения (из НОД) умножатся второй раз. "
+            ],
+            "next": "step90",
+            "name": "step89",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step90",
+            "timeTransition": "10",
+            "order": 87,
+            "sound_labels": [
+                "все числа со всей картинки"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "А что будет при перемножении чисел A и B?"
+            ],
+            "next": "step91",
+            "name": "step90",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "thinking"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step91",
+            "timeTransition": "4",
+            "order": 88,
+            "sound_labels": [
+                "а что будет при перемножении числеа А и В"
+            ]
+        },
+        {
+            "active": "digobin",
+            "text": [
+                "Все числа из первого круга умножаться на все числа из второго. "
+            ],
+            "next": "step92",
+            "name": "step91",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "speak"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step92",
+            "timeTransition": "5",
+            "order": 89,
+            "sound_labels": [
+                "все числа из первого круга"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "И при этом, числа из пересечения кругов окажутся сомножителями два раза, а все остальные – по одному. А это в точности то же самое, что и при первом умножении.\nЗадача решена. \n"
+            ],
+
+            "name": "step92",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "default"
+                }
+            ],
+            "lesson": "lesson5",
+            "actions": {
+                "Непонятно": "step82",
+                "Понятно": "step93"
+            },
+            "order": 90,
+            "sound_labels": [
+                "и при этом числаиз пересечения"
+            ]
+        },
+        {
+            "active": "professor",
+            "text": [
+                "Конец"
+            ],
+            "next": "step94",
+            "name": "step93",
+            "show": [{
+                    "name": "professor",
+                    "state": "default"
+                },
+                {
+                    "name": "digobin",
+                    "state": "greeting"
+                }
+            ],
+            "lesson": "lesson5",
+            "instantTransitionStep": "step94",
+            "timeTransition": "10",
+            "order": 91,
+            "slide": "Конец"
+        }
+
+
+    ]
+}

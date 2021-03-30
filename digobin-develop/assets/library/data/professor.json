@@ -1,0 +1,338 @@
+[
+    {
+        "name": "Body",
+        "children": [
+            {
+                "name": "name0",
+                "left": 65.871872,
+                "top": 42.801842,
+                "width": 76.993752,
+                "height": 74.083336,
+                "path": "images/0.png"
+            },
+            {
+                "name": "name1",
+                "left": 87.439445,
+                "top": 100.25269,
+                "width": 34.660416,
+                "height": 21.166666,
+                "path": "images/1.png"
+            },
+            {
+                "name": "name2",
+                "left": 100.54102,
+                "top": 100.52398,
+                "width": 35.71875,
+                "height": 20.902082,
+                "path": "images/2.png"
+            },
+            {
+                "name": "name3",
+                "left": 39.471279,
+                "top": 60.836494,
+                "width": 35.983334,
+                "height": 46.566666,
+                "path": "images/3.png"
+            },
+            {
+                "name": "name4",
+                "left": 137.70357,
+                "top": 52.082405,
+                "width": 38.099998,
+                "height": 59.53125,
+                "path": "images/4.png"
+            },
+            {
+                "name": "name5",
+                "left": 127.87101,
+                "top": 90.287849,
+                "width": 49.212502,
+                "height": 30.427084,
+                "path": "images/5.png"
+            },
+            {
+                "name": "name6",
+                "left": 38.50293,
+                "top": 88.312889,
+                "width": 55.827084,
+                "height": 33.072918,
+                "path": "images/6.png"
+            }
+        ]
+    },
+    {
+        "name": "Head",
+        "children": [
+            {
+                "name": "name7",
+                "left": 86.875698,
+                "top": 5.3310499999999905,
+                "width": 42.068748,
+                "height": 43.65625,
+                "path": "images/7.png"
+            },
+            {
+                "name": "name8",
+                "left": 102.106426,
+                "top": 29.832039999999992,
+                "width": 8.7312498,
+                "height": 9.7895832,
+                "path": "images/10.png"
+            },
+            {
+                "name": "name9",
+                "left": 95.96603300000001,
+                "top": 23.530590000000004,
+                "width": 21.695833,
+                "height": 3.175,
+                "path": "images/13.png"
+            }
+        ]
+    },
+    {
+        "name": "Eyes",
+        "children": [
+            {
+                "name": "Close",
+                "children": [
+                    {
+                        "name": "name10",
+                        "left": 96.778053,
+                        "top": 27.525986,
+                        "width": 20.637501,
+                        "height": 6.0854168,
+                        "path": "images/12.png"
+                    }
+                ]
+            },
+            {
+                "name": "Open",
+                "children": [
+                    {
+                        "name": "name11",
+                        "left": 96.82531,
+                        "top": 27.432884,
+                        "width": 20.637501,
+                        "height": 6.0854168,
+                        "path": "images/11.png"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Mouth",
+        "children": [
+            {
+                "name": "rest",
+                "children": [
+                    {
+                        "name": "name12",
+                        "left": 95.926264,
+                        "top": 38.52487999999998,
+                        "width": 21.695833,
+                        "height": 16.404167,
+                        "path": "images/8.png"
+                    },
+                    {
+                        "name": "name13",
+                        "left": 98.982844,
+                        "top": 37.339240000000004,
+                        "width": 14.552083,
+                        "height": 7.6729178,
+                        "path": "images/9.png"
+                    }
+                ]
+            },
+            {
+                "name": "E",
+                "children": [
+                    {
+                        "name": "name14",
+                        "left": 95.926264,
+                        "top": 38.52487999999998,
+                        "width": 21.695833,
+                        "height": 16.404167,
+                        "path": "images/8.png"
+                    },
+                    {
+                        "name": "name15",
+                        "left": 98.982844,
+                        "top": 37.339240000000004,
+                        "width": 14.552083,
+                        "height": 7.6729178,
+                        "path": "images/9.png"
+                    }
+                ]
+            },
+            {
+                "name": "etc",
+                "children": [
+                    {
+                        "name": "name16",
+                        "left": 95.926264,
+                        "top": 38.52487999999998,
+                        "width": 21.695833,
+                        "height": 16.404167,
+                        "path": "images/8.png"
+                    },
+                    {
+                        "name": "name17",
+                        "left": 98.982844,
+                        "top": 37.339240000000004,
+                        "width": 14.552083,
+                        "height": 7.6729178,
+                        "path": "images/9.png"
+                    }
+                ]
+            },
+            {
+                "name": "MBP",
+                "children": [
+                    {
+                        "name": "name18",
+                        "left": 95.926264,
+                        "top": 38.52487999999998,
+                        "width": 21.695833,
+                        "height": 15.88445,
+                        "path": "images/8.png"
+                    },
+                    {
+                        "name": "name19",
+                        "left": 98.982844,
+                        "top": 37.339240000000004,
+                        "width": 14.552083,
+                        "height": 7.6729178,
+                        "path": "images/9.png"
+                    }
+                ]
+            },
+            {
+                "name": "FV",
+                "children": [
+                    {
+                        "name": "name20",
+                        "left": 95.926264,
+                        "top": 38.52487999999998,
+                        "width": 21.695833,
+                        "height": 15.88445,
+                        "path": "images/8.png"
+                    },
+                    {
+                        "name": "name21",
+                        "left": 98.982844,
+                        "top": 37.339240000000004,
+                        "width": 14.552083,
+                        "height": 7.6729178,
+                        "path": "images/9.png"
+                    }
+                ]
+            },
+            {
+                "name": "L",
+                "children": [
+                    {
+                        "name": "name22",
+                        "left": 95.926264,
+                        "top": 38.52487999999998,
+                        "width": 21.695833,
+                        "height": 16.404167,
+                        "path": "images/8.png"
+                    },
+                    {
+                        "name": "name23",
+                        "left": 98.982844,
+                        "top": 37.339240000000004,
+                        "width": 14.552083,
+                        "height": 7.6729178,
+                        "path": "images/9.png"
+                    }
+                ]
+            },
+            {
+                "name": "WQ",
+                "children": [
+                    {
+                        "name": "name24",
+                        "left": 96.36093144655119,
+                        "top": 39.133293548815985,
+                        "width": 20.798139910706798,
+                        "height": 16.226699536589997,
+                        "path": "images/8.png"
+                    },
+                    {
+                        "name": "name25",
+                        "left": 99.13561011168959,
+                        "top": 37.53395060263399,
+                        "width": 14.242716439023997,
+                        "height": 7.55475788636376,
+                        "path": "images/9.png"
+                    }
+                ]
+            },
+            {
+                "name": "U",
+                "children": [
+                    {
+                        "name": "name26",
+                        "left": 96.5971700374752,
+                        "top": 39.133293548815985,
+                        "width": 20.3256697618624,
+                        "height": 16.226699536589997,
+                        "path": "images/8.png"
+                    },
+                    {
+                        "name": "name27",
+                        "left": 99.13561011168959,
+                        "top": 37.53395060263399,
+                        "width": 14.242716439023997,
+                        "height": 7.55475788636376,
+                        "path": "images/9.png"
+                    }
+                ]
+            },
+            {
+                "name": "O",
+                "children": [
+                    {
+                        "name": "name28",
+                        "left": 96.20974098714439,
+                        "top": 39.00309,
+                        "width": 21.2706085192398,
+                        "height": 16.404167,
+                        "path": "images/8.png"
+                    },
+                    {
+                        "name": "name29",
+                        "left": 99.06817948818258,
+                        "top": 37.34498000000001,
+                        "width": 14.748643805914199,
+                        "height": 7.6729178,
+                        "path": "images/9.png"
+                    }
+                ]
+            },
+            {
+                "name": "AI",
+                "children": [
+                    {
+                        "name": "name30",
+                        "left": 95.985117,
+                        "top": 38.737290000000016,
+                        "width": 21.695833,
+                        "height": 16.734896,
+                        "path": "images/8.png"
+                    },
+                    {
+                        "name": "name31",
+                        "left": 99.041697,
+                        "top": 37.305970000000016,
+                        "width": 14.552083,
+                        "height": 7.6729178,
+                        "path": "images/9.png"
+                    }
+                ]
+            }
+        ]
+    }
+]

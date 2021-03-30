@@ -1,0 +1,19 @@
+[{
+    "name": "foot",
+    "width": 160,
+    "height": 109,
+    "x": 0,
+    "y": 0
+}, {
+    "name": "head",
+    "width": 232,
+    "height": 233,
+    "x": 0,
+    "y": 114
+}, {
+    "name": "body",
+    "width": 310,
+    "height": 535,
+    "x": 310,
+    "y": 0
+}]

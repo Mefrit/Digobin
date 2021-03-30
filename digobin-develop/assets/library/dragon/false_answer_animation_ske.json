@@ -1,0 +1,288 @@
+{
+    "frameRate": 24,
+    "isGlobal": 0,
+    "armature": [{
+        "bone": [{
+                "name": "root",
+                "transform": {}
+            },
+            {
+                "length": 137,
+                "transform": {
+                    "y": -87,
+                    "skX": -91.2545,
+                    "skY": -91.2545,
+                    "x": -18
+                },
+                "parent": "root",
+                "name": "head"
+            }
+        ],
+        "defaultActions": [{
+            "gotoAndPlay": "animtion0"
+        }],
+        "type": "Armature",
+        "name": "Armature",
+        "animation": [{
+            "playTimes": 0,
+            "bone": [{
+                    "frame": [{
+                        "transform": {},
+                        "duration": 97
+                    }],
+                    "name": "root"
+                },
+                {
+                    "frame": [{
+                            "tweenEasing": 0,
+                            "transform": {
+                                "skX": 1.0036,
+                                "skY": 1.0036
+                            },
+                            "duration": 5
+                        },
+                        {
+                            "tweenEasing": 0,
+                            "transform": {
+                                "skX": 7.2592,
+                                "skY": 7.2592
+                            },
+                            "duration": 6
+                        },
+                        {
+                            "tweenEasing": 0,
+                            "transform": {
+                                "skX": 9.6086,
+                                "skY": 9.6086
+                            },
+                            "duration": 8
+                        },
+                        {
+                            "tweenEasing": 0,
+                            "transform": {
+                                "skX": 2.9344,
+                                "skY": 2.9344
+                            },
+                            "duration": 7
+                        },
+                        {
+                            "tweenEasing": 0,
+                            "transform": {
+                                "skX": -6.4704,
+                                "skY": -6.4704
+                            },
+                            "duration": 8
+                        },
+                        {
+                            "tweenEasing": 0,
+                            "transform": {
+                                "skX": -9.2487,
+                                "skY": -9.2487
+                            },
+                            "duration": 7
+                        },
+                        {
+                            "tweenEasing": 0,
+                            "transform": {
+                                "skX": -3.5299,
+                                "skY": -3.5299
+                            },
+                            "duration": 7
+                        },
+                        {
+                            "tweenEasing": 0,
+                            "transform": {
+                                "skX": 0.0337,
+                                "skY": 0.0337
+                            },
+                            "duration": 8
+                        },
+                        {
+                            "tweenEasing": 0,
+                            "transform": {
+                                "skX": 1.0036,
+                                "skY": 1.0036
+                            },
+                            "duration": 41
+                        },
+                        {
+                            "transform": {
+                                "skX": 1.3373,
+                                "skY": 1.3373
+                            },
+                            "duration": 0
+                        }
+                    ],
+                    "name": "head"
+                }
+            ],
+            "slot": [],
+            "ffd": [],
+            "ik": [],
+            "frame": [],
+            "name": "animtion0",
+            "duration": 97
+        }],
+        "skin": [{
+            "slot": [{
+                    "display": [{
+                        "path": "4",
+                        "type": "image",
+                        "name": "4",
+                        "transform": {
+                            "y": 18.5,
+                            "x": 174
+                        }
+                    }],
+                    "name": "4"
+                },
+                {
+                    "display": [{
+                        "path": "head",
+                        "type": "image",
+                        "name": "head",
+                        "transform": {
+                            "y": 6.4547,
+                            "skX": 91.2545,
+                            "skY": 91.2545,
+                            "x": 66.3746
+                        }
+                    }],
+                    "name": "head"
+                },
+                {
+                    "display": [{
+                        "path": "2",
+                        "type": "image",
+                        "name": "2",
+                        "transform": {
+                            "y": 131.75,
+                            "x": 30.45
+                        }
+                    }],
+                    "name": "2"
+                },
+                {
+                    "display": [{
+                        "path": "right_a2",
+                        "type": "image",
+                        "name": "right_a2",
+                        "transform": {
+                            "y": 109.5,
+                            "x": -170
+                        }
+                    }],
+                    "name": "right_a2"
+                },
+                {
+                    "display": [{
+                        "path": "5",
+                        "type": "image",
+                        "name": "5",
+                        "transform": {
+                            "y": 111.5,
+                            "x": 159
+                        }
+                    }],
+                    "name": "5"
+                },
+                {
+                    "display": [{
+                        "path": "right_a1",
+                        "type": "image",
+                        "name": "right_a1",
+                        "transform": {
+                            "y": 28.5,
+                            "x": -201
+                        }
+                    }],
+                    "name": "right_a1"
+                },
+                {
+                    "display": [{
+                        "path": "body",
+                        "type": "image",
+                        "name": "body",
+                        "transform": {
+                            "y": 9.5,
+                            "x": -25
+                        }
+                    }],
+                    "name": "body"
+                },
+                {
+                    "display": [{
+                        "path": "right_palm",
+                        "type": "image",
+                        "name": "right_palm",
+                        "transform": {
+                            "y": 129.85,
+                            "x": -31.6
+                        }
+                    }],
+                    "name": "right_palm"
+                }
+            ],
+            "name": ""
+        }],
+        "aabb": {
+            "width": 527.5,
+            "y": -268.5,
+            "height": 440.5,
+            "x": -275.5
+        },
+        "slot": [{
+                "z": 0,
+                "name": "body",
+                "parent": "root",
+                "color": {}
+            },
+            {
+                "z": 1,
+                "name": "head",
+                "parent": "head",
+                "color": {}
+            },
+            {
+                "z": 2,
+                "name": "right_a1",
+                "parent": "root",
+                "color": {}
+            },
+            {
+                "z": 3,
+                "name": "right_palm",
+                "parent": "root",
+                "color": {}
+            },
+            {
+                "z": 4,
+                "name": "right_a2",
+                "parent": "root",
+                "color": {}
+            },
+            {
+                "z": 5,
+                "name": "4",
+                "parent": "root",
+                "color": {}
+            },
+            {
+                "z": 6,
+                "name": "2",
+                "parent": "root",
+                "color": {}
+            },
+            {
+                "z": 7,
+                "name": "5",
+                "parent": "root",
+                "color": {}
+            }
+        ],
+        "ik": [],
+        "frameRate": 24
+    }],
+    "name": "false_answer_animation",
+    "version": "5.0"
+}
